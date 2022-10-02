@@ -1,0 +1,56 @@
+Welcome to the world of java 
+Java was developed by james gosling at sun micro system but later sold it out to oracle 😂
+java is object oriented and roubust it is complex but easy to under stand as per as my view of point 😂
+
+before going deep into java lets take a small talk 
+
+Program is composed of code and data 
+There are two paradigrams in programing ie porcess oriented and object oriented 
+process oriented is like code acting on data process oriented is decent when we have small program.
+When the program gets large the process oriented approach is hard , Thus difficult to manage the program 
+to overcome this pop problems oop was born object orient is like data acting on code.
+using oop we can have manyt benefits like scalibility reuseability and easy to manage complexity 
+
+oop have 4 principles 
+
+Abstraction 
+Encapsulation 
+Inherritance 
+Polymorphism 
+
+
+Abstraction 
+We manage complexity with the help of Abstraction, 
+Abstractionis implemented with the help of hierachial classification
+
+Encapsulation
+Encapsulationis the mechanism which is used to bind code and data it manipulates .
+It provides secuerity 
+One of the best example of Encapsulation is class (all data and code resides within the class) 
+
+Inherritance
+Inherritancecan be defined as methedology according to which a object acquires the properties of other object
+Inherritance supports the concept of hierachial classification
+
+Polymorphism
+Polymorphism can be defined as using a item more than once aka reuseability of code 
+A promient example of Polymorphism is interface 
+
+
+
+
+
+
+
+Enough Small talk lets talk about java 😂 ☕️ 
+
+
+
+
+
+
+
+
+
+
+
