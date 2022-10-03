@@ -36,7 +36,6 @@ Polymorphism
 Polymorphism can be defined as using a item more than once aka reuseability of code 
 A promient example of Polymorphism is interface 
 
-
 Enough Small talk lets talk about java 😂 ☕️ 
 
 
