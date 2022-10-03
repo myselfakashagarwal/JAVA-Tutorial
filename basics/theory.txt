@@ -65,8 +65,8 @@ jdk=java development kit
 jvm=java virtual machine 
 jre=java runtime environment
 
-javac creates a class whose name is same as class but with extension of (.class) this file contains the byte code
-of the progarm this byte code is a intermediate representation of instruction that your jvm will perform 
+javac creates a file whose name is same as class but with extension of (.class) this file contains the byte code
+of the progarm this byte code is a intermediate representation of instruction that your jvm will execute 
 
 When Java source code is compiled, each individual class is put into its own output file named after the class 
 and using the .class extension. 
