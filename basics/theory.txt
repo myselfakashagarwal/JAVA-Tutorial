@@ -38,6 +38,27 @@ A promient example of Polymorphism is interface
 
 Enough Small talk lets talk about java 😂 ☕️ 
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+comments = comments are elements in java which are ignored by compiler 
+
+there are three types of comments 
+// for single line 
+/* ...*/ for multiline 
+/**
+  *
+  */  for documentation 
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+must do in java 
+
+All java files are saved with extension of (.java) because in java source file is ofiicially a compilation unit 
+In java class name must be same as file name this is because in java all code resides within the class  
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 
 
 
