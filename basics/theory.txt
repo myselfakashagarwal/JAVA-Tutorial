@@ -58,10 +58,20 @@ In java class name must be same as file name this is because in java all code re
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+How java code is compiled 
 
+java compiler=javac
+jdk=java development kit
+jvm=java virtual machine 
+jre=java runtime environment
 
+javac creates a class whose name is same as class but with extension of (.class) this file contains the byte code
+of the progarm this byte code is a intermediate representation of instruction that your jvm will perform 
 
+When Java source code is compiled, each individual class is put into its own output file named after the class 
+and using the .class extension. 
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
