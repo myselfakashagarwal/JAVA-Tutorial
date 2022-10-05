@@ -41,14 +41,14 @@ A promient example of Polymorphism is interface
 Enough Small talk lets talk about java 😂 ☕️ 
 
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-Java is a collection of whitespace identifiers literals comments opreators seperators and keywords 
-
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-must do in java 
+must do in java before opening the gates of the hell 😂
 
 All java files are saved with extension of (.java) because in java source file is ofiicially a compilation unit 
 In java class name must be same as file name this is because in java all code resides within the class  
@@ -57,7 +57,7 @@ In java class name must be same as file name this is because in java all code re
 
 How java code is compiled 
 
-java compiler=javac
+javac=java compiler
 jdk=java development kit
 jvm=java virtual machine 
 jre=java runtime environment
@@ -68,6 +68,15 @@ of the progarm this byte code is a intermediate representation of instruction th
 When Java source code is compiled, each individual class is put into its own output file named after the class 
 and using the .class extension. 
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Java is a collection of whitespace identifiers literals comments opreators seperators and keywords and emotions
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -88,6 +97,12 @@ there are three types of comments
 /**
   *
   */  for documentation 
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
