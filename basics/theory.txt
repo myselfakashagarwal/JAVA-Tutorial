@@ -80,7 +80,7 @@ class myclass
 {
   public static void main(String[] args)                                             @java main method
   {
-   System.out.println("Welcome to the world of java my friend ");                    @code to print a statement
+   System.out.println("be water my friend ");                                        @code to print a statement
   }             
 }
 
@@ -95,10 +95,22 @@ This line have a meaning yeh it does have a meaning, f*** off java stereotypes
 public - it is a access specifier the main method is delcared as public as it is called outside the class 
 static -the static is a keyword which calls main without creating a particular instance of a class 
 void - main method is defined as void since it does not return any value 
-String[] args- thre's a one parameter for the main method String[] args this is a array of insatances of class string 
+String[] args- thre's a one parameter for the main method String[] args this is a array of insatances of class string
+All code inside main method begins with open curly braces { and ends with closing curly braces }
+
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+System class , output stream , input stream  
+
+Ass 😂 you can read the above program you will find that the line that outputs 'be water my friend' have multiple 
+words chained before it. All of these words have a meaning 👇🏼
+System- System is a predefined class which provides access to  System 
+(💡note S is in capital case in System this is because java is case sensitive)
+out,in are used to get access to input output streams 
+println(..)-println is a mehod which is used to console the the things inside it (in above example it was a string )
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
