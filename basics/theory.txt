@@ -11,7 +11,7 @@ When the program gets large the process oriented approach is hard , Thus difficu
 to overcome this pop problems oop was born object orient is like data acting on code.
 using oop we can have manyt benefits like scalibility reuseability and easy to manage complexity 
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 oop have 4 principles 
 
@@ -42,18 +42,18 @@ Enough Small talk lets talk about java 😂 ☕️
 
 
 
-🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 
 
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 must do in java before opening the gates of the hell 😂
 
 All java files are saved with extension of (.java) because in java source file is ofiicially a compilation unit 
 In java class name must be same as file name this is because in java all code resides within the class  
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 How java code is compiled 
 
@@ -68,17 +68,17 @@ of the progarm this byte code is a intermediate representation of instruction th
 When Java source code is compiled, each individual class is put into its own output file named after the class 
 and using the .class extension. 
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 Java is a collection of whitespace identifiers literals comments opreators seperators and keywords and emotions
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 whitespace = ' '
 
@@ -87,7 +87,7 @@ the  program could have been written all on one line or in any other strange way
 as long as there was at least one whitespace character between each token that was not already delineated by an
 operator or separator.In Java, whitespace is a space, tab, or newline.
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 comments = comments are elements in java which are ignored by compiler 
 
@@ -98,9 +98,9 @@ there are three types of comments
   *
   */  for documentation 
 
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-keywords = keywords can be defined as special wods in java that have special meaning to compiler
+keywords = keywords can be defined as special words in java that depecites a special meaning to compiler
 In addition to keywords java reserves the following words true false and null 
 
 keywords are 
@@ -109,14 +109,26 @@ abstract continue for new switch assert default goto package synchronized boolea
 implements protected throw byte else import public throws case enum instanceof return transient catch extends int
 short try char final interface static void class finally long strictfp volatile const float native super while
 
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Seperators = They are used to terminate a statement or to sperate a block of code 
+
+semicolon ; - is the most used seperator and is used to termainate a statement
+parentheses () - is used in multiple cases including defining a precedence of an expression control statements and loops
+curly braces {} - are used to define local scope and define block of code they are also used to inilitize an arrray 
+barckets [] -these are used to define arrya types and array size 
+comma , - commas are used in many cases including using as seperators in for loops and in declaring multiple variables of 
+same datatype 
+period . - Used to separate package names from subpackages and classes. Also used to separate a variable or method
+from a reference variable. 
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 
-🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 Sample java program 🧠
 
