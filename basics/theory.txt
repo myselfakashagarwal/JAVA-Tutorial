@@ -73,6 +73,17 @@ and using the .class extension.
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+Have a  closer look at java's main method 
+
+All program begins by calling the main method the main method is called when the program gets started 
+you have often written this like 👉🏽public staytic void main(String[] args)
+This line have a meaning yeh it does have a meaning, jerk off java stereotypes 
+public - it is a access specifier the main method is delcared as public as it is called outside the class 
+static -the static is a keyword which calls main without creating a particular instance of a class 
+void - main method is defined as void since it does not return any value 
+String[] args- thre's a one parameter for the main method String[] args this is a array of insatances of class string 
+
+
 
 
 
