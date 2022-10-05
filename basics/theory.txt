@@ -11,6 +11,8 @@ When the program gets large the process oriented approach is hard , Thus difficu
 to overcome this pop problems oop was born object orient is like data acting on code.
 using oop we can have manyt benefits like scalibility reuseability and easy to manage complexity 
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 oop have 4 principles 
 
 Abstraction 
@@ -38,16 +40,11 @@ A promient example of Polymorphism is interface
 
 Enough Small talk lets talk about java 😂 ☕️ 
 
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-comments = comments are elements in java which are ignored by compiler 
-
-there are three types of comments 
-// for single line 
-/* ...*/ for multiline 
-/**
-  *
-  */  for documentation 
+Java is a collection of whitespace identifiers literals comments opreators seperators and keywords 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -70,6 +67,27 @@ of the progarm this byte code is a intermediate representation of instruction th
 
 When Java source code is compiled, each individual class is put into its own output file named after the class 
 and using the .class extension. 
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+whitespace
+
+Java is a free-form language. This means that you do not need to follow any special indentation rules.For instance,
+the  program could have been written all on one line or in any other strange way you felt like typing it,
+as long as there was at least one whitespace character between each token that was not already delineated by an
+operator or separator.In Java, whitespace is a space, tab, or newline.
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+comments = comments are elements in java which are ignored by compiler 
+
+there are three types of comments 
+// for single line 
+/* ...*/ for multiline 
+/**
+  *
+  */  for documentation 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
