@@ -90,7 +90,7 @@ Have a  closer look at java's main method
 
 All program begins by calling the main method the main method is called when the program gets started. Main()
  is basicially a starting point of your program 
-you have often written this like 👉🏽public staytic void main(String[] args)
+you have often written this  👉🏽public static void main(String[] args)
 This line have a meaning yeh it does have a meaning, f*** off java stereotypes 
 public - it is a access specifier the main method is delcared as public as it is called outside the class 
 static -the static is a keyword which calls main without creating a particular instance of a class 
