@@ -80,7 +80,7 @@ Java is a collection of whitespace identifiers literals comments opreators seper
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-whitespace
+whitespace = ' '
 
 Java is a free-form language. This means that you do not need to follow any special indentation rules.For instance,
 the  program could have been written all on one line or in any other strange way you felt like typing it,
@@ -99,6 +99,18 @@ there are three types of comments
   */  for documentation 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+keywords = keywords can be defined as special wods in java that have special meaning to compiler
+In addition to keywords java reserves the following words true false and null 
+
+keywords are 
+
+abstract continue for new switch assert default goto package synchronized boolean do if private this break double
+implements protected throw byte else import public throws case enum instanceof return transient catch extends int
+short try char final interface static void class finally long strictfp volatile const float native super while
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 
 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
