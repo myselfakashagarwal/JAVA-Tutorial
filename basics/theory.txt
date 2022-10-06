@@ -124,6 +124,18 @@ from a reference variable.
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+identifiers = indentifiers can be defined as name given to memory location these are thought by user 
+examples of identifiers are myvariable, myconsttant, myarray or any thing user wishes to name but
+they must not begin with a number because it may confuse compiler either it is variable or value and it must also must not 
+have /  and - inbetween character
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+literals= literals are const values stored in variables 
+example 69 , 420 , 94 ,007 , 'a' ,"mystringx" and many more 😂
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 
