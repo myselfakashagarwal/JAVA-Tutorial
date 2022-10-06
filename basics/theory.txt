@@ -161,7 +161,18 @@ predefined datatypes are further defined into four groups which are ~
 
 lets' have a deep dive into them 🫠
 
+1.a Integers are used to store numbers aka real numbers except decimal/fraction type values In java they all are signed
+Integers are divided into four groups namely ~
 
+-------------------------------------------------------------------------------------
+|  Name   Width(in bits)   range                                                    |
+|                                                                                   |
+|  byte      8             -128 to 127                                              |
+|  short    16             -32768 to 32767                                          |
+|  int      32             -2,147,483,648 to 2,147,483,647                          |
+|  long     64             -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807  |
+|                                                                                   |
+-------------------------------------------------------------------------------------
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
