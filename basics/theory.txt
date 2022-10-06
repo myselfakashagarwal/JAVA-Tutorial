@@ -149,9 +149,9 @@ Java’s safety and robustness comes from this fact. Let’s see what this means
 every expression has a type, and every type is strictly defined. Second, all assignments,
 whether explicit or via parameter passing in method calls, are checked for type compatibility.
 
-Java's datatypes are mainly divided into 2 parts 
-1.Primitive          
-2.Non Primitive
+Java's datatypes are mainly divided into 2 parts ~
+1.Primitive      -    these are predefined in java   these are also called as simple datatype
+2.Non Primitive  -    these are defined by users 
 
 
 
