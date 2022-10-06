@@ -153,6 +153,13 @@ Java's datatypes are mainly divided into 2 parts ~
 1.Primitive      -    these are predefined in java   these are also called as simple datatype
 2.Non Primitive  -    these are defined by users 
 
+predefined datatypes are further defined into four groups which are ~
+1.a-integers
+2.b-floating point
+3.c-character
+4.d-boolean 
+
+lets' have a deep dive into them 🫠
 
 
 
