@@ -142,6 +142,9 @@ example 69 , 420 , 94 ,007 , 'a' ,"mystringx" and many more 😂
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+
+.                                              🥶 DATA TYPES 🥶
+
 Java’s safety and robustness comes from this fact. Let’s see what this means. First, every variable has a type,
 every expression has a type, and every type is strictly defined. Second, all assignments,
 whether explicit or via parameter passing in method calls, are checked for type compatibility.
