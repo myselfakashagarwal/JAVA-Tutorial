@@ -185,6 +185,20 @@ To counter this problem Float and Double are born
 |                                                                                   |
 -------------------------------------------------------------------------------------
 
+1.c Characters 
+
+Java uses unicode to represent Characters unicode defines character set of all international languages 
+The standard set of Characters known as ASCII has 0 to 127 character 
+Extended characterset of ISO-Latin-1 ranges from 0 to 255
+
+-------------------------------------------------------------------------------------
+|  Name   Width(in bits)     range                                                  |
+|                                                                                   |
+|  char    16               0 to 65535                                              |
+|                                                                                   |
+-------------------------------------------------------------------------------------
+
+
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
