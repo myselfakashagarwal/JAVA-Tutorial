@@ -161,7 +161,9 @@ predefined datatypes are further defined into four groups which are ~
 
 lets' have a deep dive into them 🫠
 
-1.a Integers are used to store numbers aka numbers except decimal/fraction type values In java they all are signed
+1.a Integers 
+
+They are used to store numbers aka numbers except decimal/fraction type values In java they all are signed
 Integers are divided into four groups namely ~
 
 -------------------------------------------------------------------------------------
@@ -174,7 +176,9 @@ Integers are divided into four groups namely ~
 |                                                                                   |
 -------------------------------------------------------------------------------------
 
-1.b Floating point types they are also known as real numbers. Sometimes evaluating expression we need point precise values 
+1.b Floating point 
+
+They are also known as real numbers. Sometimes evaluating expression we need point precise values 
 To counter this problem Float and Double are born 
 
 -------------------------------------------------------------------------------------
@@ -198,7 +202,17 @@ Extended characterset of ISO-Latin-1 ranges from 0 to 255
 |                                                                                   |
 -------------------------------------------------------------------------------------
 
+1.d Boolean 
 
+Boolean is for logical values it can only have two possible outcomes either true or false. 
+The number of bytes in a boolean is a measure of its logical value. Its size is not defined in java it depends on compiler
+
+-------------------------------------------------------------------------------------
+|  Name   Width(in bits)     range                                                  |
+|                                                                                   |
+|  boolean    no fixed        not fixed, can only store true and false              |
+|                                                                                   |
+-------------------------------------------------------------------------------------
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
