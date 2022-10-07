@@ -275,6 +275,41 @@ The number of bytes in a boolean is a measure of its logical value. Its size is 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+.                                                🥶 variables 🥶
+
+
+A variable is the basic storage unit in java program it have a type(datatype) identifier and an optional initilization
+All variables have a scope and their lifeline (identifier is the name of the variable) 
+let's take an example by declaring a variable 
+int myvariable;  //declaring a variable 
+myvariable=69;   //initilization of my variable 
+here ~ int is the datatype and myvariable is an identifier and 69 is an integer literal or the value initilized to myvariable
+the value of 69 is assigned by an operator we will discuss about operators after that 😉
+we can declare multiple variables of same datatype at same time 
+for example 
+int a,b,c,d,e;
+in the above expression these all variables are separated by an seperator that we have talked about earlier
+we can also declare and initilize a variable at the same time this in terms of java is called Dynamic initilization
+example of Dynamic inilitization ~
+int myvariable=69;
+
+Let's talk about life and scope of variables 
+All variables defined within the class can be access by all the functions within the class these are also called as 
+member variables 
+A variable defined within the scope(block of code inside curly braces) cannot be accessiable outside the scope 
+because variables defined within the scope are destroyed the their scope is left 
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 Sample java program 🧠
 
 import java.util.*;
