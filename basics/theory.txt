@@ -134,6 +134,10 @@ have /  and - inbetween character
 literals= literals are const values stored in variables 
 example 69 , 420 , 94 ,007 , 'a' ,"mystringx" and many more 😂
 
+Let's have a deep dive into them 
+
+Before going to start about literals have have a small talk about number system 
+
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
