@@ -299,6 +299,8 @@ member variables
 A variable defined within the scope(block of code inside curly braces) cannot be accessiable outside the scope 
 because variables defined within the scope are destroyed the their scope is left 
 
+Type casting and type conversion 
+
 
 
 
