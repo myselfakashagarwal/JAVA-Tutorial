@@ -361,12 +361,22 @@ Arithmetic operator
 Arithmetic operators are the most common used operator in java they are used in mathematical expression just like 
 algebra. They are used to perform task on 2 operands but can be chained to perform complex tasks 
 
--------------------------------------------------------------
-|   |
-|   |
-|   |
-|   |
--------------------------------------------------------------
+-----------------------------------------------------------------------
+|                                                                     |
+|     Operator                      Result                            |
+|        +                        Addition                            |
+|        –             Subtraction (also unary minus)                 |
+|        *                     Multiplication                         |
+|        /                         Division                           | 
+|        %                         Modulus                            |
+|       ++                        Increment                           |
+|       +=                    Addition assignment                     |
+|       –=                  Subtraction assignment                    |
+|       *=                 Multiplication assignment                  |
+|       /=                    Division assignment                     |
+|       %=                     Modulus assignment                     | 
+|      – –                       Decrement                            |
+-----------------------------------------------------------------------
 
 
 
