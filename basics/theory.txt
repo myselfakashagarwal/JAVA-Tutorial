@@ -266,6 +266,7 @@ The number of bytes in a boolean is a measure of its logical value. Its size is 
 |                                                                                   |
 -------------------------------------------------------------------------------------
 
+Non Primitive data type are datatypes which are defined by the user 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
