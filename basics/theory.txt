@@ -351,6 +351,10 @@ Uranary   performs tasks on single operand
 Binary    performs task of two operands
 Trernary  performs task on more than two operands 
 
+Uranary operands are divided into two types ~
+decrement(--)  decrease value of operand by 1 at a time 
+Increment(++)  increase value of operand by 1 at a time
+
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
