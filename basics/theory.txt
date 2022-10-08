@@ -324,6 +324,10 @@ Java supports automatic type conversion, it happens only if ~
 Two types are compatiable 
 Destination type is larger than source type 
 
+Automatic type promotion 
+Java supports automatic type promotion in expression aka in an expression with multiple datatypes the result will automaticially
+will be converted to datatype with higher range 
+
 
 
 
