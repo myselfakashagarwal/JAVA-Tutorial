@@ -345,7 +345,11 @@ will be converted to datatype with higher range
 
 Well well well ... you have survived till now ,😂 now lets give you a more java concept 
 
-
+operators are used to perform task on perands aka performs operations 
+operators can be divided into major 4 types 
+Uranary   performs tasks on single operand 
+Binary    performs task of two operands
+Trernary  performs task on more than two operands 
 
 
 
