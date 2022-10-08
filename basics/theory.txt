@@ -310,6 +310,8 @@ int a=10;
 float b;
 b=a;
 
+Type casting 
+Type casting can be defined as storing a value of datatype with more range to a datatype with less range or (incompatiable)
 
 
 
