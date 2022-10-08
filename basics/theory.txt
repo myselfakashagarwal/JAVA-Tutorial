@@ -347,9 +347,29 @@ Well well well ... you have survived till now ,😂 now lets give you a more jav
 
 operators are used to perform task on perands aka performs operations 
 
-Increament and decrement operators
-decrement(--)  decrease value of operand by 1 at a time 
-Increment(++)  increase value of operand by 1 at a time
+Increment and decrement operator 
+Increament/decrement operator are used in multiple cases like loops. They are quite helpful in irritations kinda stuff
+
+-------------------------------------------------------------
+|                                                           |
+|  decrement(--)  decrease value of operand by 1 at a time  |
+|  Increment(++)  increase value of operand by 1 at a time  |
+|                                                           |
+-------------------------------------------------------------
+
+Arithmetic operator 
+Arithmetic operators are the most common used operator in java they are used in mathematical expression just like 
+algebra. They are used to perform task on 2 operands but can be chained to perform complex tasks 
+
+-------------------------------------------------------------
+|   |
+|   |
+|   |
+|   |
+-------------------------------------------------------------
+
+
+
 
 
 
