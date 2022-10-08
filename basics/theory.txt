@@ -301,6 +301,16 @@ A variable defined within the scope(block of code inside curly braces) cannot be
 because variables defined within the scope are destroyed the their scope is left 
 
 Type casting and type conversion 
+When we transfer value of one datatype to another datatype there is either the loss of data or there's no lost of data
+if the transfer of value or copying of value is in same datatype that's does not have a problem 
+
+In type conversion value of datatype is automaticially to another datatype by compiler But in type conversion value of 
+conversion of one datatype must be smaller than other datatype for example
+int a=10;
+float b;
+b=a;
+
+
 
 
 
