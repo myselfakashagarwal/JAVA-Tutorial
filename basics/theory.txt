@@ -310,8 +310,19 @@ int a=10;
 float b;
 b=a;
 
-Type casting 
+Type casting aka narrowing conversion 
 Type casting can be defined as storing a value of datatype with more range to a datatype with less range or (incompatiable)
+
+to peform type casting must follow this 👇🏼
+(target-datatype) current-datatype
+float x;
+int y;
+y=(int)x;
+
+Automatic type conversion ~ aka widening conversion
+Java supports automatic type conversion, it happens only if ~
+Two types are compatiable 
+Destination type is larger than source type 
 
 
 
