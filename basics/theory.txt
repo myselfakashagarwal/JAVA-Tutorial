@@ -423,6 +423,35 @@ these operator perform functions on bits there are multiple bitwise operator ~
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+lets talk buisness 😂
+>> shiift right operator 
+syntax =variable>>number
+this operator isn used to shift bits in the value to the right place by the number given by the user 
+for example 
+int a =32;
+a=a>>2
+100000
+after shifting the value by two digits 
+1000
+in this operator the bits in the last is deleated 
+
+>>> unsigned right shift operator 
+syntax variable>>>number 
+
+<< right shift operator 
+syntax variable<<number
+a=5;
+a<<2;
+The above exapmle will output answer of 20 
+this is because the bits are added to the backside of the bits of the value of the variable 
+another example of this operator ~
+a=8;
+int b=a<<2;
+answer =32
+this is because the value of a is stored in bits aka 1000
+when the operation is done the number input by the user is added in the back of the bits of the variable 
+in this case when the operation is done two zeros are added at the back of the bits of the varibale 
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
