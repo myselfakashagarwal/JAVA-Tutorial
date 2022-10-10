@@ -515,7 +515,33 @@ k = i < 0 ? -i : i; // get absolute value of i
 System.out.print("Absolute value of ");
 System.out.println(i + " is " + k); 
 output of the following will be -  Absolute value of -10 is 10
- 
+
+ahhhhhhh 🌚 lets have one last topic related to operator aka precedence
+In most of the languages there's a precedence of operators aka which operation is going to be performed first 
+In a java expression seperators can be used to define precedence 
+
+Highest
+() [] .
+++  ––  ~  !
+*  /  %
++  –
+>>  >>>  <<
+>  >=  <  <=
+==  !=
+&  ^  |
+&&
+||
+?:
+=  op=
+lowest
+
+in addition to precedence seperators do also simplify the meaning of the expression in most of the cases the associativity
+is left to right i.e the the precedence of an expression is same at the both side the left side will be operational first 
+
+Arithmetic Operators. 
+Relational Operators
+Bitwise Operators 
+Boolean Logical Operators
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
