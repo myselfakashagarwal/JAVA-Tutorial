@@ -473,8 +473,24 @@ answer will be 20
 whe can also do ~
 int a ;
 a<<=2;
-
 same approach is followed in compound bitwise assignment operator aka |=,&=,^=,<<=,>>=
+
+3. Relational operators 
+Relational operators is used to find relation between two operands 
+
+-----------------------------------------------------------------------------------------------
+|            |                                                                                |
+|  operator  |                          result                                                |
+|            |                                                                                |
+|   ==       |    checks whether both operands are equall or not                              |
+|   !=       |    checks whether both operands are not equall or equall                       |
+|   >        |    check if the right operator is smaller than left                            |
+|   <        |    check whether the left operator is bigger the the right                     |
+|   >=       |    check whether the right operator is lesser than or equal to left operator   |
+|   <=       |    check whether the left  operator is lesser than or equal to right operator  |  
+|            |                                                                                |
+-----------------------------------------------------------------------------------------------
+
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
