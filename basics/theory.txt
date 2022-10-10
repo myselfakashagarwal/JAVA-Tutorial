@@ -349,7 +349,7 @@ operators are used to perform task on perands aka performs operations
 
 
 
-Arithmetic operator 
+1. Arithmetic operator 
 Arithmetic operators are the most common used operator in java they are used in mathematical expression just like 
 algebra. They are used to perform task on 2 operands but can be chained to perform complex tasks 
 
@@ -392,7 +392,35 @@ second approach
 a+=1;
 as you can see in the first approach there is so,e extra line of code while second approach is more efficient and understandable 
 
+likewise first approach we can have many others compound assignment operator 
+aka~
+-=
+*=
+/=
+%=
 
+
+2. bitwise operator 
+these operator perform functions on bits there are multiple bitwise operator ~
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|   operator     |    name                         |                       how it works                                                                                              |
+|----------------|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
+|      ~         | bitwise uranary not             | it will revert the bit form of data aka 0 to 1 and 1 to 0(complement)                                                           |
+|      &         | bitwise AND                     | it will perform on two bits at a time if the both bits are up aka 1 it will return true else it will return false               |
+|      |         | bitwise OR                      | it will perform on two bits at a time if the both bits are same it will return if of the two bits is up aka 1 it will return 1  |
+|      ^         | bitwise exclusive OR            | it will perform on two bits at a time if both bits are same it will return 0 else it will return 1                              |
+|     >>         | shift right                     | described down                                                                                                                  |
+|    >>>         | shift right zero fill           | described down                                                                                                                  |
+|     <<         | shift left operator             | described down                                                                                                                  |
+|     &=         | bitwise AND assignment          | described down                                                                                                                  |
+|     |=         | bitwise OR assignment           | described down                                                                                                                  |
+|     ^=         | bitwise exclusive or assignment | described down                                                                                                                  |
+|    >>=         | shift right assignment          | described down                                                                                                                  |
+|    >>>=        | shift right zero fill asignment | described down                                                                                                                  |
+|    <<=         | shift left assignment           | described down                                                                                                                  |
+|                |                                 | described down                                                                                                                  |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
