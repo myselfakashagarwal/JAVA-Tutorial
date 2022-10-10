@@ -347,14 +347,6 @@ Well well well ... you have survived till now ,😂 now lets give you a more jav
 
 operators are used to perform task on perands aka performs operations 
 
-Increment and decrement operator 
-Increament/decrement operator are used in multiple cases like loops. They are quite helpful in irritations kinda stuff
-
--------------------------------------------------------------
-|                                                           |
-|  decrement(--)  decrease value of operand by 1 at a time  |
-|  Increment(++)  increase value of operand by 1 at a time  |
-|                                                           |
 -------------------------------------------------------------
 
 Arithmetic operator 
@@ -379,6 +371,14 @@ algebra. They are used to perform task on 2 operands but can be chained to perfo
 -----------------------------------------------------------------------
 
 
+Increment and decrement operator 
+Increament/decrement operator are used in multiple cases like loops. They are quite helpful in irritations kinda stuff
+
+-------------------------------------------------------------
+|                                                           |
+|  decrement(--)  decrease value of operand by 1 at a time  |
+|  Increment(++)  increase value of operand by 1 at a time  |
+|                                                           |
 
 
 
