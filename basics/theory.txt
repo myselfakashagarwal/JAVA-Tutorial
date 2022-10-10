@@ -367,7 +367,7 @@ algebra. They are used to perform task on 2 operands but can be chained to perfo
 |       *=                 Multiplication assignment                  |
 |       /=                    Division assignment                     |
 |       %=                     Modulus assignment                     | 
-|      – –                       Decrement                            |
+|       ––                        Decrement                           |
 -----------------------------------------------------------------------
 
 
@@ -504,6 +504,8 @@ operand depends on the value of the left one in order to function properly.
 5. Boolean logical operator
 The boolean logical operators do work only on boolean operands 
 these are just logical operators working on boolean operands 
+boolean logiacal operator have all bitwise opeartor and bitwise assignment operator and most used &&  and ||
+this && and || can be used to chain multiple conditions 
 
 6. The ? operator
 The ? is a ternary operator this can be used in multiple cases like it can replace if-then-else
