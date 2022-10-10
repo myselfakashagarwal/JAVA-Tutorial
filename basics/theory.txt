@@ -403,28 +403,41 @@ aka~
 2. bitwise operator 
 these operator perform functions on bits there are multiple bitwise operator ~
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-|   operator     |    name                         |                       how it works                                                                                              |
-|----------------|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-|      ~         | bitwise uranary not             | it will revert the bit form of data aka 0 to 1 and 1 to 0(complement)                                                           |
-|      &         | bitwise AND                     | it will perform on two bits at a time if the both bits are up aka 1 it will return true else it will return false               |
-|      |         | bitwise OR                      | it will perform on two bits at a time if the both bits are same it will return if of the two bits is up aka 1 it will return 1  |
-|      ^         | bitwise exclusive OR            | it will perform on two bits at a time if both bits are same it will return 0 else it will return 1                              |
-|     >>         | shift right                     | described down                                                                                                                  |
-|    >>>         | shift right zero fill           | described down                                                                                                                  |
-|     <<         | shift left operator             | described down                                                                                                                  |
-|     &=         | bitwise AND assignment          | described down                                                                                                                  |
-|     |=         | bitwise OR assignment           | described down                                                                                                                  |
-|     ^=         | bitwise exclusive or assignment | described down                                                                                                                  |
-|    >>=         | shift right assignment          | described down                                                                                                                  |
-|    >>>=        | shift right zero fill asignment | described down                                                                                                                  |
-|    <<=         | shift left assignment           | described down                                                                                                                  |
-|                |                                 | described down                                                                                                                  |
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------
+|   operator     |    name                         | 
+|----------------|---------------------------------|
+|      ~         | bitwise uranary not             |
+|      &         | bitwise AND                     | 
+|      |         | bitwise OR                      |
+|      ^         | bitwise exclusive OR            |
+|     >>         | shift right                     |
+|    >>>         | shift right zero fill           | 
+|     <<         | shift left operator             |
+|     &=         | bitwise AND assignment          | 
+|     |=         | bitwise OR assignment           |
+|     ^=         | bitwise exclusive or assignment |
+|    >>=         | shift right assignment          | 
+|    >>>=        | shift right zero fill asignment | 
+|    <<=         | shift left assignment           | 
+|                |                                 | 
+----------------------------------------------------
 
 
 lets talk buisness 😂
->> shiift right operator 
+
+~ bitwise uranary NOT 
+is also called complement operator it is an uranary operator it reverts the bits in of the varibale on which operation is being performend 
+
+& bitwise AND
+work between bits of two operand if the both bits are same it will return true aka 1 else it will return false 
+
+| bitwise OR 
+work between two bits of two operand if one of the bits is true the answer is true aka 1 else the answer will be false 
+
+^ bitwise XOR
+work between two bits of two operand if both bits are same the answer will be false else the answer will be true 
+
+>> shift right operator 
 syntax =variable>>number
 this operator isn used to shift bits in the value to the right place by the number given by the user 
 for example 
@@ -451,6 +464,17 @@ answer =32
 this is because the value of a is stored in bits aka 1000
 when the operation is done the number input by the user is added in the back of the bits of the variable 
 in this case when the operation is done two zeros are added at the back of the bits of the varibale 
+
+Just like we earlier studied compount assignment Operator there's a same typo in bitwise operator 
+for example 
+int a =5;
+a=a<<2;
+answer will be 20
+whe can also do ~
+int a ;
+a<<=2;
+
+same approach is followed in compound bitwise assignment operator aka |=,&=,^=,<<=,>>=
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
