@@ -341,7 +341,7 @@ will be converted to datatype with higher range
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-.                                            🥶 OPERANDS 🥶
+.                                            🥶 OPERATORS 🥶
 
 Well well well ... you have survived till now ,😂 now lets give you a more java concept 
 
