@@ -491,6 +491,16 @@ Relational operators is used to find relation between two operands
 |            |                                                                                |
 -----------------------------------------------------------------------------------------------
 
+4.Boolean logical operator
+java provides special boolean logical operator which is not found in many other languages 
+These are also known as short-circut logiacl operators 
+
+ As you can see from the preceding table, the OR operator results in true when A is true, no matter what B is.
+  Similarly, the AND operator results in false when A is false, no matter what B is. If you use the || and && forms,
+rather than the | and & forms of these operators, Java will not bother to evaluate the right-hand operand when the
+outcome of the expression can be determined by the left operand alone. This is very useful when the right-hand 
+operand depends on the value of the left one in order to function properly.
+
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
