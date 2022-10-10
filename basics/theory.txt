@@ -381,6 +381,18 @@ Increament/decrement operator are used in multiple cases like loops. They are qu
 |                                                           |
 -------------------------------------------------------------
 
+arithmatic compound operator 
++= is an arithmatic compound operator this is used to assign value to itself with addition to any more operator 
+for example 
+declaring a just for example 
+int a;
+first approach 
+a=a+69;
+second approach 
+a+=1;
+as you can see in the first approach there is so,e extra line of code while second approach is more efficient and understandable 
+
+
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
