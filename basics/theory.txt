@@ -557,6 +557,26 @@ Boolean Logical Operators
 .                                                🥶 CONTROL STATEMENTS 🥶
 
 
+Control statements are the building blocks of a program they are used in countless algorithms they are used to control 
+flow of programs 
+Java have mainly rwo types of control statemnets 
+1. Conditional Statements 
+2. Loops 
+
+3. Break and Continue 
+
+Conditional Statements are also of three types 
+1.A if 
+1.B if else 
+1.C if then else 
+1.D switch 
+
+Loops are further divided into three types namely 
+2.A for loops 
+2.B while loops
+2.C Do while loops 
+
+
 
 
 
