@@ -562,7 +562,6 @@ flow of programs
 Java have mainly rwo types of control statemnets 
 1. Conditional Statements 
 2. Loops 
-
 3. Break and Continue 
 
 Conditional Statements are also of three types 
@@ -575,6 +574,15 @@ Loops are further divided into three types namely
 2.A for loops 
 2.B while loops
 2.C Do while loops 
+
+1.A if statement can be defined as a simple taks  i.e if the condition given satisfied the task will be performed 
+
+syntax of if statement ~
+
+if(condition)
+{
+  task ;
+}
 
 
 
