@@ -584,7 +584,15 @@ if(condition)
   task ;
 }
 
+1.B if else - if else is the upgraded version of the if it contains a extra block which will be executed if the 
+condition fails to satisfy
 
+if(condition){
+  task;
+}
+else{
+  task;
+}
 
 
 
