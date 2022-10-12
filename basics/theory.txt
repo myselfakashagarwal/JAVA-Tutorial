@@ -594,6 +594,26 @@ else{
   task;
 }
 
+1.C if then else - if then else can be described as multiple if and single else in a nutshell. if then else have 
+multiple conditions chained to it in this control statement condition is checked multiple time if all the conditions 
+fails to satisfy it comes to else part the number of conditions is as per user's choice. 
+
+if(condition){
+  task;
+}
+else if(condition 2){
+  task
+}
+else if(condition 3){
+  task;
+}
+else if(condition 4){
+  task;
+}
+else{
+  task;
+}
+
 
 
 
