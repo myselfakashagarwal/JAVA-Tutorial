@@ -594,9 +594,11 @@ else{
   task;
 }
 
-1.C if then else - if then else can be described as multiple if and single else in a nutshell. if then else have 
+1.C if then else - In a nutshell, if then else can be described as multiple if and single else . If then else have 
 multiple conditions chained to it in this control statement condition is checked multiple time if all the conditions 
-fails to satisfy it comes to else part the number of conditions is as per user's choice. 
+fails to satisfy it comes to else part the number of conditions is as per user's choice. But if the condition is 
+satisfied at the starting it will not execute the other condition aka if the condition satisfies the up comming 
+will neither be checked nor executed  
 
 if(condition){
   task;
@@ -614,7 +616,28 @@ else{
   task;
 }
 
-1.D switch - here comes the real bully 😂
+1.D switch case - here comes the real bully 😂 switch case is similar to if then else but compleately different in terms of 
+syntax "I know you saw it comming 😂" switch case take operand and then checkes the multiple condition on it if the 
+condition satisfies it will execute the task but if the all conditions fails to satisfy it will also have a defult case 
+
+switch(operand)
+{
+case(operand or expression 1):
+task;
+break;
+
+case(operand or expression 2):
+task;
+break;
+
+case(operand or expression 3):
+task;
+break;
+
+default:
+task;
+
+}
 
 
 
