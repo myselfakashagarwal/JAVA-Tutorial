@@ -559,7 +559,7 @@ Boolean Logical Operators
 
 Control statements are the building blocks of a program they are used in countless algorithms they are used to control 
 flow of programs 
-Java have mainly rwo types of control statemnets 
+Java have the following control statemnets 
 1. Conditional Statements 
 2. Loops 
 3. Break and Continue 
