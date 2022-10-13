@@ -562,7 +562,7 @@ flow of programs
 Java have the following control statemnets 
 1. Conditional Statements 
 2. Loops 
-3. Break and Continue 
+ 
 
 Conditional Statements are also of three types 
 1.A if 
@@ -651,7 +651,7 @@ in java there are mainly three kinds of loops
 3.do while loops
 
 
-1.for loop - for loop is used to execute a statement multiple times it depends on the control variable.
+2.A for loop - for loop is used to execute a statement multiple times it depends on the control variable.
  Control varibale is used in multiple cases like initilization, for checking the condition and control it to 
 to manage no of irritations
 
@@ -678,7 +678,7 @@ the hello world will be printed till the control the control variable satisfies 
 is printed 10 times because the value of control variable is incremented by 1 at a time if the value of the control variable 
 is incremented by two the hello world will be printed 5 times 
 
-2. while loop- while loops is the most basic loop in java it mainly depends on the condition it will execute the task or 
+2.B while loop- while loops is the most basic loop in java it mainly depends on the condition it will execute the task or 
 set of statements till the condition satisfies 
 
 its syntax ~
@@ -694,7 +694,7 @@ while(j>0){
 }
 
 As output  the following code will print the hello world infinite time because the the condition is always true it will
-terminate the loop only when the condition fails to satisfy or we use special control statements this infinite case occurs
+terminate the loop only when the condition fails to satisfy or we use jump statements this infinite case occurs
 same with all loops 
 
 To make the irritations finite we must make a such a statement that will falsifies the condition 
@@ -710,7 +710,7 @@ while(j<0){
 in ghe above case the value of j is being decreasing by 1 after each irritation there will be a time when the condition fails 
 to satisfy in that case it will make control to jump out of the loop
 
-3. do while loop - in a nutshell do whie loop is same as while but in this case condition is checked first then the task is 
+2.C do while loop - in a nutshell do whie loop is same as while but in this case condition is checked first then the task is 
 performed. 
 
 syntax ~
