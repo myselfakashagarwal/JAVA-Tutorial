@@ -676,7 +676,16 @@ for(i=1;i<=j;i++)
 the following code will print the hello world 10 times because the initial value of control variable is zero in this case 
 the hello world will be printed till the control the control variable satisfies the condition in this case the hello world 
 is printed 10 times because the value of control variable is incremented by 1 at a time if the value of the control variable 
-is incremented by two the hello world will be printed 5 times   
+is incremented by two the hello world will be printed 5 times 
+
+2. while loop- while loops is the most basic loop in java it mainly depends on the condition it will execute the task or 
+set of statements till the condition satisfies 
+
+its syntax ~
+
+while(condition){
+  task;
+}
 
 
 
