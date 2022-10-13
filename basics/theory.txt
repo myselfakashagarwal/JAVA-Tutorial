@@ -710,6 +710,17 @@ while(j<0){
 in ghe above case the value of j is being decreasing by 1 after each irritation there will be a time when the condition fails 
 to satisfy in that case it will make control to jump out of the loop
 
+3. do while loop - in a nutshell do whie loop is same as while but in this case condition is checked first then the task is 
+performed. 
+
+syntax ~
+
+do{
+task;
+while(condition);
+}
+
+In this case the task is performed one no matter what the condition is. On the other hand while loop check condition first 
 
 
 
