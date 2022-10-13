@@ -687,8 +687,28 @@ while(condition){
   task;
 }
 
+lets understand with a example ~
+int j=10;
+while(j>0){
+  System.out.println("hello world" );
+}
 
+As output  the following code will print the hello world infinite time because the the condition is always true it will
+terminate the loop only when the condition fails to satisfy or we use special control statements this infinite case occurs
+same with all loops 
 
+To make the irritations finite we must make a such a statement that will falsifies the condition 
+
+lets make this loop finite 
+
+int j=10;
+while(j<0){
+  System.out.println("hello world ");
+  j--;
+}
+
+in ghe above case the value of j is being decreasing by 1 after each irritation there will be a time when the condition fails 
+to satisfy in that case it will make control to jump out of the loop
 
 
 
