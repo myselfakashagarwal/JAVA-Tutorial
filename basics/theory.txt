@@ -640,20 +640,43 @@ task;
 
 }
 
-lets talk about loops ~
+
+lets talk about loops ~ they are also known as irritations control statements
 Loops are used to execute statements or set of statements multiple times as per as user choice 
+
 
 in java there are mainly three kinds of loops 
 1.For loop
 2.while loop
 3.do while loops
 
-Lets understand for loop with the help of the Syntax
+
+1.for loop - for loop is used to execute a statement multiple times it depends on the control variable.
+ Control varibale is used in multiple cases like initilization, for checking the condition and control it to 
+to manage no of irritations
+
+for loop has the folowing syntax ~
 
 for(initilization;condition;function on control variable)
 {
   set of statements;
 }
+
+lets take a realk world example 
+
+code ~
+
+int i;
+int j=10;
+for(i=1;i<=j;i++)
+{
+  System.out.println("hello world);
+}
+
+the following code will print the hello world 10 times because the initial value of control variable is zero in this case 
+the hello world will be printed till the control the control variable satisfies the condition in this case the hello world 
+is printed 10 times because the value of control variable is incremented by 1 at a time if the value of the control variable 
+is incremented by two the hello world will be printed 5 times   
 
 
 
