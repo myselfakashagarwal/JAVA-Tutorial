@@ -640,6 +640,10 @@ task;
 
 }
 
+lets talk about loops ~
+in java there are mainly three kinds of loops 
+
+
 
 
 
