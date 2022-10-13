@@ -641,7 +641,19 @@ task;
 }
 
 lets talk about loops ~
+Loops are used to execute statements or set of statements multiple times as per as user choice 
+
 in java there are mainly three kinds of loops 
+1.For loop
+2.while loop
+3.do while loops
+
+Lets understand for loop with the help of the Syntax
+
+for(initilization;condition;function on control variable)
+{
+  set of statements;
+}
 
 
 
