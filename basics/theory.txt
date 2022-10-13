@@ -721,7 +721,17 @@ while(condition);
 }
 
 In this case the task is performed one no matter what the condition is. On the other hand while loop check condition first 
+note in the case of do while there's a semicolon after the while statement 
 
+for exampe ~
+
+int j=10;
+do{
+System.out.println("hello world");
+while(j>10);
+}
+
+as the output the hello world will be printed one time even after the condition is false 
 
 
 
