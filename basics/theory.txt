@@ -795,6 +795,9 @@ comes we will skip that part using continue
  9
  10 
 
+There's also a jump statement called return it is used to return from the method we will be learning this 
+control statement in the later part
+
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
