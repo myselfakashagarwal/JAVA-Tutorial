@@ -733,7 +733,12 @@ while(j>10);
 
 as the output the hello world will be printed one time even after the condition is false 
 
+🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚
+
+
 break and continue are the jump statements i.e they are used to skip one step of irritation or the set of irritation
+
+break ~
 
 For example leta have a senario in the mind that we are in a loop and our task has been compleated before all 
 the irritations then the other irritations executed after our work are useless 
@@ -757,6 +762,8 @@ for(int i=0;i<69;i++){
 
 what we have done is we have added the break statement after the tenth irritations so what it will do it will 
 will make control to jump out of the loop and the other irritatins will not be executed 
+
+continue ~
 
 
 
