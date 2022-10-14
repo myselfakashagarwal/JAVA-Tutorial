@@ -765,6 +765,35 @@ will make control to jump out of the loop and the other irritatins will not be e
 
 continue ~
 
+continue is used to skip a irritation this is useful in cases when we want a specific irritation not to be execute
+
+For example lets take a senario in which we want to print all numbers except 5 
+Implementation ~
+
+for(int i=1;i<=10;i++)
+{
+if(i==5)
+{
+continue;
+}
+else
+{
+System.out.println(i);
+}
+}
+what we have done here is we have prrinted all number as the loop irritates but when our unwanted execute part 
+comes we will skip that part using continue
+
+ the output of the folloeing loop is 
+ 1
+ 2
+ 3
+ 4
+ 6
+ 7
+ 8
+ 9
+ 10 
 
 
 
