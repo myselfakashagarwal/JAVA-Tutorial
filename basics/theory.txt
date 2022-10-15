@@ -806,9 +806,18 @@ control statement in the later part
 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////// Lets talk about the real shit 🂡 /////////////////////////////////////////////////////////
 
-Sample java program 🧠
+We have explored some basic which are the building blocks of a java program lets now move to phase 2 of java here 
+we will be exploring the concept that make java the real java .
+Before moving to classes methods and  other topics lemme tell you about a method aka a function 
+
+Function/method - a function is a set of instructions that will be executed when it gets invoked we can pass our 
+data to make functions to perform tasks on it. Functions may or may not return the value .
+
+
+
+Sample java program for a kick start
 
 import java.util.*;
 class myclass
