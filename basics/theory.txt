@@ -859,6 +859,12 @@ we can assign our own values to it
 myclass.mydata=6996;
 In short we use . operator to acces member methods and member variables 
 
+The original myclass/template/virtual class is compleately seperate from its instance aka te behaviour of objects 
+does not affect the code or the data of the main class 
+
+declaring objects 
+
+
 
 
 
