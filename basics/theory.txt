@@ -805,19 +805,61 @@ control statement in the later part
 
 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 
-
-///////////////////////////////// Lets talk about the real shit 🂡 /////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+.              
+.                                              🥶 CLASS 🥶
 
 We have explored some basic which are the building blocks of a java program lets now move to phase 2 of java here 
 we will be exploring the concept that make java the real java .
-Before moving to classes methods and  other topics lemme tell you about a method aka a function 
+Before moving to classes, methods and  other topics lemme tell you about a method aka a function and class
 
 Function/method - a function is a set of instructions that will be executed when it gets invoked we can pass our 
-data to make functions to perform tasks on it. Functions may or may not return the value .
+data to make functions to perform tasks on it. Functions may or may not return the value . These can be defined as 
+the code which operate the data.
+
+Class - in a nutshell class can be defined as a datatype defined by the user it have its own properties and 
+behaviour it can have instances or classes inside it which can also have the same behaviour it can also have 
+object which is an instance of a class. Class is a non primitive datatype.
+We can define behaviour of a class as a methods and functions and its properties can be defined as data or variables 
+it resides. 
+
+Sample java program for a kick start ~
+
+class myclass
+{
+int mydata=69;
+float mydata2=420;
+char mydata3='f';          
+}
+
+In the above example we have created a class using a class key-word. The class have a variable called mydata, mydata2
+and mydata3.
+we have defined its data type as we have discussed earlier it is a primitive data type , these data are the properties
+of the class named myclass. All the code and data reside within the class, the scope of these data starts with the opening curly
+braces and ends with the closing curly braces. Any method defined within the class can access these data. The data defined 
+within the class are called member variables or intance variables as they are defined with the class they are accessiable to
+the instances created.  
+
+Instace can be defined as a clone of class it can have same properties as its parent it have have access of the code and 
+defined data reside with the class its made clone of. This also defiens the reuseability of the code as there's no need to define
+the class and code again and again. But every instance created the every instance will have its own data if it has been 
+taken from the user. 
 
 
 
-Sample java program for a kick start
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.                                               🥶 FUNCTIONS AND METHODS 🥶
 
 import java.util.*;
 class myclass
@@ -828,12 +870,10 @@ class myclass
   }             
 }
 
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 Have a  closer look at java's main method 
 
 All program begins by calling the main method the main method is called when the program gets started. Main()
- is basicially a starting point of your program 
+is basicially a starting point of your program 
 you have often written this  👉🏽public static void main(String[] args)
 This line have a meaning yeh it does have a meaning, f*** off java stereotypes 
 public - it is a access specifier the main method is delcared as public as it is called outside the class 
@@ -849,8 +889,7 @@ System class , output stream , input stream
 
 Ass 😂 you can read the above program you will find that the line that outputs 'be water my friend' have multiple 
 words chained before it. All of these words have a meaning 👇🏼
-System- System is a predefined class which provides access to  System 
-(💡note S is in capital case in System this is because java is case sensitive)
+System- System is a predefined class which provides access to System 
 out,in are used to get access to input output streams 
 println(..)-println is a mehod which is used to console the the things inside it (in above example it was a string )
 
