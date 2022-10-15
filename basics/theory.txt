@@ -845,6 +845,9 @@ defined data reside with the class its made clone of. This also defiens the reus
 the class and code again and again. But every instance created the every instance will have its own data if it has been 
 taken from the user. 
 
+It is important to remember that a class declaration only creates a template; it does not create an actual object.
+Thus, the preceding code does not cause any objects of type myclass to come into existence.
+
 
 
 
