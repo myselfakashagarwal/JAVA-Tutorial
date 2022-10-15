@@ -864,7 +864,18 @@ does not affect the code or the data of the main class
 
 declaring objects 
 
+As told earlier creating a class you are creating a new data type . 
+Obtaining a object is a two step process first you must declare variable of class type Second, you must acquire an actual,
+physical copy of the object and assign it to that variable. This can be done using new operator that new operator creates 
+dynamically allocate space in the memory of object and return reference to it. That reference is stored in the variable 
+Thus in java all objects are dynamically allocated 
 
+The statement written above can be divided into two steps as discussed above 
+
+//declaration of object 
+myclass myobject;
+//allocating the space 
+myobject=new myclass();
 
 
 
