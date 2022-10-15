@@ -877,6 +877,14 @@ myclass myobject;
 //allocating the space 
 myobject=new myclass();
 
+The first line declare myobject as a reference of a object of type myclass. 
+After the declaration of myobject this null value gets defined to object as till now it does not contain point 
+reference to myclass, any attempt to use myobject after declaration will result in compile time error 
+
+The second line allocates an actual object and assign reference to it myclass. In reality myobject just hold the 
+memory address of of myclass.
+
+
 
 
 
