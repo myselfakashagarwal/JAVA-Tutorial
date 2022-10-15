@@ -847,8 +847,17 @@ taken from the user.
 
 It is important to remember that a class declaration only creates a template; it does not create an actual object.
 Thus, the preceding code does not cause any objects of type myclass to come into existence.
+To actually create a object you have to create an object 
 
+myclass myobject = new myclass(); 
 
+That above statement cretes an object name myobject this my object is an identifier thus creating a physical entity 
+that myobect/instance of myclass will have clone of mydata, mydata2, mydata3. 
+The dot (.) operator links the name of the object with the name of an instance variable.  
+myclass.mydata;
+we can assign our own values to it 
+myclass.mydata=6996;
+In short we use . operator to acces member methods and member variables 
 
 
 
