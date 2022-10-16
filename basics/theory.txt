@@ -906,7 +906,8 @@ clearly in mind.
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 .                                               🥶 FUNCTIONS AND METHODS 🥶
-
+.
+.
 methods and functions are nearly the same they both have set of instructions they both can have arguments by whhich they can accept 
 input from the user they both may or may not return the value, but the difference comes when the calling them i.e invoking them 
 a function is called independently while a method is called using a reference this means a function is called without creating the
@@ -933,11 +934,9 @@ This line have a meaning yeh it does have a meaning, f*** off java stereotypes
 public - it is a access specifier the main function is delcared as public as it is called outside the class 
 static -the static is a keyword which calls main without creating a particular instance of a class 
 void - main function is defined as void since it does not return any value 
-String[] args- thre's a one parameter for the main function String[] args this is a array of insatances of class string
+String[] args- thre's a one parameter for the main function String[] args this is a array aka collection of insatances of class string
 All code inside main function begins with open curly braces { and ends with closing curly braces }
 
-
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 System class , output stream , input stream  
 
@@ -946,6 +945,16 @@ words chained before it. All of these words have a meaning 👇🏼
 System- System is a predefined class which provides access to System 
 out,in are used to get access to input output streams 
 println(..)-println is a mehod which is used to console the the things inside it (in above example it was a string )
+
+
+Just like the main function every function have its attributes 
+Access specifier 
+datatype it returns 
+Name/identifier
+Arguments - type of arguments and number of arguments it have 
+
+these above properties can be used as a identity of a function as in java no function is same it has to different 
+in terms of any of the above properties except access specifier.
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
