@@ -1009,7 +1009,8 @@ ob.ans(x,y);
 }
 
 here we have passed the variables as arguments to perform data on it there no limit on no of arguments and 
-type of arguments 
+type of arguments, but before letting input inside the function the function will insure and checks the data type 
+of the arguments this is because java is secure and robust language. 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
