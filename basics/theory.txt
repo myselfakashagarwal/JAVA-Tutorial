@@ -907,26 +907,34 @@ clearly in mind.
 
 .                                               🥶 FUNCTIONS AND METHODS 🥶
 
+methods and functions are nearly the same they both have set of instructions they both can have arguments by whhich they can accept 
+input from the user they both may or may not return the value, but the difference comes when the calling them i.e invoking them 
+a function is called independently while a method is called using a reference this means a function is called without creating the
+instance of the class while a method is called by createing a instance/object of the class.
+
+Every java program have a main function lets understand it with a example 
+
+
 import java.util.*;
 class myclass
 {
-  public static void main(String[] args)                                             @java main method
+  public static void main(String[] args)                                             @java main function
   {
    System.out.println("be water my friend ");                                        @code to print a statement
   }             
 }
 
-Have a  closer look at java's main method 
+Have a  closer look at java's main function  
 
-All program begins by calling the main method the main method is called when the program gets started. Main()
+All program begins by calling the main function the main function is called when the program gets started. Main()
 is basicially a starting point of your program 
 you have often written this  👉🏽public static void main(String[] args)
 This line have a meaning yeh it does have a meaning, f*** off java stereotypes 
-public - it is a access specifier the main method is delcared as public as it is called outside the class 
+public - it is a access specifier the main function is delcared as public as it is called outside the class 
 static -the static is a keyword which calls main without creating a particular instance of a class 
-void - main method is defined as void since it does not return any value 
-String[] args- thre's a one parameter for the main method String[] args this is a array of insatances of class string
-All code inside main method begins with open curly braces { and ends with closing curly braces }
+void - main function is defined as void since it does not return any value 
+String[] args- thre's a one parameter for the main function String[] args this is a array of insatances of class string
+All code inside main function begins with open curly braces { and ends with closing curly braces }
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
