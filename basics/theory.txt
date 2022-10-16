@@ -985,6 +985,10 @@ be returned in its return part
 we can also compute and return at the same time for example we could have done in the above program is ~
 return x*y;
 
+Method with parameters ~
+
+
+
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
