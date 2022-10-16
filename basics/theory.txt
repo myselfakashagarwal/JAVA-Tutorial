@@ -884,9 +884,18 @@ reference to myclass, any attempt to use myobject after declaration will result 
 The second line allocates an actual object and assign reference to it myclass. In reality myobject just hold the 
 memory address of of myclass.
 
+NEW KEWWORD ~
+As just explained new keyword allocated space in the memory dynamicially 
 
+class-var = new classname( );
 
-
+Here class is the datatype and var is the variable of datatype class. After the following new there's a constructor to 
+initilize member variables of the class. We need to implement non primitive data aka objects type using new operator 
+Let’s once again review the distinction between a class and an object. A class creates a new data type that can be 
+used to create objects. That is, a class creates a logical framework that defines the relationship between its members.
+When you declare an object of a class, you are creating an instance of that class. Thus, a class is a logical construct.
+An object has physical reality. (That is, an object occupies space in memory.) It is important to keep this distinction 
+clearly in mind.
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
