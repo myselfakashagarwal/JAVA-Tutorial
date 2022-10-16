@@ -977,7 +977,14 @@ ob.ans();
 
 In above example the the function ans() is called with the reference of object it will return 69 because this 
 function is of integer datatype in order to avoid return of values we can also declare our function as void 
-One more thing function does not return non primitive data type;
+One more thing function does not return non primitive data type
+
+Function can be invoked inside their own function this is case is called recursion or function of same datatuype can 
+be returned in its return part
+
+we can also compute and return at the same time for example we could have done in the above program is ~
+return x*y;
+
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
