@@ -956,6 +956,29 @@ Arguments - type of arguments and number of arguments it have
 these above properties can be used as a identity of a function as in java no function is same it has to different 
 in terms of any of the above properties except access specifier.
 
+Returning a value ~
+As I have told earlier methods and functions can return value of the datatype they are for example lets have a sample~
+
+import java.util.*;
+class myclass{
+public int ans(){
+  int x=23;
+  int y=3;
+  int multiply=x*y;
+  return multiply;
+}
+class main{
+public void main(){
+myclass ob=new myclass();
+ob.ans();
+  }
+}
+}
+
+In above example the the function ans() is called with the reference of object it will return 69 because this 
+function is of integer datatype in order to avoid return of values we can also declare our function as void 
+One more thing function does not return non primitive data type;
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
