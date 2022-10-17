@@ -1042,6 +1042,11 @@ class myclass
 
 In the above examplpe we have used the ans(..) method multiple times using different arguments 
 
+There a special function which is called constructor a constructor is used to inilitize member variables it gets 
+invoked at the time a object is created it has a name which is as same as class name 
+
+example of constructor 
+
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
