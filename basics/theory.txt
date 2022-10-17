@@ -1015,7 +1015,32 @@ of the arguments this is because java is a secure and robust language.
 The sequencce of type of arguments and no of arguments opens door to method overloading aka Polymorphism - using a 
 function more than one time 
 
+import java.util.*;
+class myclass
+{
+ public int ans(int x,int y){
+   int multiply=x*y;
+   return multiply;
+ }
+ public int ans(int x,int y,int z){
+     int multiply =x*y*z;
+     return multiply;
+ }
+ class main
+ {
+  public void main()
+   {
+   myclass ob=new myclass();
+   int x=23;
+   int y=3;
+   int z=1;
+   ob.ans(x,y);
+   ob.ans(x,y,z);
+   }
+ }
+}
 
+In the above examplpe we have used the ans(..) method multiple times using different arguments 
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
