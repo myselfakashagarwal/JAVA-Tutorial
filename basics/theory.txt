@@ -1012,6 +1012,12 @@ here we have passed the variables as arguments to perform data on it there no li
 type of arguments, but before letting input inside  the function will insure and checks the data type 
 of the arguments this is because java is a secure and robust language. 
 
+The sequencce of type of arguments and no of arguments opens door to method overloading aka Polymorphism - using a 
+function more than one time 
+
+
+
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
