@@ -1047,6 +1047,39 @@ invoked at the time a object is created it has a name which is as same as class 
 
 example of constructor 
 
+import java.util.*;
+class myclass
+{
+ int x;
+ myclass(int myx){
+     x=myx;
+ }
+ public void dispaly()
+ {
+     System.out.println(x);
+ }
+ class main
+ {
+  public void main()
+   {
+    Scanner in=new Scanner(System.in);
+    System.out.println("input value to initilize it to the class variable ");
+    int myx=in.nextInt();
+   myclass ob=new myclass(myx);
+   ob.dispaly();
+  
+   }
+ }
+}
+
+in the above example
+variable x is the class variable 
+myclass(int myx) is the constructor with argument myx it assigns the value of myx to the x this constructor gets 
+invoked when the object is created 
+Note: if yoy want to pass value to the constructor make sure input is taken first 
+display() - is a member function which prints the value of class variable aka x 
+
+
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
