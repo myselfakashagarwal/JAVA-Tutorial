@@ -1087,10 +1087,34 @@ Garbage collection ~
 
 Since objects are dynamically allocated by using the new operator, you might be wondering how such objects are 
 destroyed and their memory released for later reallocation. Java takes a different approach; it handles deallocation
- for you automatically. The technique that accomplishes this is called garbage collection
+for you automatically. The technique that accomplishes this is called garbage collection
 
 Garbage collection only occurs sporadically (if at all) during the execution of your program. 
 It will not occur simply because one or more objects exist that are no longer used.
+
+The finalize() method ~
+
+By using finalization, you can define specific actions that will occur when an object is just about to be 
+reclaimed by the garbage collector.
+
+To add a finalizer to a class, you simply define the finalize( ) method. The Java run time calls that method 
+whenever it is about to recycle an object of that class. Inside the finalize( ) method, you will specify those
+actions that must be performed before an object is destroyed. The garbage collector runs periodically, checking 
+for objects that are no longer referenced by any running state or indirectly through other referenced objects. 
+Right before an asset is freed, the Java run time calls the finalize( ) method on the object.
+The finalize( ) method has this general form:
+protected void finalize( ) 
+{
+// finalization code here 
+}
+
+
+Here, the keyword protected is a specifier that prevents access to finalize( ) by code defined outside its class.
+It is important to understand that finalize( ) is only called just prior to garbage collection. It is not called when
+an object goes out-of-scope, for example. This means that you cannot know when—or even if—finalize( ) will be executed.
+Therefore, your program should provide other means of releasing system resources, etc., used by the object.
+It must not rely on finalize( ) for normal program operation.
+
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
