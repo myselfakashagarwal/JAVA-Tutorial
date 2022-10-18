@@ -1083,7 +1083,14 @@ display() - is a member function which prints the value of class variable aka x
 The constructor neither have datatype nor return value but just a name same as class this is because inplict type 
 return of the class Just like methods they can also be oveloaded just like functions constructor is class type itself 
 
+Garbage collection ~
 
+Since objects are dynamically allocated by using the new operator, you might be wondering how such objects are 
+destroyed and their memory released for later reallocation. Java takes a different approach; it handles deallocation
+ for you automatically. The technique that accomplishes this is called garbage collection
+
+Garbage collection only occurs sporadically (if at all) during the execution of your program. 
+It will not occur simply because one or more objects exist that are no longer used.
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
