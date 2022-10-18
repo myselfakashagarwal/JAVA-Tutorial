@@ -1083,6 +1083,47 @@ display() - is a member function which prints the value of class variable aka x
 The constructor neither have datatype nor return value but just a name same as class this is because inplict type 
 return of the class Just like methods they can also be oveloaded just like functions constructor is class type itself 
 
+
+example 
+
+import java.util.*;
+class myclass
+{
+ int x1,x2;
+ myclass(int myx1){
+     x1=myx1;
+ }
+ myclass(int myx1,int myx2){
+     x1=myx1;
+     x2=myx2;
+ }
+ public void dispaly1()
+ {
+     System.out.println(x1);
+     
+ }
+ public void dispaly2()
+ {
+     System.out.println(x1+""+x2);
+     
+ }
+ class main
+ {
+  public void main()
+   {
+    Scanner in=new Scanner(System.in);
+    System.out.println("input value to initilize it to the class variable ");
+    int myx1=in.nextInt();
+    int myx2=in.nextInt();
+   myclass ob1=new myclass(myx1);
+   ob1.dispaly1();
+   myclass ob2=new myclass(myx1,myx2);
+   ob2.dispaly1();
+
+   }
+ }
+}
+
 Garbage collection ~
 
 Since objects are dynamically allocated by using the new operator, you might be wondering how such objects are 
