@@ -1080,6 +1080,10 @@ Note: if yoy want to pass value to the constructor make sure input is taken firs
 display() - is a member function which prints the value of class variable aka x 
 
 
+The constructor neither have datatype nor return value but just a name same as class this is because inplict type 
+return of the class Just like methods they can also be oveloaded just like functions constructor is class type itself 
+
+
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
