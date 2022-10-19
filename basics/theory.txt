@@ -1156,6 +1156,9 @@ an object goes out-of-scope, for example. This means that you cannot know whenâ€
 Therefore, your program should provide other means of releasing system resources, etc., used by the object.
 It must not rely on finalize( ) for normal program operation.
 
+Using object as parameter ~
+
+
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
