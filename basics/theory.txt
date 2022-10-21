@@ -1158,6 +1158,28 @@ It must not rely on finalize( ) for normal program operation.
 
 Using object as parameter ~
 
+Just like variables objects can also be passed as a parameter lets understand it with a example 
+
+Lets have a closer look at argument passing 
+
+there are two ways that a computer can pass a argument 
+1.call by value 
+2.call by reference 
+
+1.call by value ~
+This approcah copies the value of an argument into the sub routine of the method therefore changes made to the sub 
+routine haev noi change to the argumnent When we have to pass a primitive type we uses call by value 
+2. call by reference ~
+In this approach a reference to the argument is passed inside the subroutine reference is used to accesss the actual 
+argument specified in the call.  This means that changes made to the parameter will affect the argument used to call
+the subroutine when we have to pass objects we uses call by reference because in other terms 0object is a refernced 
+variable
+
+
+
+
+
+
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
