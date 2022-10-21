@@ -1204,6 +1204,51 @@ Output
 a and b before call: 15 20
 a and b after call: 15 20
 
+As you can see, the operations that occur inside meth( ) have no effect on the values of a and b used in the call;
+their values here did not change to 30 and 10. When you pass an object to a method, the situation changes dramatically,
+because objects are passed by what is effectively call-by-reference. Keep in mind that when you create a variable of
+a class type, you are only creating a reference to an object. Thus, when you pass this reference to a method, the
+parameter that receives it will refer to the same object as that referred to by the argument. This effectively
+means that objects are passed to methods by use of call-by-reference. Changes to the object inside the method 
+do affect the object used as an argument. For example, consider the following program:
+// Objects are passed by reference.
+
+
+class Test
+{
+int a, b;
+Test(int i, int j)
+{
+a = i;
+b = j;
+}
+// pass an object
+void meth(Test o)
+{
+o.a *= 2;
+o.b /= 2; 
+}
+}
+class CallByRef {
+public static void main(String args[]) {
+Test ob = new Test(15, 20);
+System.out.println("ob.a and ob.b before call: " +ob.a + " " + ob.b);
+ob.meth(ob);
+System.out.println("ob.a and ob.b after call: " +ob.a + " " + ob.b);
+} 
+}
+
+output~
+
+ob.a and ob.b before call: 15 20
+ob.a and ob.b after call: 30 10
+
+As you can see, in this case, the actions inside meth( ) have affected the object used as an argument.
+As a point of interest, when an object reference is passed to a method, the reference itself is passed by use 
+of call-by-value. However, since the value being passed refers to an object, the copy of that value will still
+ refer to the same object that its corresponding argument does.
+
+
 
 
 
