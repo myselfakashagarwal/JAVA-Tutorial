@@ -1281,6 +1281,9 @@ class Main
   }
 }
 
+In the above functionI have created myclass object called myobject inside check function this function is of myclass 
+datatype ie this function will return object. when the following program is compiled check function is called in which 
+myobject is created and returned.
 
 
 
