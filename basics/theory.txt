@@ -1246,7 +1246,41 @@ ob.a and ob.b after call: 30 10
 As you can see, in this case, the actions inside meth( ) have affected the object used as an argument.
 As a point of interest, when an object reference is passed to a method, the reference itself is passed by use 
 of call-by-value. However, since the value being passed refers to an object, the copy of that value will still
- refer to the same object that its corresponding argument does.
+refer to the same object that its corresponding argument does.
+
+returning objects ~
+
+A method can return any type of data its been created of 
+kets understand it with a example ~
+
+import java.util.*;
+class myclass
+{
+int x;
+myclass(int x)
+{
+this.x=x;
+}
+public myclass check()
+{
+ myclass myobject =new myclass(420);
+ return myobject;
+}
+class Main
+  {
+    public void main(String[] args)
+    {
+    Scanner in=new Scanner(System.in);
+    System.out.println("input first value ");
+    int x=in.nextInt();
+    System.out.println("input second value ");
+    int y=in.nextInt();
+    myclass ob=new myclass(69);
+    ob.check();
+    } 
+  }
+}
+
 
 
 
