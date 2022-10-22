@@ -1285,6 +1285,9 @@ In the above functionI have created myclass object called myobject inside check 
 datatype ie this function will return object. when the following program is compiled check function is called in which 
 myobject is created and returned.
 
+Recursion ~
+recursion can be defined as a process in which a function/method calls itself in side its own body this can be done to 
+do recursive tasks, the method that deals with recursion is called recursive method.
 
 
 
