@@ -1289,6 +1289,34 @@ Recursion ~
 recursion can be defined as a process in which a function/method calls itself in side its own body this can be done to 
 do recursive tasks, the method that deals with recursion is called recursive method.
 
+A simple example of a recursive program ~
+
+import java.util.*;
+class myclass
+{
+
+public int myfunction(int x)
+{
+    
+    if(x>69){return 69;}
+    else{
+    System.out.println(x);
+    return myfunction(x+1);
+    }
+    
+}
+class Main
+  {
+    public void main(String[] args)
+    {
+     myclass ob=new myclass();
+     ob.myfunction(0);
+    } 
+  }
+}
+
+
+
 
 
 
