@@ -1304,8 +1304,8 @@ public int myfunction(int x)
     return myfunction(x+1);
     }
     
-}
-class Main
+ }
+ class Main
   {
     public void main(String[] args)
     {
@@ -1314,6 +1314,10 @@ class Main
     } 
   }
 }
+
+In the above example myfunction(..) is returning itself in its body its is returning because both funcions are of 
+same type aka int, this function could have long lasted till the ram runs of to prevent this situation we implements a 
+condition called recursive case this will be executed when or make it executed when our work gets done. 
 
 
 
