@@ -1355,7 +1355,11 @@ class myclass
   }
 }
 
-
+In the above code the class_variable1 and class_variable2 are declared static so they must be initilized in the 
+static block if they are not initilized within the class this initilizing static block is executed only once when 
+the class is first loaded 
+Instance variables declared as static are, essentially, global variables. When objects of its class are declared,
+ no copy of a static variable is made. Instead, all instances of the class share the same static variable.
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
