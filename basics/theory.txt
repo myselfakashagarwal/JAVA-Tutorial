@@ -1319,6 +1319,15 @@ In the above example myfunction(..) is returning itself in its body its is retur
 same type aka int, this function could have long lasted till the ram runs of to prevent this situation we implements a 
 condition called recursive case this will be executed when or make it executed when our work gets done. 
 
+Static ~
+
+Static is used to make member elements accessed before objects of a class are even created 
+Methods declared as static have the following restrictions 
+1. They must access only static data.
+2. They can only call other static methods.
+3. They cannot refer to this and super in any way.
+
+
 
 
 
