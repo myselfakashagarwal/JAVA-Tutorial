@@ -187,6 +187,19 @@ String literals
 String literals in Java are specified like they are in most other languages—by enclosing a sequence of characters between
 a pair of double quotes.
 
+There's a big daddy of constant 😂 - final
+
+The final keyword is used to make variable hold a constant value i.e the value of the variabele never changes no matter 
+what operation is done on it. Variables declared as final do not occupy memory on a per-instance basis.
+
+syntax ~
+final <datatype> <identifier> = <literal>
+
+example ~
+final int MY_DATA = 69;
+
+It is a conention to use capital letter identifiers in case of final.
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
@@ -1359,7 +1372,10 @@ In the above code the class_variable1 and class_variable2 are declared static so
 static block if they are not initilized within the class this initilizing static block is executed only once when 
 the class is first loaded 
 Instance variables declared as static are, essentially, global variables. When objects of its class are declared,
- no copy of a static variable is made. Instead, all instances of the class share the same static variable.
+no copy of a static variable is made. Instead, all instances of the class share the same static variable.
+
+
+
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
