@@ -916,6 +916,7 @@ clearly in mind.
 
 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 .                                               🥶 FUNCTIONS AND METHODS 🥶
@@ -1374,17 +1375,40 @@ the class is first loaded
 Instance variables declared as static are, essentially, global variables. When objects of its class are declared,
 no copy of a static variable is made. Instead, all instances of the class share the same static variable.
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.                                               🥶 INHERRITANCE🥶
+
+Inherritance is one of the main concepts of the oops it opens doors to Implementation of  hierachial classification
+To pass sojme traits to the classes Inherritance is used this this helps class to have predefined traits including
+the properties it may defines
+
+The class from which a class is inherits is called superclass
+The class which gets inherited  from superclass is called derived-class/sub-class 
+
+.                           Before talking about lets have a talk about access specifier ~
+
+Java supports 4 access specifiers ~ 
+1.Public 
+2.Protected 
+3.Private 
+4.Default 
 
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 
 
-
-
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
