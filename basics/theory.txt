@@ -1327,9 +1327,33 @@ Methods declared as static have the following restrictions
 2. They can only call other static methods.
 3. They cannot refer to this and super in any way.
 
+If you need to do computation in order to initialize your static variables, you can declare a static block that gets
+executed exactly once, when the class is first loaded. 
 
+class myclass
+{
 
+  static class_variable1=3;
+  static class_variable2;
 
+  static
+  {
+    System.out.println("Static block has been initilized first independent to sequence of functions ");
+    class_variable2=class_variable1*4;
+  }
+
+  static void mymethod(int my_variable)
+  {
+    System.out.println("The vaue of my_variable is = "+my_variable);
+    System.out.println("The vaue of class_variable1 is = "+class_variable1);
+    System.out.println("The vaue of class_variable2 is = "+class_variable2);
+  }
+  
+  public static void main(Strings[] args)
+  {
+    mymethod(69)
+  }
+}
 
 
 
