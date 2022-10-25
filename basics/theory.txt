@@ -1400,6 +1400,19 @@ Java supports 4 access specifiers ~
 3.Private 
 4.Default 
 
+note: A java package is a group of similar types of classes, interfaces and sub-packages.
+
+1.Public - Public has the highest level of accessability - A method, variable, class, declared can be accessed by any
+other class and methods till accessed class or method  belong to the same package.
+
+2.protected - This access specifier is used for methods and variables the methods and variable will be accessiable 
+to other classes till they belong to the same package.
+
+3.Private - Private has the lowest level of accessiability a variable class method declared in the class will be 
+accessiable within the class only not even outside the class of same package. 
+
+4.Default - in case of no access specifier defined, the variables and  methods will be accessiable to within and 
+outside the class till they all belong to the same package.
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
