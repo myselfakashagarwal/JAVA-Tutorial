@@ -1394,6 +1394,9 @@ The class which gets inherited  from superclass is called derived-class/sub-clas
 
 .                           Before talking about lets have a talk about access specifier ~
 
+Acccess specifier/modifier in a nutshell can be defined as accessability of a member either it is limited to class
+or a class to other class or may even in the packages. These are used for encapsulation.
+
 Java supports 4 access specifiers ~ 
 1.Public 
 2.Protected 
@@ -1413,6 +1416,10 @@ accessiable within the class only not even outside the class of same package.
 
 4.Default - in case of no access specifier defined, the variables and  methods will be accessiable to within and 
 outside the class till they all belong to the same package.
+
+
+
+
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
