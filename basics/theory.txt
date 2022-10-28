@@ -1418,6 +1418,35 @@ accessiable within the class only not even outside the class of same package.
 outside the class till they all belong to the same package.
 
 
+have a look at a simple example of Inherritance
+
+import java.util.*;
+class myclass
+{
+int base_class_variable=69;
+public void myfunction_super()
+{
+   System.out.println("this the function of base class");
+   System.out.println("the variable within the base class is = "+base_class_variable);
+}
+}
+public class myclass_child extends myclass
+{
+int derived_class_variable=420;
+public void myfunction_derived()
+{
+     System.out.println("this the function of super class");
+     System.out.println("the variable within the derived class is = "+base_class_variable+" and "+derived_class_variable);        
+} 
+}
+ class Main
+  {
+    public void main(String[] args)
+    {
+     myclass_child ob_myclass_child =new myclass_child();
+     ob_myclass_child.myfunction_derived();
+    } 
+  }
 
 
 
