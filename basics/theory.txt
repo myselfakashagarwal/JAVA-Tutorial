@@ -1460,6 +1460,8 @@ class, the function of derived class was able to access the the members becasue 
 the myclass as the basic biology also suggests the child will have the properties and behaviour of its parents 
 hence the beauty of inherritance.
 
+Lets understand the power of access modifier ~
+
 
 
 
