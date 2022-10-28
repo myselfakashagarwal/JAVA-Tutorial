@@ -1448,6 +1448,18 @@ public void myfunction_derived()
     } 
   }
 
+In the above example there's a class - myclass which is the parent class this parent class have a function called 
+myfunction_super and a class variabele called base_class_variable which has a datatype of int and a value of 69 
+What we have done here is we have created a class myclass_child but with capabilities of myclass aka its member 
+variable and member methods. To get these properties we have used extends keywords the the line above suggests 
+myclass_child extends the capabilities of myclass 
+
+When the program gets run the object/instance of myclass_child is created thus we have a physical entity when we invoke 
+the function of myclass_child it outputs the value of both variable aka variable of super class and variable of derived
+class, the function of derived class was able to access the the members becasue this myclass_child is a derived from 
+the myclass as the basic biology also suggests the child will have the properties and behaviour of its parents 
+hence the beauty of inherritance.
+
 
 
 
