@@ -1514,10 +1514,10 @@ class myclass
 {
  int base_class_variable;
  int base_class_variable2;
-myclass()
+myclass(int a,int b)
 {
-    base_class_variable=69;
-    base_class_variable2=420;
+    base_class_variable=a;
+    base_class_variable2=b;
 }
 }
 
@@ -1527,7 +1527,7 @@ public class myclass_child extends myclass
 int derived_class_variable;
 myclass_child()
 {
-     super();
+     super(94,420);
      derived_class_variable=420;
 }
 public void myfunction_derived()
@@ -1547,7 +1547,12 @@ public void myfunction_derived()
     } 
   }
 
-  
+The output of the above program:
+this the function of derived class
+the variable within the base class is = 94 and the variable of the derived class is 420
+
+In the above code the super(); is accessing the member variables of the super class in other words it is invoking the 
+constructor of the superclass. 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
