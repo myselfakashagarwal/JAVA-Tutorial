@@ -1507,7 +1507,47 @@ members of super class even if they are declared private.
 syntax of super ~
 super(arguments)
 
-lets understand it with an example 
+lets understand it with an example with public variables 
+
+import java.util.*;
+class myclass
+{
+ int base_class_variable;
+ int base_class_variable2;
+myclass()
+{
+    base_class_variable=69;
+    base_class_variable2=420;
+}
+}
+
+
+public class myclass_child extends myclass
+{
+int derived_class_variable;
+myclass_child()
+{
+     super();
+     derived_class_variable=420;
+}
+public void myfunction_derived()
+{
+     System.out.println("this the function of derived class");
+     System.out.println("the variable within the base class is = "+base_class_variable+" and the variable of the derived class is "+derived_class_variable);        
+} 
+}
+
+
+ class Main
+  {
+    public void main(String[] args)
+    {
+     myclass_child ob_myclass_child =new myclass_child();
+     ob_myclass_child.myfunction_derived();
+    } 
+  }
+
+  
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
