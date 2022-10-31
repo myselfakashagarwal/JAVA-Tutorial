@@ -1491,8 +1491,12 @@ public void myfunction_derived()
     } 
   }
 
-
-
+The above program will not be executed because the derived class' function is accessing the base_class_variabele2
+which is not accessiable because it is defined as private, as we discussed earlier private members are only accessiable
+within the class only, while the base_class_variable is accessiable because its access modifier is set to be default 
+which made variable and methods accessiable outside the class till they are in the same package. Protected is nearly 
+same as public but its not ment for classes declared within a class aka a protected class inside a class will not be 
+accessiable to class outside its ancestor class.
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
