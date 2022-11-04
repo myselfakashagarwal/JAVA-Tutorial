@@ -1340,17 +1340,16 @@ no copy of a static variable is made. Instead, all instances of the class share 
 
 .                                               🥶 INHERRITANCE🥶
 
-Inherritance is one of the main concepts of the oops it opens doors to Implementation of  hierachial classification
-To pass sojme traits to the classes Inherritance is used this this helps class to have predefined traits including
-the properties it may defines
+Inherritance is one of the main concepts of the oops it opens doors to Implementation of  hierachial classification To pass sojme traits to the classes 
+Inherritance is used this this helps class to have predefined traits including the properties it may defines
 
 The class from which a class is inherits is called superclass
 The class which gets inherited  from superclass is called derived-class/sub-class 
 
 .                           Before talking about lets have a talk about access specifier ~
 
-Acccess specifier/modifier in a nutshell can be defined as accessability of a member either it is limited to class
-or a class to other class or may even in the packages. These are used for encapsulation.
+Acccess specifier/modifier in a nutshell can be defined as accessability of a member either it is limited to class or a class to other class or may 
+even in the packages. These are used for encapsulation.
 
 Java supports 4 access specifiers ~ 
 1.Public 
@@ -1360,20 +1359,20 @@ Java supports 4 access specifiers ~
 
 note: A java package is a group of similar types of classes, interfaces and sub-packages.
 
-1.Public - Public has the highest level of accessability - A method, variable, class, declared can be accessed by any
-other class and methods and other packages
+1.Public - Public has the highest level of accessability - A method, variable, class, declared can be accessed by any other class and methods and other 
+packages
 
-2.protected - This access specifier is used for methods and variables the methods and variable will be accessiable 
-to other classes till they belong to the same package.
+2.protected - This access specifier is used for methods and variables the methods and variable will be accessiable to other classes till they belong to 
+the same package.
 
-3.Private - Private has the lowest level of accessiability a variable class method declared in the class will be 
-accessiable within the class only not even outside the class of same package. 
+3.Private - Private has the lowest level of accessiability a variable class method declared in the class will be accessiable within the class only not 
+even outside the class of same package. 
 
-4.Default - in case of no access specifier defined, the variables and  methods will be accessiable to within and 
-outside the class till they all belong to the same package.
+4.Default - in case of no access specifier defined, the variables and  methods will be accessiable to within and outside the class till they all belong 
+to the same package.
 
 
-have a look at a simple example of Inherritance
+Have a look at a simple example of Inherritance ~
 
 import java.util.*;
 class myclass
@@ -1414,6 +1413,55 @@ the function of myclass_child it outputs the value of both variable aka variable
 class, the function of derived class was able to access the the members becasue this myclass_child is a derived from 
 the myclass as the basic biology also suggests the child will have the properties and behaviour of its parents 
 hence the beauty of inherritance.
+
+Constructor calling by the sub class 
+When the object of the sub class is created all constructors of the main class including all parent's class constructor are called.
+
+Lets have a quick example~
+
+import java.util.*;
+class myclassa
+{
+    myclassa()
+    {
+        
+        System.out.println("The constructor of mainclass have been invoked ");
+        
+    }
+}
+class mysubclassb extends myclassa
+{
+   mysubclassb()
+   {
+       
+       System.out.println("The constructor of subclass have been invoked ");
+       
+   }
+}
+ public class mysubclassc extends mysubclassb{
+    
+    mysubclassc()
+   {
+       
+       System.out.println("The constructor of subclass of subclass have been invoked ");
+       
+   }
+}
+    
+class main
+{
+   public void main()
+  {
+          Scanner in=new Scanner(System.in);
+          mysubclassc ob=new mysubclassc();
+  }
+}
+
+output of the following program is ~
+
+The constructor of mainclass have been invoked 
+The constructor of subclass have been invoked 
+The constructor of subclass of subclass have been invoked 
 
 Lets understand the power of access modifier ~
 
@@ -1489,13 +1537,23 @@ public class mysubclass extends myclass
 
 
 Super ~
-Super in a nutshell can be defined as subclass calling the constructor of the superrclass
+
+Super in a nutshell can be defined as keyword used to access members of super class
+1. To invoke the constructor of the superrclass
 There may be a case when the variabels of the super class is defined as private thus as we discussed an example earlier 
 those members cannnot be accessed outside of the class,💥 boom here comes super which help subclass to access the data 
 members of super class even if they are declared private.
+2. To invoke the method of super class in case of overriding 
+3. To access the member variable of the super class. 
 
-syntax of super ~
+super in case of accessing the variable of superclass
+super.variable;
+
+super in case of invoking the constructor of the superclass 
 super(arguments)
+
+super in case of accessing methods 
+super.method();
 
 lets understand it with an example with public variables 
 
@@ -1511,7 +1569,6 @@ myclass(int a,int b)
 }
 }
 
-
 public class myclass_child extends myclass
 {
 int derived_class_variable;
@@ -1526,7 +1583,6 @@ public void myfunction_derived()
      System.out.println("the variable within the base class is = "+base_class_variable+" and the variable of the derived class is "+derived_class_variable);        
 } 
 }
-
 
  class Main
   {
