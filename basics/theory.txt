@@ -1402,17 +1402,15 @@ public void myfunction_derived()
     } 
   }
 
-In the above example there's a class - myclass which is the parent class this parent class have a function called 
-myfunction_super and a class variabele called base_class_variable which has a datatype of int and a value of 69 
-What we have done here is we have created a class myclass_child but with capabilities of myclass aka its member 
-variable and member methods. To get these properties we have used extends keywords the the line above suggests 
-myclass_child extends the capabilities of myclass 
+In the above example there's a class - myclass which is the parent class this parent class have a function called myfunction_super and a class variabele 
+called base_class_variable which has a datatype of int and a value of 69 What we have done here is we have created a class myclass_child but with 
+capabilities of myclass aka its member variable and member methods. To get these properties we have used extends keywords the the line above suggests 
+myclass_child extends the capabilities of myclass.
 
-When the program gets run the object/instance of myclass_child is created thus we have a physical entity when we invoke 
-the function of myclass_child it outputs the value of both variable aka variable of super class and variable of derived
-class, the function of derived class was able to access the the members becasue this myclass_child is a derived from 
-the myclass as the basic biology also suggests the child will have the properties and behaviour of its parents 
-hence the beauty of inherritance.
+When the program gets run the object/instance of myclass_child is created thus we have a physical entity when we invoke the function of myclass_child 
+it outputs the value of both variable aka variable of super class and variable of derived class, the function of derived class was able to access the 
+the members becasue this myclass_child is a derived from the myclass as the basic biology also suggests the child will have the properties and behaviour 
+of its parents hence the beauty of inherritance.
 
 Constructor calling by the sub class 
 When the object of the sub class is created all constructors of the main class including all parent's class constructor are called.
@@ -1494,11 +1492,10 @@ public void myfunction_derived()
     } 
   }
 
-The above program will not be executed because the derived class' function is accessing the base_class_variabele2
-which is not accessiable because it is defined as private, as we discussed earlier private members are only accessiable
-within the class only, while the base_class_variable is accessiable because its access modifier is set to be default 
-which made variable and methods accessiable outside the class till they are in the same package. Protected is nearly 
-same as public but its not ment for classes declared within a class aka a protected class inside a class will not be 
+The above program will not be executed because the derived class' function is accessing the base_class_variabele2 which is not accessiable because it 
+is defined as private, as we discussed earlier private members are only accessiable within the class only, while the base_class_variable is accessiable 
+because its access modifier is set to be default which made variable and methods accessiable outside the class till they are in the same package.
+Protected is nearly same as public but its not ment for classes declared within a class aka a protected class inside a class will not be 
 accessiable to class outside its ancestor class.
 
 Final ~
@@ -1539,10 +1536,9 @@ public class mysubclass extends myclass
 Super ~
 
 Super in a nutshell can be defined as keyword used to access members of super class
-1. To invoke the constructor of the superrclass
-There may be a case when the variabels of the super class is defined as private thus as we discussed an example earlier 
-those members cannnot be accessed outside of the class,💥 boom here comes super which help subclass to access the data 
-members of super class even if they are declared private.
+1. To invoke the constructor of the superrclass There may be a case when the variabels of the super class is defined as private thus as we discussed an 
+example earlier those members cannnot be accessed outside of the class,💥 boom here comes super which help subclass to access the data members of super 
+class even if they are declared private.
 2. To invoke the method of super class in case of overriding 
 3. To access the member variable of the super class. 
 
@@ -1597,8 +1593,22 @@ The output of the above program:
 this the function of derived class
 the variable within the base class is = 94 and the variable of the derived class is 420
 
-In the above code the super(); is accessing the member variables of the super class in other words it is invoking the 
-constructor of the superclass. 
+In the above code the super(); is accessing the member variables of the super class in other words it is invoking the constructor of the superclass. 
+
+Types of inherritance ~
+
+Java supports the following types of inherritance 
+1.Single level 
+2.Multi level
+3.Multiple Inheritance
+4.Hierarchical Inheritance
+5.Hybrid Inheritance
+
+1. In single level inherritance only one class is inherrited by the main class thus named single level inherritance.
+2. In Multi level inherriatance main class have 2 or more subclasses including subclass of the subclass 
+3. In Hierarchical inherritance more than one base class gets inherit fro the main class 
+4. In multiple inherriatance a class can be derived from more than one class aka a child have have multiple parents for 🇮🇳 ("mera do do baap ") 😂
+5. IN Hybrid inherritance Although it is not supported in java it can be defined as have more than one type of inherriatance
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
