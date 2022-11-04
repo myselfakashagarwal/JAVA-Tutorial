@@ -1454,10 +1454,38 @@ same as public but its not ment for classes declared within a class aka a protec
 accessiable to class outside its ancestor class.
 
 Final ~
-We have discussed final earlier that the literal stored in a constant variable cannot be modified This can also be used for to avoid inherritance
-If the main class is declared final than the subclass will not be inherrited.
 
-Final ~ 
+Apart from storing constant final have also have 2 use cases in inherriatance 
+1.If the main class is declared final than the subclass will not be inherrited.
+2.Similarly it also prevents overriding - which is when a super class have a method id same as subclass method id the method of super class gets 
+overrided by subclass method for example ~
+
+import java.util.*;
+class myclass
+{
+    public void display()
+    {
+        System.out.println("this is the method of the main class ");
+    }
+}
+public class mysubclass extends myclass
+{
+    public void dispaly()
+    {
+        System.out.println("this is the method of subclass");
+    }
+}
+    
+    class main
+    {
+        public void main()
+        {
+          Scanner in=new Scanner(System.in);
+          mysubclass ob=new mysubclass();
+          ob.display();
+        }
+    }
+
 
 
 Super ~
