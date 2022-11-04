@@ -15,12 +15,10 @@ java is object oriented and roubust it is complex but easy to under stand as per
 
 before going deep into java lets take a small talk 
 
-Program is composed of code and data 
-There are two paradigrams in programing ie porcess oriented and object oriented 
-process oriented is like code acting on data process oriented is decent when we have small program.
-When the program gets large the process oriented approach is hard , Thus difficult to manage the program 
-to overcome this pop problems oop was born object orient is like data acting on code.
-using oop we can have manyt benefits like scalibility reuseability and easy to manage complexity 
+Program is composed of code and data There are two paradigrams in programing ie porcess oriented and object oriented process oriented is like code 
+acting on data process oriented is decent when we have small program.When the program gets large the process oriented approach is hard , Thus 
+difficult to manage the program to overcome this pop problems oop was born object orient is like data acting on code.using oop we can have many 
+benefits like scalibility reuseability and easy to manage complexity 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -32,28 +30,24 @@ using oop we can have manyt benefits like scalibility reuseability and easy to m
 
 oop have 4 principles 
 
-Abstraction 
-Encapsulation 
-Inherritance 
-Polymorphism 
+1.Abstraction 
+2.Encapsulation 
+3.Inherritance 
+4.Polymorphism 
 
-
 Abstraction 
-We manage complexity with the help of Abstraction, 
-Abstractionis implemented with the help of hierachial classification
+We manage complexity with the help of Abstraction, Abstractionis implemented with the help of hierachial classification
 
 Encapsulation
-Encapsulationis the mechanism which is used to bind code and data it manipulates .
-It provides secuerity 
-One of the best example of Encapsulation is class (all data and code resides within the class) 
+Encapsulationis the mechanism which is used to bind code and data it manipulates .It provides secuerity One of the best example of Encapsulation is 
+class (all data and code resides within the class) 
 
 Inherritance
-Inherritancecan be defined as methedology according to which a object acquires the properties of other object
-Inherritance supports the concept of hierachial classification
+Inherritancecan be defined as methedology according to which a object acquires the properties of other object Inherritance supports the concept of 
+hierachial classification
 
 Polymorphism
-Polymorphism can be defined as using a item more than once aka reuseability of code 
-A promient example of Polymorphism is interface 
+Polymorphism can be defined as using a item more than once aka reuseability of code A promient example of Polymorphism is interface 
 
 Enough Small talk lets talk about java 😂 ☕️ 
 
@@ -67,8 +61,8 @@ Enough Small talk lets talk about java 😂 ☕️
 
 Must do in java 
 
-All java files are saved with extension of (.java) because in java source file is ofiicially a compilation unit 
-In java class name must be same as file name this is because in java all code resides within the class  
+All java files are saved with extension of (.java) because in java source file is ofiicially a compilation unit In java class name must be same as file
+name this is because in java all code resides within the class  
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -85,11 +79,9 @@ jdk=java development kit
 jvm=java virtual machine 
 jre=java runtime environment
 
-javac creates a file whose name is same as class but with extension of (.class) this file contains the byte code
-of the progarm this byte code is a intermediate representation of instruction that your jvm will execute 
-
-When Java source code is compiled, each individual class is put into its own output file named after the class 
-and using the .class extension. 
+javac creates a file whose name is same as class but with extension of (.class) this file contains the byte code of the progarm this byte code is a 
+intermediate representation of instruction that your jvm will execute When Java source code is compiled, each individual class is put into its own 
+output file named after the class and using the .class extension. 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -99,16 +91,15 @@ and using the .class extension.
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-Java's syntax is a composed of whitespace identifiers literals comments opreators seperators and keywords and emotions
+Java's syntax is a composed of whitespace identifiers literals comments opreators seperators and keywords and emotions(🌚)
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 whitespace = ' '
 
-Java is a free-form language. This means that you do not need to follow any special indentation rules.For instance,
-the  program could have been written all on one line or in any other strange way you felt like typing it,
-as long as there was at least one whitespace character between each token that was not already delineated by an
-operator or separator.In Java, whitespace is a space, tab, or newline.
+Java is a free-form language. This means that you do not need to follow any special indentation rules.For instance,the  program could have been written
+all on one line or in any other strange way you felt like typing it,as long as there was at least one whitespace character between each token that was
+not already delineated by anoperator or separator.In Java, whitespace is a space, tab, or newline.
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -123,8 +114,8 @@ there are three types of comments
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-keywords = keywords can be defined as special words in java that depecites a special meaning to compiler
-In addition to keywords java reserves the following words true false and null 
+keywords = keywords can be defined as special words in java that depecites a special meaning to compiler In addition to keywords java reserves the 
+following words true false and null 
 
 keywords are 
 
@@ -149,15 +140,13 @@ period . - Used to separate package names from subpackages and classes. Also use
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-identifiers = indentifiers can be defined as name given to memory location these are thought by user 
-examples of identifiers are myvariable, myconsttant, myarray or any thing user wishes to name but
-they must not begin with a number because it may confuse compiler either it is variable or value and it must also must not 
-have /  and - inbetween character
+identifiers = indentifiers can be defined as name given to memory location these are thought by user examples of identifiers are myvariable, myconsttant,
+myarray or any thing user wishes to name but they must not begin with a number because it may confuse compiler either it is variable or value and it 
+must also must not have /  and - inbetween character.
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-literals= literals are const values stored in variables 
-example 69 , 420 , 94 ,007 , 'a' ,"mystringx" and many more 😂
+Literals= literals are const values stored in variables example 69 , 420 , 94 ,007 , 'a' ,"mystringx" and many more 😂
 
 Let's have a deep dive into them 💡 Before going to start about literals have have a small talk about number system 
 
@@ -174,39 +163,32 @@ There are mainly  kinds of number system
 |                                                                         |
 ---------------------------------------------------------------------------
 
-In the above table the base show how many type of character a number system is composed of, and the Composition tells
-about types of character it have 
+In the above table the base show how many type of character a number system is composed of, and the Composition tells about types of character it have 
 
 Let's move back to literals 
 
 Integer literals 
-Any whole number value is an integer literal 
-An integer literal can always be assigned to a long variable. However, to specify a long literal, you will need to 
-explicitly tell the compiler that the literal value is of type long. You do this by appending an upper- or lowercase
-L to the literal. For example, 0x7ffffffffffffffL or 9223372036854775807L is the largest long. An integer can also 
-be assigned to a char as long as it is within range.
+Any whole number value is an integer literal An integer literal can always be assigned to a long variable. However, to specify a long literal, you will
+need to explicitly tell the compiler that the literal value is of type long. You do this by appending an upper- or lowercase L to the literal.
+ For example, 0x7ffffffffffffffL or 9223372036854775807L is the largest long. An integer can also be assigned to a char as long as it is within range.
 
 Floating point literals 
-Floating-point literals in Java default to double precision. To specify a float literal, you must append 
-an F or f to the constant. You can also explicitly specify a double literal by appending a D or d. Doing so is,
-of course, redundant. The default double type consumes 64 bits of storage, while the less-accurate float type
-requires only 32 bits.
+Floating-point literals in Java default to double precision. To specify a float literal, you must append an F or f to the constant. You can also
+explicitly specify a double literal by appending a D or d. Doing so is, of course, redundant. The default double type consumes 64 bits of storage,
+while the less-accurate float type requires only 32 bits.
 
 Boolean literals
-Boolean literals are simple. There are only two logical values that a boolean value can have, true and false. 
-The values of true and false do not convert into any numerical representation. The true literal in Java does not equal 1,
-nor does the false literal equal 0. In Java, they can only be assigned to variables declared as boolean, or used in 
-expressions with Boolean operators.
+Boolean literals are simple. There are only two logical values that a boolean value can have, true and false. The values of true and false do not convert
+into any numerical representation. The true literal in Java does not equal 1, nor does the false literal equal 0. In Java, they can only be assigned 
+to variables declared as boolean, or used in expressions with Boolean operators.
 
 Character literal
-Characters in Java are indices into the Unicode character set. They are 16-bit values that can be converted into integers
-and manipulated with the integer operators, such as the addition and subtraction operators. A literal character is 
-represented inside a pair of single quotes. All of the visible ASCII characters can be directly entered inside the quotes,
-such as ‘a’, ‘z’, and ‘@’.
+Characters in Java are indices into the Unicode character set. They are 16-bit values that can be converted into integers and manipulated with the 
+integer operators, such as the addition and subtraction operators. A literal character is represented inside a pair of single quotes. All of the visible
+ASCII characters can be directly entered inside the quotes, such as ‘a’, ‘z’, and ‘@’.
 
 String literals
-String literals in Java are specified like they are in most other languages—by enclosing a sequence of characters between
-a pair of double quotes.
+String literals in Java are specified like they are in most other languages—by enclosing a sequence of characters between a pair of double quotes.
 
 There's a big daddy of constant 😂 - final
 
@@ -219,7 +201,7 @@ final <datatype> <identifier> = <literal>
 example ~
 final int MY_DATA = 69;
 
-It is a conention to use capital letter identifiers in case of final.
+It is a convention to use capital letter identifiers in case of final.
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -232,9 +214,8 @@ It is a conention to use capital letter identifiers in case of final.
 
 .                                              🥶 DATA TYPES 🥶
 
-Java’s safety and robustness comes from this fact. Let’s see what this means. First, every variable has a type,
-every expression has a type, and every type is strictly defined. Second, all assignments,
-whether explicit or via parameter passing in method calls, are checked for type compatibility.
+Java’s safety and robustness comes from this fact. Let’s see what this means. First, every variable has a type, every expression has a type, and every 
+type is strictly defined. Second, all assignments, whether explicit or via parameter passing in method calls, are checked for type compatibility.
 
 Java's datatypes are mainly divided into 2 parts ~
 1.Primitive      -    these are predefined in java   these are also called as simple datatype
@@ -265,8 +246,7 @@ Integers are divided into four groups namely ~
 
 1.b Floating point 
 
-They are also known as real numbers. Sometimes evaluating expression we need point precise values 
-To counter this problem Float and Double are born 
+They are also known as real numbers. Sometimes evaluating expression we need point precise values To counter this problem Float and Double are born 
 
 -------------------------------------------------------------------------------------
 |  Name   Width(in bits)     range                                                  |
@@ -291,8 +271,8 @@ Extended characterset of ISO-Latin-1 ranges from 0 to 255
 
 1.d Boolean 
 
-Boolean is for logical values it can only have two possible outcomes either true or false. 
-The number of bytes in a boolean is a measure of its logical value. Its size is not defined in java it depends on compiler
+Boolean is for logical values it can only have two possible outcomes either true or false. The number of bytes in a boolean is a measure of its 
+logical value. Its size is not defined in java it depends on compiler
 
 -------------------------------------------------------------------------------------
 |  Name   Width(in bits)     range                                                  |
@@ -318,11 +298,14 @@ String and arrays - we will cover this after some essential topics are covered
 
 A variable is the basic storage unit in java program it have a type(datatype) identifier and an optional initilization
 All variables have a scope and their lifeline (identifier is the name of the variable) 
+
 let's take an example by declaring a variable 
 int myvariable;  //declaring a variable 
 myvariable=69;   //initilization of my variable 
-here ~ int is the datatype and myvariable is an identifier and 69 is an integer literal or the value initilized to myvariable
-the value of 69 is assigned by an operator we will discuss about operators after that 😉
+
+here, int is the datatype and myvariable is an identifier and 69 is an integer literal or the value initilized to myvariable
+The value of 69 is assigned by an operator we will discuss about operators after that 😉
+
 we can declare multiple variables of same datatype at same time 
 for example 
 int a,b,c,d,e;
@@ -332,17 +315,16 @@ example of Dynamic inilitization ~
 int myvariable=69;
 
 Let's talk about life and scope of variables 
-All variables defined within the class can be access by all the functions within the class these are also called as 
-member variables 
-A variable defined within the scope(block of code inside curly braces) cannot be accessiable outside the scope 
-because variables defined within the scope are destroyed the their scope is left 
+All variables defined within the class can be access by all the functions within the class these are also called as member variables 
+A variable defined within the scope(block of code inside curly braces) cannot be accessiable outside the scope because variables defined within the 
+scope are destroyed the their scope is left 
 
 Type casting and type conversion 
-When we transfer value of one datatype to another datatype there is either the loss of data or there's no lost of data
-if the transfer of value or copying of value is in same datatype that's does not have a problem 
+When we transfer value of one datatype to another datatype there is either the loss of data or there's no lost of data if the transfer of value or 
+copying of value is in same datatype that's does not have a problem 
 
-In type conversion value of datatype is automaticially to another datatype by compiler But in type conversion value of 
-conversion of one datatype must be smaller than other datatype for example
+In type conversion value of datatype is automaticially to another datatype by compiler But in type conversion value of conversion of one datatype 
+must be smaller than other datatype for example
 int a=10;
 float b;
 b=a;
@@ -362,10 +344,8 @@ Two types are compatiable
 Destination type is larger than source type 
 
 Automatic type promotion 
-Java supports automatic type promotion in expression aka in an expression with multiple datatypes the result will automaticially
-will be converted to datatype with higher range 
-
-
+Java supports automatic type promotion in expression aka in an expression with multiple datatypes the result will automaticiallyn will be converted to
+datatype with higher range 
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -378,15 +358,13 @@ will be converted to datatype with higher range
 
 .                                            🥶 OPERATORS 🥶
 
-Well well well ... you have survived till now ,😂 now lets give you a more java concept 
+Well well well ... you have survived till now ,😂 now lets give you more java concepts
 
 operators are used to perform task on perands aka performs operations 
 
-
-
-1. Arithmetic operator 
-Arithmetic operators are the most common used operator in java they are used in mathematical expression just like 
-algebra. They are used to perform task on 2 operands but can be chained to perform complex tasks 
+1. Arithmetic operator ~
+Arithmetic operators are the most common used operator in java they are used in mathematical expression just like algebra. They are used to perform 
+task on 2 operands but can be chained to perform complex tasks 
 
 -----------------------------------------------------------------------
 |                                                                     |
@@ -406,7 +384,7 @@ algebra. They are used to perform task on 2 operands but can be chained to perfo
 -----------------------------------------------------------------------
 
 
-Increment and decrement operator 
+Increment and decrement operator ~
 Increament/decrement operator are used in multiple cases like loops. They are quite helpful in irritations kinda stuff
 
 -------------------------------------------------------------
@@ -416,7 +394,7 @@ Increament/decrement operator are used in multiple cases like loops. They are qu
 |                                                           |
 -------------------------------------------------------------
 
-arithmatic compound operator 
+arithmatic compound operator ~
 += is an arithmatic compound operator this is used to assign value to itself with addition to any more operator 
 for example 
 declaring a just for example 
@@ -435,7 +413,7 @@ aka~
 %=
 
 
-2. bitwise operator 
+2. bitwise operator ~
 these operator perform functions on bits there are multiple bitwise operator ~
 
 ----------------------------------------------------
@@ -464,7 +442,7 @@ lets talk buisness 😂
 is also called complement operator it is an uranary operator it reverts the bits in of the varibale on which operation is being performend 
 
 & bitwise AND
-work between bits of two operand if the both bits are same it will return true aka 1 else it will return false 
+work between bits of two operand if the both bits are true it will return true aka 1 else it will return false 
 
 | bitwise OR 
 work between two bits of two operand if one of the bits is true the answer is true aka 1 else the answer will be false 
@@ -527,20 +505,16 @@ Relational operators is used to find relation between two operands
 -----------------------------------------------------------------------------------------------
 
 4.Short circut logical operator 
-java provides special boolean logical operator which is not found in many other languages 
-These are also known as short-circut logiacl operators 
+java provides special boolean logical operator which is not found in many other languages These are also known as short-circut logiacl operators 
 
-As you can see from the preceding table, the OR operator results in true when A is true, no matter what B is.
-Similarly, the AND operator results in false when A is false, no matter what B is. If you use the || and && forms,
-rather than the | and & forms of these operators, Java will not bother to evaluate the right-hand operand when the
-outcome of the expression can be determined by the left operand alone. This is very useful when the right-hand 
-operand depends on the value of the left one in order to function properly.
+As you can see from the preceding table, the OR operator results in true when A is true, no matter what B is. Similarly, the AND operator 
+results in false when A is false, no matter what B is. If you use the || and && forms, rather than the | and & forms of these operators, 
+Java will not bother to evaluate the right-hand operand when the outcome of the expression can be determined by the left operand alone.
+This is very useful when the right-hand operand depends on the value of the left one in order to function properly.
 
 5. Boolean logical operator
-The boolean logical operators do work only on boolean operands 
-these are just logical operators working on boolean operands 
-boolean logiacal operator have all bitwise opeartor and bitwise assignment operator and most used &&  and ||
-this && and || can be used to chain multiple conditions 
+The boolean logical operators do work only on boolean operands these are just logical operators working on boolean operands boolean logiacal 
+operator have all bitwise opeartor and bitwise assignment operator and most used &&  and || this && and || can be used to chain multiple conditions 
 
 6. The ? operator
 The ? is a ternary operator this can be used in multiple cases like it can replace if-then-else
@@ -572,13 +546,10 @@ Highest
 =  op=
 lowest
 
-in addition to precedence seperators do also simplify the meaning of the expression in most of the cases the associativity
-is left to right i.e the the precedence of an expression is same at the both side the left side will be operational first 
+in addition to precedence seperators do also simplify the meaning of the expression in most of the cases the associativity is left to right i.e 
+the the precedence of an expression is same at the both side the left side will be operational first 
 
-Arithmetic Operators. 
-Relational Operators
-Bitwise Operators 
-Boolean Logical Operators
+Arithmetic Operators > Relational Operators > Bitwise Operators > Boolean Logical Operators
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -592,8 +563,7 @@ Boolean Logical Operators
 .                                                🥶 CONTROL STATEMENTS 🥶
 
 
-Control statements are the building blocks of a program they are used in countless algorithms they are used to control 
-flow of programs 
+Control statements are the building blocks of a program they are used in countless algorithms they are used to control flow of programs 
 Java have the following control statemnets 
 1. Conditional Statements 
 2. Loops 
@@ -619,21 +589,21 @@ if(condition)
   task ;
 }
 
-1.B if else - if else is the upgraded version of the if it contains a extra block which will be executed if the 
-condition fails to satisfy
+1.B if else - if else is the upgraded version of the if it contains a extra block which will be executed if the condition fails to satisfy
 
-if(condition){
+if(condition)
+{
   task;
 }
-else{
+else
+{
   task;
 }
 
-1.C if then else - In a nutshell, if then else can be described as multiple if and single else . If then else have 
-multiple conditions chained to it in this control statement condition is checked once at a  time if all the conditions 
-fails to satisfy it comes to else part the number of conditions is as per user's choice. But if the condition is 
-satisfied at the starting it will not execute the other condition aka if the condition satisfies the upcomming 
-will neither be checked nor executed  
+1.C if then else - In a nutshell, if then else can be described as multiple if and single else . If then else have multiple conditions chained 
+to it in this control statement condition is checked once at a  time if all the conditions fails to satisfy it comes to else part the number of 
+conditions is as per user's choice. But if the condition is satisfied at the starting it will not execute the other condition aka if the condition 
+satisfies the upcomming will neither be checked nor executed  
 
 if(condition){
   task;
@@ -651,10 +621,9 @@ else{
   task;
 }
 
-1.D switch case - here comes the real bully 😂 switch case is similar to if then else but compleately different in terms of 
-syntax "I know you saw it comming 😂" switch case take operand and then checkes the multiple condition on it if the 
-condition satisfies it will execute the task but if the all conditions fails to satisfy it will also have a defult case 
-note the case parameters will not take a variable or boolean expression as an argument 
+1.D switch case - here comes the real bully 😂 switch case is similar to if then else but compleately different in terms of syntax "I know you saw it 
+comming 😂" switch case take operand and then checkes the multiple condition on it if the condition satisfies it will execute the task but if the all 
+conditions fails to satisfy it will also have a defult case note the case parameters will not take a variable or boolean expression as an argument 
 
 switch(operand)
 {
@@ -676,19 +645,16 @@ task;
 }
 
 
-lets talk about loops ~ they are also known as irritations control statements
-Loops are used to execute statements or set of statements multiple times as per as user choice 
-
+lets talk about loops ~ they are also known as irritations control statements Loops are used to execute statements or set of statements multiple times
+as per as user choice 
 
 in java there are mainly three kinds of loops 
 1.For loop
 2.while loop
 3.do while loops
 
-
-2.A for loop - for loop is used to execute a statement multiple times it depends on the control variable.
- Control varibale is used in multiple cases like initilization, for checking the condition and control it to 
-to manage no of irritations
+2.A for loop - for loop is used to execute a statement multiple times it depends on the control variable. Control varibale is used in multiple cases like 
+initilization, for checking the condition and control it to to manage no of irritations
 
 for loop has the folowing syntax ~
 
@@ -708,29 +674,29 @@ for(i=1;i<=j;i++)
   System.out.println("hello world);
 }
 
-the following code will print the hello world 10 times because the initial value of control variable is zero in this case 
-the hello world will be printed till the control the control variable satisfies the condition in this case the hello world 
-is printed 10 times because the value of control variable is incremented by 1 at a time if the value of the control variable 
-is incremented by two the hello world will be printed 5 times 
+the following code will print the hello world 10 times because the initial value of control variable is zero in this case the hello world will be printed 
+till the control the control variable satisfies the condition in this case the hello world is printed 10 times because the value of control variable is 
+incremented by 1 at a time if the value of the control variable is incremented by two the hello world will be printed 5 times 
 
 2.B while loop- while loops is the most basic loop in java it mainly depends on the condition it will execute the task or 
 set of statements till the condition satisfies 
 
 its syntax ~
 
-while(condition){
+while(condition)
+{
   task;
 }
 
 lets understand with a example ~
 int j=10;
-while(j>0){
+while(j>0)
+{
   System.out.println("hello world" );
 }
 
-As output  the following code will print the hello world infinite time because the the condition is always true it will
-terminate the loop only when the condition fails to satisfy or we use jump statements this infinite case occurs
-same with all loops 
+As output  the following code will print the hello world infinite time because the the condition is always true it will terminate the loop only when the 
+condition fails to satisfy or we use jump statements this infinite case occurs same with all loops 
 
 To make the irritations finite we must make a such a statement that will falsifies the condition 
 
@@ -742,11 +708,10 @@ while(j<0){
   j--;
 }
 
-in ghe above case the value of j is being decreasing by 1 after each irritation there will be a time when the condition fails 
-to satisfy in that case it will make control to jump out of the loop
+In the above case the value of j is being decreasing by 1 after each irritation there will be a time when the condition fails to satisfy in that case it 
+will make control to jump out of the loop
 
-2.C do while loop - in a nutshell do whie loop is same as while but in this case condition is checked first then the task is 
-performed. 
+2.C do while loop - in a nutshell do whie loop is same as while but in this case condition is checked first then the task is performed. 
 
 syntax ~
 
@@ -755,8 +720,8 @@ task;
 while(condition);
 }
 
-In this case the task is performed one no matter what the condition is. On the other hand while loop check condition first 
-note in the case of do while there's a semicolon after the while statement 
+In this case the task is performed one no matter what the condition is. On the other hand while loop check condition first note in the case of do while 
+there's a semicolon after the while statement 
 
 for exampe ~
 
@@ -775,18 +740,19 @@ break and continue are the jump statements i.e they are used to skip one step of
 
 break ~
 
-For example leta have a senario in the mind that we are in a loop and our task has been compleated before all 
-the irritations then the other irritations executed after our work are useless 
+For example leta have a senario in the mind that we are in a loop and our task has been compleated before all the irritations then the other irritations 
+executed after our work are useless.
 lets take an example 
 
 our aim in this task is to print hello world ten times
 
-for(int i=0;i<69;i++){
+for(int i=0;i<69;i++)
+{
   System.out.println("hello world);
 }
 
-in the above example the hello world will be printed 69 times but as we have discussed earlier we wanted to prin t hello 
-world ten time to counter this situation we will add break afterbour work gets compleated 
+in the above example the hello world will be printed 69 times but as we have discussed earlier we wanted to print hello world ten time to counter this 
+situation we will add break afterbour work gets compleated 
 
 for(int i=0;i<69;i++){
   System.out.println("hello world);
@@ -795,8 +761,8 @@ for(int i=0;i<69;i++){
   }
 }
 
-what we have done is we have added the break statement after the tenth irritations so what it will do it will 
-will make control to jump out of the loop and the other irritatins will not be executed 
+what we have done is we have added the break statement after the tenth irritations so what it will do it will will make control to jump out of the 
+loop and the other irritatins will not be executed 
 
 continue ~
 
@@ -816,8 +782,7 @@ else
 System.out.println(i);
 }
 }
-what we have done here is we have prrinted all number as the loop irritates but when our unwanted execute part 
-comes we will skip that part using continue
+what we have done here is we have prrinted all number as the loop irritates but when our unwanted execute part comes we will skip that part using continue
 
  the output of the folloeing loop is 
  1
@@ -830,9 +795,7 @@ comes we will skip that part using continue
  9
  10 
 
-There's also a jump statement called return it is used to return data from the method we will be learning this 
-control statement in the later part
-
+There's also a jump statement called return it is used to return data from the method we will be learning this control statement in the later part
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -845,19 +808,15 @@ control statement in the later part
 .              
 .                                              🥶 CLASS 🥶
 
-We have explored some basic which are the building blocks of a java program lets now move to phase 2 of java here 
-we will be exploring the concept that make java the real java .
-Before moving to classes, methods and  other topics lemme tell you about a method aka a function and class
+We have explored some basic which are the building blocks of a java program lets now move to phase 2 of java here we will be exploring the concept that
+make java the real java. Before moving to classes, methods and  other topics lemme tell you about a method aka a function and class
 
-Function/method - a function is a set of instructions that will be executed when it gets invoked we can pass our 
-data to make functions to perform tasks on it. Functions may or may not return the value . These can be defined as 
-the code which operate the data.
+Function/method - a function is a set of instructions that will be executed when it gets invoked we can pass our data to make functions to perform tasks 
+on it. Functions may or may not return the value . These can be defined as the code which operate the data.
 
-Class - in a nutshell class can be defined as a datatype defined by the user it have its own properties and 
-behaviour it can have instances or classes inside it which can also have the same behaviour it can also have 
-object which is an instance of a class. Class is a non primitive datatype.
-We can define behaviour of a class as a methods and functions and its properties can be defined as data or variables 
-it resides. 
+Class - in a nutshell class can be defined as a datatype defined by the user it have its own properties and behaviour it can have instances or classes 
+inside it which can also have the same behaviour it can also have object which is an instance of a class. Class is a non primitive datatype.
+We can define behaviour of a class as a methods and functions and its properties can be defined as data or variables it resides. 
 
 Sample java program for a kick start ~
 
@@ -868,28 +827,23 @@ float mydata2=420;
 char mydata3='f';          
 }
 
-In the above example we have created a class using a class key-word. The class have a variable called mydata, mydata2
-and mydata3.
-we have defined its data type as we have discussed earlier it is a primitive data type , these data are the properties
-of the class named myclass. All the code and data reside within the class, the scope of these data starts with the opening curly
-braces and ends with the closing curly braces. Any method defined within the class can access these data. The data defined 
-within the class are called member variables or intance variables as they are defined with the class they are accessiable to
-the instances created.  
+In the above example we have created a class using a class key-word. The class have a variable called mydata, mydata2 and mydata3.
+We have defined its data type as we have discussed earlier it is a primitive data type , these data are the properties of the class named myclass. 
+All the code and data reside within the class, the scope of these data starts with the opening curly braces and ends with the closing curly braces. 
+Any method defined within the class can access these data. The data defined within the class are called member variables or intance variables as they 
+are defined with the class they are accessiable to the instances created.  
 
-Instace can be defined as a clone of class it can have same properties as its parent it have have access of the code and 
-defined data reside with the class its made clone of. This also defiens the reuseability of the code as there's no need to define
-the class and code again and again. But every instance created the every instance will have its own data if it has been 
-taken from the user. 
+Instace can be defined as a clone of class it can have same properties as its parent it have have access of the code and defined data reside with the 
+class its made clone of. This also defiens the reueability of the code as there's no need to define the class and code again and again. But every 
+instance created the every instance will have its own data if it has been taken from the user. 
 
 It is important to remember that a class declaration only creates a template; it does not create an actual object.
 Thus, the preceding code does not cause any objects of type myclass to come into existence.
-To actually create a object you have to create an object 
 
 myclass myobject = new myclass(); 
 
-That above statement cretes an object name myobject this my object is an identifier thus creating a physical entity 
-that myobect/instance of myclass will have clone of mydata, mydata2, mydata3. 
-The dot (.) operator links the name of the object with the name of an instance variable.  
+That above statement cretes an object name myobject this my object is an identifier thus creating a physical entity that myobect/instance of myclass 
+will have clone of mydata, mydata2, mydata3. The dot (.) operator links the name of the object with the name of an instance variable.  
 myclass.mydata;
 we can assign our own values to it 
 myclass.mydata=6996;
@@ -900,10 +854,9 @@ does not affect the code or the data of the main class
 
 declaring objects 
 
-As told earlier creating a class you are creating a new data type . 
-Obtaining a object is a two step process first you must declare variable of class type Second, you must acquire an actual,
-physical copy of the object and assign it to that variable. This can be done using new operator that new operator creates 
-dynamically allocate space in the memory of object and return reference to it. That reference is stored in the variable 
+As told earlier creating a class you are creating a new data type. Obtaining a object is a two step process first you must declare variable of class 
+type Second, you must acquire an actual, physical copy of the object and assign it to that variable. This can be done using new operator that new 
+operator creates dynamically allocate space in the memory of object and return reference to it. That reference is stored in the variable 
 Thus in java all objects are dynamically allocated 
 
 The statement written above can be divided into two steps as discussed above 
@@ -913,25 +866,21 @@ myclass myobject;
 //allocating the space 
 myobject=new myclass();
 
-The first line declare myobject as a reference of a object of type myclass. 
-After the declaration of myobject this null value gets defined to object as till now it does not contain point 
-reference to myclass, any attempt to use myobject after declaration will result in compile time error 
+The first line declare myobject as a reference of a object of type myclass. After the declaration of myobject this null value gets defined to object 
+as till now it does not contain point reference to myclass, any attempt to use myobject after declaration will result in compile time error 
 
-The second line allocates an actual object and assign reference to it myclass. In reality myobject just hold the 
-memory address of of myclass.
+The second line allocates an actual object and assign reference to it myclass. In reality myobject just hold the memory address of of myclass.
 
 NEW KEWWORD ~
 As just explained new keyword allocated space in the memory dynamicially 
 
 class-var = new classname( );
 
-Here class is the datatype and var is the variable of datatype class. After the following new there's a constructor to 
-initilize member variables of the class. We need to implement non primitive data aka objects type using new operator 
-Let’s once again review the distinction between a class and an object. A class creates a new data type that can be 
-used to create objects. That is, a class creates a logical framework that defines the relationship between its members.
-When you declare an object of a class, you are creating an instance of that class. Thus, a class is a logical construct.
-An object has physical reality. (That is, an object occupies space in memory.) It is important to keep this distinction 
-clearly in mind.
+Here class is the datatype and var is the variable of datatype class. After the following new there's a constructor to initilize member variables of 
+the class. We need to implement non primitive data aka objects type using new operator Let’s once again review the distinction between a class and 
+an object. A class creates a new data type that can be used to create objects. That is, a class creates a logical framework that defines the relationship 
+between its members. When you declare an object of a class, you are creating an instance of that class. Thus, a class is a logical construct.
+An object has physical reality. (That is, an object occupies space in memory.) It is important to keep this distinction clearly in mind.
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -942,16 +891,15 @@ clearly in mind.
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-.                                               🥶 FUNCTIONS AND METHODS 🥶
-.
-.
-methods and functions are nearly the same they both have set of instructions they both can have arguments by whhich they can accept 
-input from the user they both may or may not return the value, but the difference comes when the calling them i.e invoking them 
-a function is called independently while a method is called using a reference this means a function is called without creating the
-instance of the class while a method is called by createing a instance/object of the class.
+                                               🥶 FUNCTIONS AND METHODS 🥶
+
+
+methods and functions are nearly the same they both have set of instructions they both can have arguments by whhich they can accept input from the user 
+they both may or may not return the value, but the difference comes when the calling them i.e invoking them a function is called independently while a 
+method is called using a reference this means a function is called without creating the instance of the class while a method is called by createing a 
+instance/object of the class.
 
 Every java program have a main function lets understand it with a example 
-
 
 import java.util.*;
 class myclass
@@ -964,8 +912,7 @@ class myclass
 
 Have a  closer look at java's main function  
 
-All program begins by calling the main function the main function is called when the program gets started. Main()
-is basicially a starting point of your program 
+All program begins by calling the main function the main function is called when the program gets started. Main() is basicially a starting point of program 
 you have often written this  👉🏽public static void main(String[] args)
 This line have a meaning yeh it does have a meaning, f*** off java stereotypes 
 public - it is a access specifier the main function is delcared as public as it is called outside the class 
@@ -977,8 +924,8 @@ All code inside main function begins with open curly braces { and ends with clos
 
 System class , output stream , input stream  
 
-Ass 😂 you can read the above program you will find that the line that outputs 'be water my friend' have multiple 
-words chained before it. All of these words have a meaning 👇🏼
+Ass 😂 you can read the above program you will find that the line that outputs 'be water my friend' have multiple words chained before it. 
+All of these words have a meaning 👇🏼
 System- System is a predefined class which provides access to System 
 out,in are used to get access to input output streams 
 println(..)-println is a mehod which is used to console the the things inside it (in above example it was a string )
@@ -990,8 +937,8 @@ datatype it returns
 Name/identifier
 Arguments - type of arguments and number of arguments it have 
 
-these above properties can be used as a identity of a function as in java no function is same it has to different 
-in terms of any of the above properties except access specifier.
+these above properties can be used as a identity of a function as in java no function is same it has to different in terms of any of the above properties 
+except access specifier.
 
 Returning a value ~
 As I have told earlier methods and functions can return value of the datatype they are for example lets have a sample~
@@ -1012,9 +959,8 @@ ob.ans();
 }
 }
 
-In above example the the function ans() is called with the reference of object it will return 69 because this 
-function is of integer datatype in order to avoid return of values we can also declare our function as void 
-One more thing function does not return non primitive data type
+In above example the the function ans() is called with the reference of object it will return 69 because this function is of integer datatype in order to 
+avoid return of values we can also declare our function as void. One more thing function does not return non primitive data type
 
 Function can be invoked inside their own function this is case is called recursion or function of same datatuype can 
 be returned in its return part
@@ -1024,8 +970,8 @@ return x*y;
 
 Method with parameters ~
 
-As we have dioscussed earlier we can pass input to function and methods to perforn operations on them this can be done 
-by passing data through arguments this this also open doors to method overloading 
+As we have dioscussed earlier we can pass input to function and methods to perforn operations on them this can be done by passing data through arguments 
+this this also open doors to method overloading 
 
 for example ~
 
@@ -1045,12 +991,10 @@ ob.ans(x,y);
 }
 }
 
-here we have passed the variables as arguments to perform data on it there no limit on no of arguments and 
-type of arguments, but before letting input inside  the function will insure and checks the data type 
-of the arguments this is because java is a secure and robust language. 
+here we have passed the variables as arguments to perform data on it there no limit on no of arguments and type of arguments, but before letting input 
+inside  the function will insure and checks the data type of the arguments this is because java is a secure and robust language. 
 
-The sequencce of type of arguments and no of arguments opens door to method overloading aka Polymorphism - using a 
-function more than one time 
+The sequencce of type of arguments and no of arguments opens door to method overloading aka Polymorphism - using a function more than one time 
 
 import java.util.*;
 class myclass
@@ -1079,8 +1023,8 @@ class myclass
 
 In the above examplpe we have used the ans(..) method multiple times using different arguments 
 
-There a special function which is called constructor a constructor is used to inilitize member variables it gets 
-invoked at the time a object is created it has a name which is as same as class name 
+There a special function which is called constructor a constructor is used to inilitize member variables it gets invoked at the time a object is 
+created it has a name which is as same as class name 
 
 example of constructor 
 
@@ -1111,15 +1055,12 @@ class myclass
 
 in the above example
 variable x is the class variable 
-myclass(int myx) is the constructor with argument myx it assigns the value of myx to the x this constructor gets 
-invoked when the object is created 
+myclass(int myx) is the constructor with argument myx it assigns the value of myx to the x this constructor gets invoked when the object is created 
 Note: if yoy want to pass value to the constructor make sure input is taken first 
 display() - is a member function which prints the value of class variable aka x 
 
-
-The constructor neither have datatype nor return value but just a name same as class this is because inplict type 
-return of the class Just like methods they can also be oveloaded just like functions constructor is class type itself 
-
+The constructor neither have datatype nor return value but just a name same as class this is because inplict type return type of the class Just like 
+methods they can also be oveloaded just like functions constructor is class type itself 
 
 example 
 
@@ -1163,23 +1104,21 @@ class myclass
 
 Garbage collection ~
 
-Since objects are dynamically allocated by using the new operator, you might be wondering how such objects are 
-destroyed and their memory released for later reallocation. Java takes a different approach; it handles deallocation
-for you automatically. The technique that accomplishes this is called garbage collection
+Since objects are dynamically allocated by using the new operator, you might be wondering how such objects are destroyed and their memory released 
+for later reallocation. Java takes a different approach; it handles deallocation for you automatically. The technique that accomplishes this is 
+called garbage collection
 
-Garbage collection only occurs sporadically (if at all) during the execution of your program. 
-It will not occur simply because one or more objects exist that are no longer used.
+Garbage collection only occurs sporadically (if at all) during the execution of your program. It will not occur simply because one or more objects 
+exist that are no longer used.
 
 The finalize() method ~
 
-By using finalization, you can define specific actions that will occur when an object is just about to be 
-reclaimed by the garbage collector.
+By using finalization, you can define specific actions that will occur when an object is just about to be reclaimed by the garbage collector.
 
-To add a finalizer to a class, you simply define the finalize( ) method. The Java run time calls that method 
-whenever it is about to recycle an object of that class. Inside the finalize( ) method, you will specify those
-actions that must be performed before an object is destroyed. The garbage collector runs periodically, checking 
-for objects that are no longer referenced by any running state or indirectly through other referenced objects. 
-Right before an asset is freed, the Java run time calls the finalize( ) method on the object.
+To add a finalizer to a class, you simply define the finalize( ) method. The Java run time calls that method whenever it is about to recycle an 
+object of that class. Inside the finalize( ) method, you will specify those actions that must be performed before an object is destroyed.
+The garbage collector runs periodically, checking for objects that are no longer referenced by any running state or indirectly through other 
+referenced objects. Right before an asset is freed, the Java run time calls the finalize( ) method on the object.
 The finalize( ) method has this general form:
 protected void finalize( ) 
 {
@@ -1187,16 +1126,14 @@ protected void finalize( )
 }
 
 
-Here, the keyword protected is a specifier that prevents access to finalize( ) by code defined outside its class.
-It is important to understand that finalize( ) is only called just prior to garbage collection. It is not called when
-an object goes out-of-scope, for example. This means that you cannot know when—or even if—finalize( ) will be executed.
-Therefore, your program should provide other means of releasing system resources, etc., used by the object.
-It must not rely on finalize( ) for normal program operation.
+Here, the keyword protected is a specifier that prevents access to finalize( ) by code defined outside its class. It is important to understand that 
+finalize( ) is only called just prior to garbage collection. It is not called when an object goes out-of-scope, for example. This means that you cannot 
+know when—or even if—finalize( ) will be executed. Therefore, your program should provide other means of releasing system resources, etc., used by the 
+object. It must not rely on finalize( ) for normal program operation.
 
 Using object as parameter ~
 
 Just like variables objects can also be passed as a parameter lets understand it with a example 
-
 Lets have a closer look at argument passing 
 
 there are two ways that a computer can pass a argument 
@@ -1204,14 +1141,13 @@ there are two ways that a computer can pass a argument
 2.call by reference 
 
 1.call by value ~
-This approcah copies the value of an argument into the sub routine of the method therefore changes made to the sub 
-routine haev noi change to the argumnent When we have to pass a primitive type we uses call by value 
-2. call by reference ~
-In this approach a reference to the argument is passed inside the subroutine reference is used to accesss the actual 
-argument specified in the call.  This means that changes made to the parameter will affect the argument used to call
-the subroutine when we have to pass objects we uses call by reference because in other terms 0object is a refernced 
-variable
+This approcah copies the value of an argument into the sub routine of the method therefore changes made to the sub routine haev noi change to the 
+argumnent When we have to pass a primitive type we uses call by value 
 
+2. call by reference ~
+In this approach a reference to the argument is passed inside the subroutine reference is used to accesss the actual argument specified in the call.  
+This means that changes made to the parameter will affect the argument used to call the subroutine when we have to pass objects we uses call by reference 
+because in other terms 0object is a refernced variable
 
 As we discussed earlier when we have to pass primitive type we uses call by value so lets have a small example 
 
@@ -1241,13 +1177,12 @@ Output
 a and b before call: 15 20
 a and b after call: 15 20
 
-As you can see, the operations that occur inside meth( ) have no effect on the values of a and b used in the call;
-their values here did not change to 30 and 10. When you pass an object to a method, the situation changes dramatically,
-because objects are passed by what is effectively call-by-reference. Keep in mind that when you create a variable of
-a class type, you are only creating a reference to an object. Thus, when you pass this reference to a method, the
-parameter that receives it will refer to the same object as that referred to by the argument. This effectively
-means that objects are passed to methods by use of call-by-reference. Changes to the object inside the method 
-do affect the object used as an argument. For example, consider the following program:
+As you can see, the operations that occur inside meth( ) have no effect on the values of a and b used in the call; their values here did not change to 30 
+and 10. When you pass an object to a method, the situation changes dramatically, because objects are passed by what is effectively call-by-reference. 
+Keep in mind that when you create a variable of a class type, you are only creating a reference to an object. Thus, when you pass this reference to a 
+method, the parameter that receives it will refer to the same object as that referred to by the argument. This effectively means that objects are passed 
+to methods by use of call-by-reference. Changes to the object inside the method do affect the object used as an argument.
+ For example, consider the following program:
 // Objects are passed by reference.
 
 
@@ -1280,15 +1215,14 @@ output~
 ob.a and ob.b before call: 15 20
 ob.a and ob.b after call: 30 10
 
-As you can see, in this case, the actions inside meth( ) have affected the object used as an argument.
-As a point of interest, when an object reference is passed to a method, the reference itself is passed by use 
-of call-by-value. However, since the value being passed refers to an object, the copy of that value will still
-refer to the same object that its corresponding argument does.
+As you can see, in this case, the actions inside meth( ) have affected the object used as an argument. As a point of interest, when an object reference 
+is passed to a method, the reference itself is passed by use of call-by-value. However, since the value being passed refers to an object, the copy of 
+that value will still refer to the same object that its corresponding argument does.
 
 returning objects ~
 
 A method can return any type of data its been created of 
-kets understand it with a example ~
+lets understand it with a example ~
 
 import java.util.*;
 class myclass
@@ -1318,13 +1252,12 @@ class Main
   }
 }
 
-In the above functionI have created myclass object called myobject inside check function this function is of myclass 
-datatype ie this function will return object. when the following program is compiled check function is called in which 
-myobject is created and returned.
+In the above functionI have created myclass object called myobject inside check function this function is of myclass datatype ie this function will return 
+object. when the following program is compiled check function is called in which myobject is created and returned.
 
 Recursion ~
-recursion can be defined as a process in which a function/method calls itself in side its own body this can be done to 
-do recursive tasks, the method that deals with recursion is called recursive method.
+recursion can be defined as a process in which a function/method calls itself in side its own body this can be done to do recursive tasks, the method that 
+deals with recursion is called recursive method.
 
 A simple example of a recursive program ~
 
@@ -1352,9 +1285,9 @@ public int myfunction(int x)
   }
 }
 
-In the above example myfunction(..) is returning itself in its body its is returning because both funcions are of 
-same type aka int, this function could have long lasted till the ram runs of to prevent this situation we implements a 
-condition called recursive case this will be executed when or make it executed when our work gets done. 
+In the above example myfunction(..) is returning itself in its body its is returning because both funcions are of same type aka int, this function could 
+have long lasted till the ram runs of to prevent this situation we implements a condition called recursive case this will be executed when or make it 
+executed when our work gets done. 
 
 Static ~
 
@@ -1364,8 +1297,8 @@ Methods declared as static have the following restrictions
 2. They can only call other static methods.
 3. They cannot refer to this and super in any way.
 
-If you need to do computation in order to initialize your static variables, you can declare a static block that gets
-executed exactly once, when the class is first loaded. 
+If you need to do computation in order to initialize your static variables, you can declare a static block that gets executed exactly once, when the class 
+is first loaded. 
 
 class myclass
 {
@@ -1392,9 +1325,8 @@ class myclass
   }
 }
 
-In the above code the class_variable1 and class_variable2 are declared static so they must be initilized in the 
-static block if they are not initilized within the class this initilizing static block is executed only once when 
-the class is first loaded 
+In the above code the class_variable1 and class_variable2 are declared static so they must be initilized in the static block if they are not initilized 
+within the class this initilizing static block is executed only once when the class is first loaded 
 Instance variables declared as static are, essentially, global variables. When objects of its class are declared,
 no copy of a static variable is made. Instead, all instances of the class share the same static variable.
 
@@ -1429,7 +1361,7 @@ Java supports 4 access specifiers ~
 note: A java package is a group of similar types of classes, interfaces and sub-packages.
 
 1.Public - Public has the highest level of accessability - A method, variable, class, declared can be accessed by any
-other class and methods till accessed class or method  belong to the same package.
+other class and methods and other packages
 
 2.protected - This access specifier is used for methods and variables the methods and variable will be accessiable 
 to other classes till they belong to the same package.
@@ -1522,7 +1454,7 @@ same as public but its not ment for classes declared within a class aka a protec
 accessiable to class outside its ancestor class.
 
 Final ~
-We have discussed final earlier that the literal stor in a constant variable cannot be modified This can also be used for to avoid inherritance
+We have discussed final earlier that the literal stored in a constant variable cannot be modified This can also be used for to avoid inherritance
 If the main class is declared final than the subclass will not be inherrited.
 
 Final ~ 
