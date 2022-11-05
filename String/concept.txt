@@ -17,7 +17,10 @@ Intro ~
 String - String is basicially a set of characters grouped together 
 In other languages like C string is implemented a an array of characters but in Java it is implemented as an object, being an object it comes with lots
 of advantages for example compare and conceate etc. It is EG to implement String as it belongs to java's class library. Every String you create is an 
-object and any change on it will result in creation of another object of String class because in java string are immutable.
+object and any change on it will result in creation of another object of String class because in java string are immutable. For those cases you wanna 
+modify the String and dosent wanna create a new instance java provides StringBuffer and StingBuilder both hold String modified after their creation.
+Both of these classes are the part of java.lang package they cannnot be modified because they are declared final thus it is impossible to create a
+subclass. However a variabele holding the reference of an string object can be changed anytime.
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -29,8 +32,46 @@ object and any change on it will result in creation of another object of String 
 
 Implementation ~
 
+In informal it is very easy to implement a string in java program, it is used like as a datatype and it can be used any part wanted in the program.
+just like a normal variabele it got a declaration and Implementation part.
+String mystring;                                                 //declaration
+mystring = " We are just the outcome of our surroundings ";      //inilitization
+
+String class in java provide variety of constructors that can be used to initialize members of an string object.
 
 
+
+String mystring =new String();
+This above constructor call accept no arguments thus it creates an instance of String class aka String with no characters in it.
+
+
+
+char character_array[] = {'A','k','a','s','h'};                //Array of character to hold character set
+String mystring =new String(character_array);                  
+This above constructor call accept the array of character to create a String it have a syntax of String(char character-array[]);
+
+
+
+char character_array[] = {'A','k','a','s','h'};                //Array of character to hold character set
+String mystring =new String(character_array,0,4);              //passing starting-index and no of character to make a string 
+This above constructor call accept the array of character to create a String with starting index and no of character it uses to create a String
+it have a syntax of String(char character-array[],int starting-index,int no-of-characters);
+
+
+
+We can also create a String which have a character sequence of another String 
+String(String string-object);
+
+Lets have a single exampele of this above constructor approach 
+
+import java.util.*;
+class myclass
+{
+char character_array[]= {'A','k','a','s','h'};
+Srting mystring = new String(character_array);
+String mystring2 = new String(mystring);
+System.out.println(mystring2);
+}
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
