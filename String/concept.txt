@@ -12,6 +12,7 @@
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+
 Intro ~
 
 String - String is basicially a set of characters grouped together 
@@ -20,7 +21,9 @@ of advantages for example compare and conceate etc. It is EG to implement String
 object and any change on it will result in creation of another object of String class because in java string are immutable. For those cases you wanna 
 modify the String and dosent wanna create a new instance java provides StringBuffer and StingBuilder both hold String modified after their creation.
 Both of these classes are the part of java.lang package they cannnot be modified because they are declared final thus it is impossible to create a
-subclass. However a variabele holding the reference of an string object can be changed anytime.
+subclass. However a variabele holding the reference of an string object can be changed anytime. For each string literal in your program java 
+automaticially craetes a String object.
+
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -29,6 +32,7 @@ subclass. However a variabele holding the reference of an string object can be c
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 Implementation ~
 
@@ -72,6 +76,41 @@ Srting mystring = new String(character_array);
 String mystring2 = new String(mystring);
 System.out.println(mystring2);
 }
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+String manipulation ~
+
+There are numbers of things we can do on out string with predefined functions of String class. 
+
+Most of the people confuse with index and length Length tells us how many characters does a String is composed of but the index tells us the position 
+of the character in the string. The position of a character in a String starts from zero while the length is starts from 1.
+
+
+String conceation ~
+When you add any data to the string it automaticially converts into string and adds.
+For example ~
+String mystring = "Girls that have crush on me :"+6+9;
+System.out.println(mystring);
+
+output of thge following program is ~
+Girls that have crush on me :69
+
+But if we use barckets in addition of the two numbers of the above program it will print tha quoted text with addition performed of the numbers 
+For example ~
+String mystring = "Girls that have crush on me :"+(6+9);
+System.out.println(mystring);
+
+output of thge following program is ~
+Girls that have crush on me :15
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
