@@ -562,6 +562,85 @@ In the normal  case the output with single argument would have come 11 but as I 
 in the search of character from back.
 
 
+Function ~
+equals(string-to-checkwith);
+Usecase ~
+Compares two String returns true or false 
+example ~
+import java.util.*;
+class mystring
+{
+    String indexes ="SOCIAL MEDIA IS A PART OF MATRIX";
+    String indexes2= "social media is a part of simulation";
+    String modified_string="";
+    public void modify()
+    {
+        if(indexes.equals(indexes2)){
+            System.out.println("Both strings are equall");
+        }
+        else{
+            System.out.println("Both strings are not equall");
+        }
+        display();
+    }
+    public void display()
+    {
+        System.out.println();
+        
+    }
+    class Main
+    {
+        public void main()
+        {
+            mystring ob =new mystring();
+            ob.modify();
+        }
+    }
+}
+
+The output of the following progarm is ~
+Both strings are not equall because they are different in ters of case to counter these kind of situations there's a new method 
+
+Function ~
+equalsIgnoreCase();
+Usecase ~
+This method checks the equality excluding the case-sensitive part 
+Example ~
+class mystring
+{
+    String indexes ="SOCIAL MEDIA IS A PART OF MATRIX";
+    String indexes2= "social media is a part of simulation";
+    String modified_string="";
+    public void modify()
+    {
+        if(indexes.equalsIgnoreCase(indexes2)){
+            System.out.println("Both strings are equall");
+        }
+        else{
+            System.out.println("Both strings are not equall");
+        }
+        display();
+    }
+    public void display()
+    {
+        System.out.println();
+        
+    }
+    class Main
+    {
+        public void main()
+        {
+            mystring ob =new mystring();
+            ob.modify();
+        }
+    }
+}
+
+The output of the following program is ~
+Both strings are equall
+
+
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
