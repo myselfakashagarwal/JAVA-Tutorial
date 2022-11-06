@@ -119,7 +119,6 @@ char mychar='a';
 String mystring = String.valueOf(mychar);
 
 
-
 function ~
 length();
 Usecase ~
@@ -127,7 +126,32 @@ To find the length of the String aka no of character a String is composed of.
 Most of the people confuse with index and length Length tells us how many characters does a String is composed of but the index tells us the position 
 of the character in the string. The position of a character in a String starts from zero while the length is starts from 1.
 Example ~
-mystring.length();
+import java.util.*;
+class mystring
+{
+    String indexes ="0123456789";
+    String modified_string="";
+    public void modify()
+    {
+        modified_string=indexes;
+    }
+    public void display()
+    {
+        System.out.println(modified_string.length());
+        
+    }
+    class Main
+    {
+        public void main()
+        {
+            mystring ob =new mystring();
+            ob.display();
+        }
+    }
+}
+
+The output of the following program is ~
+10 
 
 
 Function ~
@@ -135,15 +159,66 @@ toUpperCase();
 Usecase ~
 Converts all character in a String to upper case. Non aphabetical and special characters are un affected.
 Example ~
-mystring.toUpperCase();
+import java.util.*;
+class mystring
+{
+    String indexes ="0123456789";
+    String modified_string="";
+    public void modify()
+    {
+        modified_string="YOUR BRAIN IS NOT MENT FOR MULTI TASKING YOU ARE JUST SWITCHING BETWEEN TASKS AT INSTANCE";
+        modified_string=modified_string.toLowerCase();
+    }
+    public void display()
+    {
+        System.out.println(modified_string);
+        
+    }
+    class Main
+    {
+        public void main()
+        {
+            mystring ob =new mystring();
+            ob.display();
+        }
+    }
+}
 
+The output of the following program is ~
+your brain is not ment for multi tasking you are just switching between tasks at instance
 
 Function ~
 toLowerCase();
 Usecase ~
 Converts all character in a String to lower case. Non aphabetical and special characters are un affected.
 Example ~
-mystring.toLowerCase();
+import java.util.*;
+class mystring
+{
+    String indexes ="0123456789";
+    String modified_string="";
+    public void modify()
+    {
+        modified_string="you are a manipulated";
+        modified_string=modified_string.toUpperCase();
+    }
+    public void display()
+    {
+        System.out.println(modified_string);
+        
+    }
+    class Main
+    {
+        public void main()
+        {
+            mystring ob =new mystring();
+            ob.display();
+        }
+    }
+}
+
+The output of the following progarm is ~
+YOU ARE A MANIPULATED
 
 
 Function ~
@@ -151,17 +226,64 @@ concat(String);
 Usecase ~
 It returns a String with attachment of the given string as parameters. 
 Example ~
-mystring.concat("any sequence of charater or a variable containing a string object ");
+import java.util.*;
+class mystring
+{
+    String indexes ="0123456789";
+    String modified_string="";
+    public void modify()
+    {
+        modified_string=indexes.concat(" looking for 69 ");
+    }
+    public void display()
+    {
+        System.out.println(modified_string);
+    }
+    class Main
+    {
+        public void main()
+        {
+            mystring ob =new mystring();
+            ob.display();
+        }
+    }
+}
+
+The output of the following program is ~
+0123456789 looking for 69
 
 
 Function ~
-replace(orignal-character,replacement);
+replace(orignal-character/sequence of character,replacement-character/sequence of character);
 Usecase ~
 This function have two arguments including a character you wanna replace and a character you wnat to replace in plca of it. It returns the String by 
 replacing the character. 
 Example ~
-String mystring ="Book";
-mystring.replace('k','m');
+import java.util.*;
+class mystring
+{
+    String indexes ="0123456789";
+    String modified_string="";
+    public void modify()
+    {
+        modified_string=indexes.replace("0123","xxxx");
+    }
+    public void display()
+    {
+        System.out.println(modified_string);
+    }
+    class Main
+    {
+        public void main()
+        {
+            mystring ob =new mystring();
+            ob.display();
+        }
+    }
+}
+
+The output of the folowing program is ~
+ xxxx456789
 
 
 Function ~
