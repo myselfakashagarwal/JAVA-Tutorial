@@ -640,6 +640,59 @@ The output of the following program is ~
 Both strings are equall
 
 
+Difference between ~
+equals() and  == 
+Ans ~
+The key difference between both of them is equals() check the characterstics of character inside the string while == check the equality of the 
+String objects.
+Example ~
+import java.util.*;
+class mystring
+{
+    String indexes ="01234567899";
+    String indexes2= new String(indexes);
+    String modified_string="";
+    public void modify()
+    {
+        if(indexes.equals(indexes2)){
+            System.out.println("Checked by equals() method ");
+            System.out.println("Both strings are equall");
+        }
+        else{
+            System.out.println("Checked by equals() method ");
+            System.out.println("Both strings are not equall");
+        }
+        if(indexes==indexes2){
+            System.out.println("Checked by == operator ");
+            System.out.println("Both strings are equall");
+        }
+        else{
+            System.out.println("Checked by == operator ");
+            System.out.println("Both strings are not equall");
+        }
+        display();
+    }
+    public void display()
+    {
+        System.out.println();
+        
+    }
+    class Main
+    {
+        public void main()
+        {
+            mystring ob =new mystring();
+            ob.modify();
+        }
+    }
+}
+
+The output of the following program ~
+Checked by equals() method 
+Both strings are equall
+Checked by == operator 
+Both strings are not equall
+
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
