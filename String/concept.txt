@@ -829,6 +829,51 @@ The characters of extracted character array are = 34567
 
 Just like substring it does not include character at last index 
 
+Function ~
+toCharArray();
+Usage ~
+To convert all character in a String to a character array.
+import java.util.*;
+class mystring
+{
+    String mystring= "01234567890";
+    char my_character_array[];
+    public void modify()
+    {
+        my_character_array=mystring.toCharArray();
+        display();
+    }
+    public void display()
+    {
+        System.out.println("The characters of extracted character array are = ");
+        for(int k=0;k<my_character_array.length;k++)
+        {
+            System.out.println("At position "+k+" = "+my_character_array[k]);
+        }
+    }
+    class Main
+    {
+        public void main(String[] args)
+        {
+            mystring ob =new mystring();
+            ob.modify();
+        }
+    }
+}
+
+The output of the following program ~
+The characters of extracted character array are = 
+At position 0 = 0
+At position 1 = 1
+At position 2 = 2
+At position 3 = 3
+At position 4 = 4
+At position 5 = 5
+At position 6 = 6
+At position 7 = 7
+At position 8 = 8
+At position 9 = 9
+At position 10 = 0
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
