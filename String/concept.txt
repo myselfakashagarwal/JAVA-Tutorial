@@ -751,7 +751,39 @@ tuv
 wxy
 zzz
 
-To avoid the comparison of case-sensitivity compareToIgnoreCase(string) is used other wise it will print the capital letters first  
+To avoid the comparison of case-sensitivity compareToIgnoreCase(string) is used other wise it will print the capital letters first 
+
+Function ~
+charAt(int index);
+Usecase ~
+This method is used to get character present at the given index 
+Example ~
+import java.util.*;
+class mystring
+{
+    String mystring= "If you have no idea how the things work under the hood it means you are just a bot";
+    char mycharacter;
+    public void modify()
+    {
+       mycharacter = mystring.charAt(10);
+        display();
+    }
+    public void display()
+    {
+       System.out.println("The character at index 10 = "+mycharacter);
+    }
+    class Main
+    {
+        public void main(String[] args)
+        {
+            mystring ob =new mystring();
+            ob.modify();
+        }
+    }
+}
+
+The output of the following program is ~
+The character at index 10 = e
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
