@@ -694,6 +694,66 @@ Checked by == operator
 Both strings are not equall
 
 
+Function ~
+conmpareTo(String);
+Usecase ~
+It is used to check relation between two string like greater , lesser and equall/0 . Is check their relation of grater or lesser and equall in terms 
+of dictionary kinda order aka alphabetical. 
+Example ~
+import java.util.*;
+class mystring
+{
+    String my_string_array[] ={"zzz","def","ghi","tuv","abc","klm","qrs","nop","wxy"};
+    public void modify()
+    {
+        int i;
+        int j;
+        String exchange="";
+        for(i=0;i<my_string_array.length;i++)
+        {
+           for(j=i+1;j<my_string_array.length;j++)
+           { 
+             if((my_string_array[i].compareTo(my_string_array[j]))>0)
+             {
+                 exchange=my_string_array[i];
+                 my_string_array[i]=my_string_array[j];
+                 my_string_array[j]=exchange;
+             }
+           }  
+        }
+        display();
+    }
+    public void display()
+    {
+        for(int k=0;k<my_string_array.length;k++)
+        {
+            System.out.println(my_string_array[k]);
+        }
+    }
+    class Main
+    {
+        public void main(String[] args)
+        {
+            mystring ob =new mystring();
+            ob.modify();
+        }
+    }
+}
+
+The output of the following program is ~
+abc
+def
+ghi
+klm
+nop
+qrs
+tuv
+wxy
+zzz
+
+To avoid the comparison of case-sensitivity compareToIgnoreCase(string) is used other wise it will print the capital letters first  
+
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
