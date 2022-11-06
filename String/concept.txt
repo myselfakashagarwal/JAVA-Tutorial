@@ -923,6 +923,85 @@ At position 9 = 57
 At position 10 = 48
 
 
+Function ~
+startsWith(sequence of character/character);
+Usecase ~
+This method is used to check whether a String starts with the sequence of characters provided. 
+Example ~
+import java.util.*;
+class mystring
+{
+    String mystring= "01234567890";
+    String modified_string;
+    public void modify()
+    {
+        modified_string=mystring;
+        display();
+    }
+    public void display()
+    {
+       if(mystring.startsWith("0123")==true)
+       {
+           System.out.println("The string starts with the provided sequence of characters ");
+       }
+       else
+       {
+           System.out.println("The string do not starts with the provided sequence of characters ");
+       }
+    }
+    class Main
+    {
+        public void main(String[] args)
+        {
+            mystring ob =new mystring();
+            ob.modify();
+        }
+    }
+}
+
+The output of the given program is ~
+The string starts with the provided sequence of characters 
+
+
+Function ~
+endsWith(sequence of character/character);
+Usecase ~
+This method is used to check whether a String ends with the sequence of characters provided. 
+Example ~
+import java.util.*;
+class mystring
+{
+    String mystring= "01234567890";
+    String modified_string;
+    public void modify()
+    {
+        modified_string=mystring;
+        display();
+    }
+    public void display()
+    {
+       if(mystring.endsWith("890")==true)
+       {
+           System.out.println("The string ends with the provided sequence of characters ");
+       }
+       else
+       {
+           System.out.println("The string do not ends with the provided sequence of characters ");
+       }
+    }
+    class Main
+    {
+        public void main(String[] args)
+        {
+            mystring ob =new mystring();
+            ob.modify();
+        }
+    }
+}
+
+The output of the given program is ~
+The string ends with the provided sequence of characters 
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
