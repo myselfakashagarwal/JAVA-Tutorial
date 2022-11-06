@@ -875,6 +875,54 @@ At position 8 = 8
 At position 9 = 9
 At position 10 = 0
 
+Function 
+getBytes();
+Usecase ~
+This method is gets stores index of character as per as  ascII code indexes for example index of 'A' is 65
+Example ~
+import java.util.*;
+class mystring
+{
+    String mystring= "01234567890";
+    byte my_byte_array[];
+    public void modify()
+    {
+        my_byte_array=mystring.getBytes();
+        display();
+    }
+    public void display()
+    {
+        System.out.println("The byte value of extracted character array are = ");
+        for(int k=0;k<my_byte_array.length;k++)
+        {
+            System.out.println("At position "+k+" = "+my_byte_array[k]);
+        }
+    }
+    class Main
+    {
+        public void main(String[] args)
+        {
+            mystring ob =new mystring();
+            ob.modify();
+        }
+    }
+}
+
+The output of the following program ~
+The byte value of extracted character array are = 
+At position 0 = 48
+At position 1 = 49
+At position 2 = 50
+At position 3 = 51
+At position 4 = 52
+At position 5 = 53
+At position 6 = 54
+At position 7 = 55
+At position 8 = 56
+At position 9 = 57
+At position 10 = 48
+
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
