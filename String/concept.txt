@@ -400,7 +400,68 @@ The output of the following program is ~
 As we discussed earlier the last index is not included in the answer/modified-version 
 
 
+Function ~
+indexOf(character/sequencce of character);
+Usage ~
+This method returns the first index of the character or the given sequence of character this method also have a one more argumnet that is index 
+from which the search of the index the method will start searching. 
+Example ~
+import java.util.*;
+class mystring
+{
+    String indexes ="0123456789";
+    String modified_string="";
+    public void modify()
+    {
+        modified_string=indexes; 
+    }
+    public void display()
+    {
+        System.out.println(modified_string.indexOf('7'));
+        
+    }
+    class Main
+    {
+        public void main()
+        {
+            mystring ob =new mystring();
+            ob.display();
+        }
+    }
+}
 
+The output of the progaram is ~
+7
+
+lets search a sequence of character ~
+
+import java.util.*;
+class mystring
+{
+    String indexes ="0123456789";
+    String modified_string="";
+    public void modify()
+    {
+        modified_string=indexes;   
+    }
+    public void display()
+    {
+        System.out.println(modified_string.indexOf("89"));
+        
+    }
+    class Main
+    {
+        public void main()
+        {
+            mystring ob =new mystring();
+            ob.display();
+        }
+    }
+}
+
+The output of the following program ~
+8
+Because this sequence of character gets start from 8th index 
 
 
 
