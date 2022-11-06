@@ -494,7 +494,72 @@ The output of the program ~
 15 
 Because the searching of the sequence of character will start from 9th index 
 
+Function ~
+lastIndexOf(character/sequencce-of-character);
+Usage ~
+This method is used for searching the character or sequence of character from last aka it will return the last index of a character or sequencce of it 
+example ~
 
+import java.util.*;
+class mystring
+{
+    String indexes ="01234567890000089";
+    String modified_string="";
+    public void modify()
+    {
+        modified_string=indexes;   
+    }
+    public void display()
+    {
+        System.out.println(modified_string.lastIndexOf("89"));
+        
+    }
+    class Main
+    {
+        public void main()
+        {
+            mystring ob =new mystring();
+            ob.display();
+        }
+    }
+}
+
+The output of the following program ~
+15
+Becasue this method prints the last index of the given sequence of character/character present in the String 
+
+There's also a argument that makes program return the last index of character/sequence of character after skipping the no of characters from last 
+Example ~
+
+import java.util.*;
+class mystring
+{
+    String indexes ="01234567899876543210";
+    String modified_string="";
+    public void modify()
+    {
+        modified_string=indexes;
+        display();
+    }
+    public void display()
+    {
+        System.out.println(modified_string.lastIndexOf("8",9));
+        
+    }
+    class Main
+    {
+        public void main()
+        {
+            mystring ob =new mystring();
+            ob.modify();
+        }
+    }
+}
+
+Output of the above progarm is ~
+8
+In the normal  case the output with single argument would have come 11 but as I mentioned earlier this second argument can skip the no of character 
+in the search of character from back.
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
