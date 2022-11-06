@@ -94,20 +94,66 @@ There are numbers of things we can do on out string with predefined functions of
 String conceation ~
 When you add any data to the string it automaticially converts into string and adds.
 For example ~
-String mystring = "Girls that have crush on me :"+6+9;
-System.out.println(mystring);
+import java.util.*;
+class mystring
+{
+    String indexes ="0123456789";
+    String modified_string="";
+    public void modify()
+    {
+        modified_string=indexes;
+        modified_string=modified_string+"Looking for"+6+9;
+    }
+    public void display()
+    {
+        System.out.println(modified_string);
+        
+    }
+    class Main
+    {
+        public void main()
+        {
+            mystring ob =new mystring();
+            ob.display();
+        }
+    }
+}
 
 output of thge following program is ~
-Girls that have crush on me :69
+0123456789Looking for69
 
 But if we use barckets in addition of the two numbers of the above program it will print tha quoted text with addition performed of the numbers 
 For example ~
-String mystring = "Girls that have crush on me :"+(6+9);
-System.out.println(mystring);
+import java.util.*;
+class mystring
+{
+    String indexes ="0123456789";
+    String modified_string="";
+    public void modify()
+    {
+        ///modified_string=indexes.substring(3,6);
+        //modified_string=indexes.replace("0123","xxxx");
+        //modified_string=indexes.concat(" looking for 69 ");
+        modified_string=indexes;
+        modified_string=modified_string+"Looking for"+(6+9);
+    }
+    public void display()
+    {
+        System.out.println(modified_string);
+        
+    }
+    class Main
+    {
+        public void main()
+        {
+            mystring ob =new mystring();
+            ob.display();
+        }
+    }
+}
 
 output of thge following program is ~
-Girls that have crush on me :15
-
+0123456789Looking for15
 
 
 Function ~
@@ -283,7 +329,7 @@ class mystring
 }
 
 The output of the folowing program is ~
- xxxx456789
+xxxx456789
 
 
 Function ~
