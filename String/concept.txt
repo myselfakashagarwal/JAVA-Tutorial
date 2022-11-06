@@ -463,6 +463,38 @@ The output of the following program ~
 8
 Because this sequence of character gets start from 8th index 
 
+This method have another argument aka searching index this index will be the starting poinmt from where the seaching of a character would start 
+
+For example ~
+import java.util.*;
+class mystring
+{
+    String indexes ="01234567890000089";
+    String modified_string="";
+    public void modify()
+    {
+        modified_string=indexes;       
+    }
+    public void display()
+    {
+        System.out.println(modified_string.indexOf("89",9));
+        
+    }
+    class Main
+    {
+        public void main()
+        {
+            mystring ob =new mystring();
+            ob.display();
+        }
+    }
+}
+
+The output of the program ~
+15 
+Because the searching of the sequence of character will start from 9th index 
+
+
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
