@@ -37,7 +37,7 @@ automaticially craetes a String object.
 Implementation ~
 
 In informal it is very easy to implement a string in java program, it is used like as a datatype and it can be used any part wanted in the program.
-just like a normal variabele it got a declaration and Implementation part.
+just like a normal variabele it got a declaration and Implementation part. A String literal is created by putting characters inside doubble quotes.
 String mystring;                                                 //declaration
 mystring = " We are just the outcome of our surroundings ";      //inilitization
 
@@ -91,10 +91,6 @@ String manipulation ~
 
 There are numbers of things we can do on out string with predefined functions of String class. 
 
-Most of the people confuse with index and length Length tells us how many characters does a String is composed of but the index tells us the position 
-of the character in the string. The position of a character in a String starts from zero while the length is starts from 1.
-
-
 String conceation ~
 When you add any data to the string it automaticially converts into string and adds.
 For example ~
@@ -111,6 +107,133 @@ System.out.println(mystring);
 
 output of thge following program is ~
 Girls that have crush on me :15
+
+
+
+Function ~
+valueOf();
+Usecase ~
+Returns a String which is in human readable form. 
+Example ~
+char mychar='a';
+String mystring = String.valueOf(mychar);
+
+
+
+function ~
+length();
+Usecase ~
+To find the length of the String aka no of character a String is composed of.
+Most of the people confuse with index and length Length tells us how many characters does a String is composed of but the index tells us the position 
+of the character in the string. The position of a character in a String starts from zero while the length is starts from 1.
+Example ~
+mystring.length();
+
+
+Function ~
+toUpperCase();
+Usecase ~
+Converts all character in a String to upper case. Non aphabetical and special characters are un affected.
+Example ~
+mystring.toUpperCase();
+
+
+Function ~
+toLowerCase();
+Usecase ~
+Converts all character in a String to lower case. Non aphabetical and special characters are un affected.
+Example ~
+mystring.toLowerCase();
+
+
+Function ~
+concat(String);
+Usecase ~
+It returns a String with attachment of the given string as parameters. 
+Example ~
+mystring.concat("any sequence of charater or a variable containing a string object ");
+
+
+Function ~
+replace(orignal-character,replacement);
+Usecase ~
+This function have two arguments including a character you wanna replace and a character you wnat to replace in plca of it. It returns the String by 
+replacing the character. 
+Example ~
+String mystring ="Book";
+mystring.replace('k','m');
+
+
+Function ~
+substring( integer starting index);
+Usecase ~
+This method returns the string starting with the desired index thus it have capabilities to eliminate the starting character from front.
+Example ~
+String mystring ="damm bro";
+String answer = mystring.substring(5);
+Example of program is ~
+import java.util.*;
+class mystring
+{
+    String indexes ="0123456789";
+    String modified_string="";
+    public void modify()
+    {
+        modified_string=indexes.substring(3);
+    }
+    public void display()
+    {
+        System.out.println(modified_string);
+    }
+    class Main
+    {
+        public void main()
+        {
+            mystring ob =new mystring();
+            ob.display();
+        }
+    }
+}
+
+The above program outputs ~
+3456789
+As it is clear it also includes the starting-index provided in the method.
+
+There's a modified varsion of it which includes the ending-index just type the last index in the method along with starting index seperated by a comma. 
+However in the modification it does not include the last-index 
+
+for example ~
+
+import java.util.*;
+class mystring
+{
+    String indexes ="0123456789";
+    String modified_string="";
+    public void modify()
+    {
+        modified_string=indexes.substring(3,6);
+    }
+    public void display()
+    {
+        System.out.println(modified_string);
+    }
+    class Main
+    {
+        public void main()
+        {
+            mystring ob =new mystring();
+            ob.display();
+        }
+    }
+}
+
+The output of the following program is ~
+345
+As we discussed earlier the last index is not included in the answer/modified-version 
+
+
+
+
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
