@@ -1075,6 +1075,39 @@ class mystring
 The output of the following program is ~
  1  attachment  2  attachment  3  attachment  4
 
+ 
+Function ~
+isEmpty() 
+Usecase ~
+This method is used to check whether a string is empty or not.
+Example ~
+import java.util.*;
+class mystring
+{
+    String mystring=" attachment ";
+    String modified_string="";
+    public void modify()
+    {
+        modified_string=String.join(mystring," 1 "," 2 "," 3 "," 4 ");
+        display();
+    }
+    public void display()
+    {
+        System.out.println(modified_string.isEmpty());
+    }
+    class Main
+    {
+        public void main(String[] args)
+        {
+            mystring ob =new mystring();
+            ob.modify();
+        }
+    }
+}
+
+The output of the program is ~
+false 
+
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
