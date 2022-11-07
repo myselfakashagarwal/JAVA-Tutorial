@@ -1043,6 +1043,37 @@ The output of the following program is ~
 this character sequence is found in the string
 
 
+Function ~
+join(string,n of Strings) 
+Usecase ~
+This method will return  mystring added to all the other strings right to it.
+Example ~
+import java.util.*;
+class mystring
+{
+    String mystring=" attachment ";
+    String modified_string="";
+    public void modify()
+    {
+        modified_string=String.join(mystring," 1 "," 2 "," 3 "," 4 ");
+        display();
+    }
+    public void display()
+    {
+        System.out.println(modified_string);
+    }
+    class Main
+    {
+        public void main(String[] args)
+        {
+            mystring ob =new mystring();
+            ob.modify();
+        }
+    }
+}
+
+The output of the following program is ~
+ 1  attachment  2  attachment  3  attachment  4
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
