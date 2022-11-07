@@ -1002,6 +1002,49 @@ class mystring
 The output of the given program is ~
 The string ends with the provided sequence of characters 
 
+
+Function ~
+contains(character sequence);
+Usecase ~
+This method is used to check whether a string contains a given sequence of character 
+Example ~
+import java.util.*;
+class mystring
+{
+    String mystring= "01234567890";
+    String modified_string;
+    public void modify()
+    {
+        modified_string=mystring;
+        display();
+    }
+    public void display()
+    {
+        if(modified_string.contains("123"))
+        {
+             System.out.println("this character sequence is found in the string");
+        }
+        else
+        {
+            System.out.println("this character sequence is not found in the string");
+        }
+    }
+    class Main
+    {
+        public void main(String[] args)
+        {
+            mystring ob =new mystring();
+            ob.modify();
+        }
+    }
+}
+
+The output of the following program is ~
+this character sequence is found in the string
+
+
+
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
