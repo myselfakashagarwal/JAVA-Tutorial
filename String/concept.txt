@@ -1108,6 +1108,48 @@ class mystring
 The output of the program is ~
 false 
 
+Function ~
+intern();
+Usecase ~
+Java have a concept of String constant pool this pool lies in the heap memory it contains unique Strings in order to put string in the pool we have to 
+call intern() method before creating a string in the SCP jvm check whether the string is already present in the string or not if its present the 
+reference of that string object is returned. 
+Example ~
+import java.util.*;
+class mystring
+{
+    String mystring1="WE";
+    String mystring2=new String("WE");
+    String mystring3=mystring1.intern();
+    String mystring4="WE";
+    public void modify()
+    {
+        display();
+    }
+    public void display()
+    {
+        System.out.println(mystring1==mystring2);
+        System.out.println(mystring1==mystring3);
+        System.out.println(mystring4==mystring1);
+    }
+    class Main
+    {
+        public void main(String[] args)
+        {
+            mystring ob =new mystring();
+            ob.modify();
+        }
+    }
+}
+
+The output of the program is ~
+false
+true
+true
+
+In the first case the answer was false because s1 and s2 are two diffrenet object as they are created using different constructor 
+In the second case the answer was true as although the objects were diffrenet but thier reference is same just like in the third case both string 
+are implemented using the same way. 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
