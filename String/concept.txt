@@ -367,6 +367,37 @@ The output of the following program is ~
 RULES ARE MADE TO BE BROKEN
 
 
+Function ~
+replaceFirst();
+Usecase ~
+This method replaces only the first upcomming sequence of character 
+Example ~
+import java.util.*;
+class mystring
+{
+    String mystring1="LAWS ARE MADE TO BE BROKEN LAWS ARE FOR PEOLE OF THE MATRIX";
+    String modified_string="";
+    public void modify()
+    {
+        modified_string = mystring1.replaceFirst("LAWS","RULES");
+        display();
+    }
+    public void display()
+    {
+        System.out.println(modified_string);
+    }
+    class Main
+    {
+        public void main(String[] args)
+        {
+            mystring ob =new mystring();
+            ob.modify();
+        }
+    }
+}
+
+The output of the following program is ~
+RULES ARE MADE TO BE BROKEN LAWS ARE FOR PEOLE OF THE MATRIX
 
 
 
