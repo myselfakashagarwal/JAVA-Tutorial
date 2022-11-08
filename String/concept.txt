@@ -333,6 +333,44 @@ xxxx456789
 
 
 Function ~
+replaceAll();
+Usecase ~
+This is a modified version of it which also replaces the sequence of character/character 
+Exampple ~
+import java.util.*;
+class mystring
+{
+    String mystring1="LAWS ARE MADE TO BE BROKEN";
+    String mystring2=new String("US");
+    StringBuffer mystring3= new StringBuffer("WE");
+    String modified_string="";
+    public void modify()
+    {
+        modified_string = mystring1.replaceAll("LAWS","RULES");
+        display();
+    }
+    public void display()
+    {
+        System.out.println(modified_string);
+    }
+    class Main
+    {
+        public void main(String[] args)
+        {
+            mystring ob =new mystring();
+            ob.modify();
+        }
+    }
+}
+
+The output of the following program is ~
+RULES ARE MADE TO BE BROKEN
+
+
+
+
+
+Function ~
 substring( integer starting index);
 Usecase ~
 This method returns the string starting with the desired index thus it have capabilities to eliminate the starting character from front.
