@@ -1256,6 +1256,38 @@ false
 true
 
 
+Function ~
+hashCode();
+Usecase ~
+This method returns hashed version of the string  
+Example ~
+import java.util.*;
+class mystring
+{
+    String mystring1="LAWS ARE MADE TO BE BROKEN LAWS ARE FOR PEOLE OF THE MATRIX";
+    int myhashcode;
+    String modified_string="";
+    public void modify()
+    {
+        myhashcode=mystring1.hashCode();
+        display();
+    }
+    public void display()
+    {
+        System.out.println(myhashcode);
+    }
+    class Main
+    {
+        public void main(String[] args)
+        {
+            mystring ob =new mystring();
+            ob.modify();
+        }
+    }
+}
+
+The output of the following program is ~
+1511856349
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
