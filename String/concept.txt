@@ -1151,6 +1151,43 @@ In the first case the answer was false because s1 and s2 are two diffrenet objec
 In the second case the answer was true as although the objects were diffrenet but thier reference is same just like in the third case both string 
 are implemented using the same way. 
 
+
+Function ~
+contentEquals()
+Usecase ~
+This method is used to check equality with content of immutable and non immutable strings 
+Example ~
+import java.util.*;
+class mystring
+{
+    String mystring1="WE";
+    String mystring2=new String("US");
+    StringBuffer mystring3= new StringBuffer("WE");
+    public void modify()
+    {
+        display();
+    }
+    public void display()
+    {
+        System.out.println(mystring1.contentEquals(mystring2));
+        System.out.println(mystring1.contentEquals(mystring3));
+    }
+    class Main
+    {
+        public void main(String[] args)
+        {
+            mystring ob =new mystring();
+            ob.modify();
+        }
+    }
+}
+
+The output of the following program is ~
+false
+true
+
+
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
