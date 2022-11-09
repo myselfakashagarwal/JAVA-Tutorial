@@ -1322,6 +1322,48 @@ The output of the following program is ~
 LAWS ARE PART OF MATRIX
 
 
+There's a modified version of this method whicch have three parameters 
+1.String in which the returned product is to be stored 
+2.starting index of the character array from where character extraction will start 
+3.length of the string which is to be returned 
+
+Function ~
+copuValueOf(string,starting-index,length-of-the-returned-string);
+Usecase ~
+This method is used to return string made up of characters extracted from the character array. 
+Example ~
+import java.util.*;
+class mystring
+{
+    char mystring[] = {'L','A','W','S',' ','A','R','E',' ','P','A','R','T',' ','O','F',' ','M','A','T','R','I','X'};
+    String mystring1="LAWS ARE MADE TO BE BROKEN LAWS ARE FOR PEOLE OF THE MATRIX";
+    String modified_string="";
+    public void modify()
+    {
+        int starting_index=5;
+        int length_of_the_string=18;
+        modified_string=modified_string.copyValueOf(mystring,starting_index,length_of_the_string);
+        display();
+    }
+    public void display()
+    {
+        System.out.println(modified_string);
+    }
+    class Main
+    {
+        public void main(String[] args)
+        {
+            mystring ob =new mystring();
+            ob.modify();
+        }
+    }
+}
+
+The output of the following program is ~
+ARE PART OF MATRIX
+
+
+
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
