@@ -1289,6 +1289,40 @@ class mystring
 The output of the following program is ~
 1511856349
 
+Function ~
+copuValueOf();
+Usecase ~
+This method returs the string made up of all the characters of an character array
+Example ~
+import java.util.*;
+class mystring
+{
+    char mystring[] = {'L','A','W','S',' ','A','R','E',' ','P','A','R','T',' ','O','F',' ','M','A','T','R','I','X'};
+    String modified_string="";
+    public void modify()
+    {
+        modified_string=modified_string.copyValueOf(mystring);
+        display();
+    }
+    public void display()
+    {
+        System.out.println(modified_string);
+    }
+    class Main
+    {
+        public void main(String[] args)
+        {
+            mystring ob =new mystring();
+            ob.modify();
+        }
+    }
+}
+
+The output of the following program is ~
+LAWS ARE PART OF MATRIX
+
+
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
