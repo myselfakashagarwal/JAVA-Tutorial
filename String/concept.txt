@@ -156,8 +156,8 @@ output of thge following program is ~
 0123456789Looking for15
 
 
-Function ~
-valueOf();
+Method ~
+String.valueOf(char character-of-which-value-is-to-be-find);
 Usecase ~
 Returns a String which is in human readable form. 
 Example ~
@@ -165,8 +165,8 @@ char mychar='a';
 String mystring = String.valueOf(mychar);
 
 
-function ~
-length();
+Method ~
+source-string.length();
 Usecase ~
 To find the length of the String aka no of character a String is composed of.
 Most of the people confuse with index and length Length tells us how many characters does a String is composed of but the index tells us the position 
@@ -200,8 +200,8 @@ The output of the following program is ~
 10 
 
 
-Function ~
-toUpperCase();
+Method ~
+source-string.toUpperCase();
 Usecase ~
 Converts all character in a String to upper case. Non aphabetical and special characters are un affected.
 Example ~
@@ -233,8 +233,9 @@ class mystring
 The output of the following program is ~
 your brain is not ment for multi tasking you are just switching between tasks at instance
 
-Function ~
-toLowerCase();
+
+Method ~
+source-string.toLowerCase();
 Usecase ~
 Converts all character in a String to lower case. Non aphabetical and special characters are un affected.
 Example ~
@@ -267,8 +268,8 @@ The output of the following progarm is ~
 YOU ARE A MANIPULATED
 
 
-Function ~
-concat(String);
+Method ~
+source-string.concat(String string-going-to-be-attached);
 Usecase ~
 It returns a String with attachment of the given string as parameters. 
 Example ~
@@ -299,8 +300,8 @@ The output of the following program is ~
 0123456789 looking for 69
 
 
-Function ~
-replace(orignal-character/sequence of character,replacement-character/sequence of character);
+Method ~
+source-string.replace(orignal-character/sequence of character,replacement-character/sequence of character);
 Usecase ~
 This function have two arguments including a character you wanna replace and a character you wnat to replace in plca of it. It returns the String by 
 replacing the character. 
@@ -332,8 +333,8 @@ The output of the folowing program is ~
 xxxx456789
 
 
-Function ~
-replaceAll();
+Method ~
+source-string.replaceAll("sequencce-of-character/character-to-be-placed","sequencce-of-character/character-going-to-take-palce-of-it");
 Usecase ~
 This is a modified version of it which also replaces the sequence of character/character 
 Exampple ~
@@ -367,8 +368,8 @@ The output of the following program is ~
 RULES ARE MADE TO BE BROKEN
 
 
-Function ~
-replaceFirst();
+Method ~
+source-string.replaceFirst("sequencce-of-character/character-to-be-placed","sequencce-of-character/character-going-to-take-palce-of-it");
 Usecase ~
 This method replaces only the first upcomming sequence of character 
 Example ~
@@ -400,9 +401,8 @@ The output of the following program is ~
 RULES ARE MADE TO BE BROKEN LAWS ARE FOR PEOLE OF THE MATRIX
 
 
-
-Function ~
-substring( integer starting index);
+Method ~
+source-string.substring(integer starting-index);
 Usecase ~
 This method returns the string starting with the desired index thus it have capabilities to eliminate the starting character from front.
 Example ~
@@ -469,8 +469,8 @@ The output of the following program is ~
 As we discussed earlier the last index is not included in the answer/modified-version 
 
 
-Function ~
-indexOf(character/sequencce of character);
+Method ~
+source-string.indexOf(character/sequencce of character);
 Usage ~
 This method returns the first index of the character or the given sequence of character this method also have a one more argumnet that is index 
 from which the search of the index the method will start searching. 
@@ -563,8 +563,9 @@ The output of the program ~
 15 
 Because the searching of the sequence of character will start from 9th index 
 
-Function ~
-lastIndexOf(character/sequencce-of-character);
+
+Method ~
+source-stringlastIndexOf(character/sequencce-of-character);
 Usage ~
 This method is used for searching the character or sequence of character from last aka it will return the last index of a character or sequencce of it 
 example ~
@@ -631,8 +632,8 @@ In the normal  case the output with single argument would have come 11 but as I 
 in the search of character from back.
 
 
-Function ~
-equals(string-to-checkwith);
+Method ~
+source-string.equals(string-to-checkwith);
 Usecase ~
 Compares two String returns true or false 
 example ~
@@ -670,8 +671,9 @@ class mystring
 The output of the following progarm is ~
 Both strings are not equall because they are different in ters of case to counter these kind of situations there's a new method 
 
-Function ~
-equalsIgnoreCase();
+
+Method ~
+source-string.equalsIgnoreCase(string-to-check-with);
 Usecase ~
 This method checks the equality excluding the case-sensitive part 
 Example ~
@@ -763,8 +765,8 @@ Checked by == operator
 Both strings are not equall
 
 
-Function ~
-conmpareTo(String);
+Method ~
+source-string.conmpareTo(String-to-compare-with);
 Usecase ~
 It is used to check relation between two string like greater , lesser and equall/0 . Is check their relation of grater or lesser and equall in terms 
 of dictionary kinda order aka alphabetical. 
@@ -822,8 +824,9 @@ zzz
 
 To avoid the comparison of case-sensitivity compareToIgnoreCase(string) is used other wise it will print the capital letters first 
 
-Function ~
-charAt(int index);
+
+Method ~
+source-string.charAt(index-of-the-desired-character);
 Usecase ~
 This method is used to get character present at the given index 
 Example ~
@@ -854,8 +857,9 @@ class mystring
 The output of the following program is ~
 The character at index 10 = e
 
-Function ~
-getChars();
+
+Method ~
+source.string.getChars(starting_index,ending_index,my_character_array,index-to-start-storing);
 Usecase ~
 This function is used to extract the sequence of character from a string, this method have 4 arguments ~ 
 First argumennt is the starting index of extracting of sequence of characters
@@ -898,8 +902,9 @@ The characters of extracted character array are = 34567
 
 Just like substring it does not include character at last index 
 
-Function ~
-toCharArray();
+
+Method ~
+source-string.toCharArray();
 Usage ~
 To convert all character in a String to a character array.
 import java.util.*;
@@ -944,8 +949,9 @@ At position 8 = 8
 At position 9 = 9
 At position 10 = 0
 
-Function 
-getBytes();
+
+Method 
+source-string.getBytes();
 Usecase ~
 This method is gets stores index of character as per as  ascII code indexes for example index of 'A' is 65
 Example ~
@@ -992,8 +998,8 @@ At position 9 = 57
 At position 10 = 48
 
 
-Function ~
-startsWith(sequence of character/character);
+Method ~
+source-string.startsWith(sequence of character/character);
 Usecase ~
 This method is used to check whether a String starts with the sequence of characters provided. 
 Example ~
@@ -1032,8 +1038,8 @@ The output of the given program is ~
 The string starts with the provided sequence of characters 
 
 
-Function ~
-endsWith(sequence of character/character);
+Method ~
+source-string.endsWith(sequence of character/character);
 Usecase ~
 This method is used to check whether a String ends with the sequence of characters provided. 
 Example ~
@@ -1072,8 +1078,8 @@ The output of the given program is ~
 The string ends with the provided sequence of characters 
 
 
-Function ~
-contains(character sequence);
+Method ~
+source-string.contains(character-sequence-to-checkwith);
 Usecase ~
 This method is used to check whether a string contains a given sequence of character 
 Example ~
@@ -1112,8 +1118,8 @@ The output of the following program is ~
 this character sequence is found in the string
 
 
-Function ~
-join(string,n of Strings) 
+Method ~
+source-string.join(string-to-join-with-every-sting,n-of-Strings-to-be-get-joined); 
 Usecase ~
 This method will return  mystring added to all the other strings right to it.
 Example ~
@@ -1145,8 +1151,8 @@ The output of the following program is ~
  1  attachment  2  attachment  3  attachment  4
 
  
-Function ~
-isEmpty() 
+Method ~
+source-string.isEmpty() 
 Usecase ~
 This method is used to check whether a string is empty or not.
 Example ~
@@ -1177,8 +1183,8 @@ class mystring
 The output of the program is ~
 false 
 
-Function ~
-intern();
+Method ~
+source-string.intern();
 Usecase ~
 Java have a concept of String constant pool this pool lies in the heap memory it contains unique Strings in order to put string in the pool we have to 
 call intern() method before creating a string in the SCP jvm check whether the string is already present in the string or not if its present the 
@@ -1221,8 +1227,8 @@ In the second case the answer was true as although the objects were diffrenet bu
 are implemented using the same way. 
 
 
-Function ~
-contentEquals()
+Method ~
+source-string.contentEquals(another-string-to-check-content-with);
 Usecase ~
 This method is used to check equality with content of immutable and non immutable strings 
 Example ~
@@ -1256,8 +1262,8 @@ false
 true
 
 
-Function ~
-hashCode();
+Method ~
+source-string.hashCode();
 Usecase ~
 This method returns hashed version of the string  
 Example ~
@@ -1289,8 +1295,9 @@ class mystring
 The output of the following program is ~
 1511856349
 
-Function ~
-copuValueOf();
+
+Method ~
+target-storage-source.copuValueOf(source-string);
 Usecase ~
 This method returs the string made up of all the characters of an character array
 Example ~
@@ -1327,8 +1334,8 @@ There's a modified version of this method whicch have three parameters
 2.starting index of the character array from where character extraction will start 
 3.length of the string which is to be returned 
 
-Function ~
-copuValueOf(string,starting-index,length-of-the-returned-string);
+Method ~
+source-string.copuValueOf(string,starting-index,length-of-the-returned-string);
 Usecase ~
 This method is used to return string made up of characters extracted from the character array. 
 Example ~
@@ -1363,8 +1370,8 @@ The output of the following program is ~
 ARE PART OF MATRIX
 
 
-Function ~
-split(character-which-is-will-make-the-string-split-when-it-came);
+Method ~
+source-string.split(character-which-is-will-make-the-string-split-when-it-came);
 Usecase ~
 This method returns the the strings after splitting them everytime when the splitting character is found 
 Example ~
