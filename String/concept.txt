@@ -1363,6 +1363,52 @@ The output of the following program is ~
 ARE PART OF MATRIX
 
 
+Function ~
+split(character-which-is-will-make-the-string-split-when-it-came);
+Usecase ~
+This method returns the the strings after splitting them everytime when the splitting character is found 
+Example ~
+import java.util.*;
+class mystring
+{
+    String mystring1=new String("LAWS-ARE-MADE-TO-BE-BROKEN-LAWS-ARE-FOR-PEOLE-OF-THE-MATRIX");
+    String[] mystringarray;
+    public void modify()
+    {
+        mystringarray=mystring1.split("-");
+        display();
+    }
+    public void display()
+    {
+        
+        for(int i=0;i<mystringarray.length;i++){
+            System.out.println(mystringarray[i]);
+        }
+    }
+    class Main
+    {
+        public void main(String[] args)
+        {
+            mystring ob =new mystring();
+            ob.modify();
+        }
+    }
+}
+
+The output of the following program is ~
+LAWS
+ARE
+MADE
+TO
+BE
+BROKEN
+LAWS
+ARE
+FOR
+PEOLE
+OF
+THE
+MATRIX
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
