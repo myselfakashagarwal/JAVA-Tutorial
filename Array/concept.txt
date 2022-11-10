@@ -12,10 +12,34 @@
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+
 Intro ~
 
 Array can be described as a datatype which is composed of sequence of homogeneous data stored in a continious memory location. It can be of any length 
 of any datatype and can be multidimentional with same datatype  the datatype of an array defines the datatype of all the elements in it. Array provide 
-solution to uncountable programming problems which deals with large data-streams . 
+solution to uncountable programming problems which deals with large data-streams . Array are mainly of two types one dimentional and two dimentional.
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Baisc syntax - Declaration and initilization of an array ~
+
+Syntax of declaration of single dimentional arry.
+<datatype> <identifier>[];
+Example ~
+int myarray[];
+
+The data type of myarray will determine the datatype of all the elements of myarray. Although an array is declared no physical array exists just like 
+class and object (class is a virtual entity while object is a physical entity), thus you may have got an idea that we have to allocate space in the 
+memory so we uses new keyword to allocate space. creating an array is a two step process declaration and allocating its memory thus,just like object
+arrays are dynamicially allocated.
+Till we have not initilized an array all the elements in an array will be initilized to zero. 
+
+Syntax of a phisical created array ~
+<datatype> <identifier>[] = new <datatype>[size of an array];
+Example ~
+int myarray[] = new int[10];
+
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
