@@ -1,0 +1,21 @@
+                                                                
+      ██                                                        
+     ▄██▄                                                       
+    ▄█▀██▄       ▀███▄███    ▀███▄███     ▄█▀██▄     ▀██▀   ▀██▀
+   ▄█  ▀██         ██▀ ▀▀      ██▀ ▀▀    ██   ██       ██   ▄█  
+   ████████        ██          ██         ▄█████        ██ ▄█   
+  █▀      ██       ██          ██        ██   ██         ███    
+▄███▄   ▄████▄   ▄████▄      ▄████▄      ▀████▀██▄       ▄█     
+                                                       ▄█       
+                                                     ██▀        
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Intro ~
+
+Array can be described as a datatype which is composed of sequence of homogeneous data stored in a continious memory location. It can be of any length 
+of any datatype and can be multidimentional with same datatype  the datatype of an array defines the datatype of all the elements in it. Array provide 
+solution to uncountable programming problems which deals with large data-streams . 
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
