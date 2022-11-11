@@ -41,5 +41,52 @@ Syntax of a phisical created array ~
 Example ~
 int myarray[] = new int[10];
 
+Initilization ~ 
+The number of items in an array is equal to the size of an array and every item in an array will have a index the no of indexes will equall to the 
+" length of array -1 " because index of an array start with zero 
+
+Syntax to initilize element of an array at index x  ~
+<arry which is already declared >[index]=<number>;
+Example ~
+myarray[9]=69;
+
+Initilizing all elements of an array one by one is not an easy task thus loops are used to initilize an array.
+
+Example of declaring and initilizing an array ~
+
+import java.util.*;
+class myarray
+{
+    Scanner obj =new Scanner(System.in);
+    //Creating an array in thye class so that it can be accessed any part of the program 
+    int arr[] =new int[10];
+    public void input()
+    {
+        for(int i=0;i<10;i++)
+        {
+            System.out.println("Input the data at index: "+i);
+            arr[i]=obj.nextInt();
+        }
+    }
+    public void display()
+    {
+         for(int i=0;i<10;i++)
+        {
+            System.out.println("Element of an array at index: "+i+" is "+arr[i]);
+        }
+    }
+    class Main
+    {
+        public void main(String args[])
+        {
+            myarray ob =new myarray();
+            ob.input();
+            ob.display();
+        }
+    }
+}
+
+
+
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
