@@ -113,6 +113,7 @@ class myarray
     }
 }
 
-
+In the above case there's no need of new key word for the array this array was initilized using array initilizer it is a list of expressions 
+seperated by comma. The array will be created large enough to holds the elements. 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
