@@ -22,6 +22,7 @@ solution to uncountable programming problems which deals with large data-streams
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+
 Single dimentional array ~
 
 The data type of myarray will determine the datatype of all the elements of array. Although an array is declared no physical array exists just like 
@@ -120,11 +121,15 @@ seperated by comma. The array will be created large enough to holds the elements
 
 Before moving on to the methods of the array class lets compleate doubble dimentional array 
 
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 Doubble dimentional array ~
 
-Doubble dimentional array can be defined as arrays of arrays i.e array is composed of arrays but like single dimentional array all arrays in the array are 
-of same data type but they can have same or different size at the same time. Just like above single dimentional array this doubble dimentional array when 
-declared have not physical entity it came into existance after the memory is allocated or it is initilized using array initilizer. 
+Doubble dimentional array can be defined as arrays of arrays i.e array is composed of arrays but like single dimentional array all arrays in the array 
+are of same data type but they can have same or different size at the same time. Just like above single dimentional array this doubble dimentional array
+when declared have not physical entity it came into existance after the memory is allocated or it is initilized using array initilizer. 
 
 Baisc syntax - Declaration and initilization of an doubble dimentional array ~
 
@@ -139,11 +144,18 @@ Example ~
 int myarray[] = new int[10][10];
 
 Initilization ~ 
-The number of array in and doubble dimentioanl array is equal to the number - 1 provided in the first square bracket while size of every array is equall to 
-the number provided in the second square bracket in this case also the index starts from zero. 
+The number of array in and doubble dimentioanl array is equal to the number - 1 provided in the first square bracket while size of every array is 
+equall to the number provided in the second square bracket in this case also the index starts from zero. Till it is not initilized all arrays are 
+initilized to 0 and all elements in arrays are set to zero.
 
+Syntax to initilize element of an array at index x  ~
+<arry which is already declared >[array of desired index ][element of dezired index of selected array ]=<number>;
+Example ~
+myarray[6][9]=69;
 
+In the above example the 69 is assigned to position at 9th index of array at 6th index 
 
+Initilizing all elements of an array and arrays one by one is not an easy task thus loops are used to initilize an array.
 
 
 
