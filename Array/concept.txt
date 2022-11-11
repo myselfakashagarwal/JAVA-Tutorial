@@ -210,6 +210,43 @@ The output of the following program is ~
 (4,0)  (4,1)  (4,2)  (4,3)  (4,4)  
 
 
+Just like above doubble dimentional array can also be dynamicially initilized using array initilizer 
+Example ~
 
+import java.util.*;
+class myarray
+{
+    Scanner obj =new Scanner(System.in);
+    //Creating an array in thye class so that it can be accessed any part of the program 
+    String arr[][] = 
+    { 
+    {"(0,0)","(0,1)","(0,2)","(0,3)","(0,4)"} ,
+    {"(1,0)","(1,1)","(1,2)","(1,3)","(1,4)"} ,
+    {"(2,0)","(2,1)","(2,2)","(2,3)","(2,4)"} ,
+    {"(3,0)","(3,1)","(3,2)","(3,3)","(3,4)"} ,
+    {"(4,0)","(4,1)","(4,2)","(4,3)","(4,4)"} ,
+    };
+    public void display()
+    {
+        for(int n_th_array=0;n_th_array<5;n_th_array++)
+        {
+            for(int i=0;i<5;i++)
+            {
+               System.out.print(arr[n_th_array][i]+"  ");
+            }
+            System.out.println('\n');
+        }
+    }
+    class Main
+    {
+        public void main(String args[])
+        {
+            myarray ob =new myarray();
+            ob.display();
+        }
+    }
+}
+
+The output is same as the above approach. 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
