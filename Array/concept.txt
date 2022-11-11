@@ -22,21 +22,22 @@ solution to uncountable programming problems which deals with large data-streams
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+Single dimentional array ~
 
-Baisc syntax - Declaration and initilization of an array ~
-
-Syntax of declaration of single dimentional arry.
-<datatype> <identifier>[];
-Example ~
-int myarray[];
-
-The data type of myarray will determine the datatype of all the elements of myarray. Although an array is declared no physical array exists just like 
+The data type of myarray will determine the datatype of all the elements of array. Although an array is declared no physical array exists just like 
 class and object (class is a virtual entity while object is a physical entity), thus you may have got an idea that we have to allocate space in the 
 memory so we uses new keyword to allocate space. creating an array is a two step process declaration and allocating its memory thus,just like object
 arrays are dynamicially allocated.
 Till we have not initilized an array all the elements in an array will be initilized to zero. 
 
-Syntax of a phisical created array ~
+Baisc syntax - Declaration and initilization of an single dimentional array ~
+
+Syntax of declaration of single dimentional array virtual entity.
+<datatype> <identifier>[];
+Example ~
+int myarray[];
+
+Syntax of a declaration of single dimentional array physical entity ~
 <datatype> <identifier>[] = new <datatype>[size of an array];
 Example ~
 int myarray[] = new int[10];
@@ -115,5 +116,38 @@ class myarray
 
 In the above case there's no need of new key word for the array this array was initilized using array initilizer it is a list of expressions 
 seperated by comma. The array will be created large enough to holds the elements. 
+
+
+Before moving on to the methods of the array class lets compleate doubble dimentional array 
+
+Doubble dimentional array ~
+
+Doubble dimentional array can be defined as arrays of arrays i.e array is composed of arrays but like single dimentional array all arrays in the array are 
+of same data type but they can have same or different size at the same time. Just like above single dimentional array this doubble dimentional array when 
+declared have not physical entity it came into existance after the memory is allocated or it is initilized using array initilizer. 
+
+Baisc syntax - Declaration and initilization of an doubble dimentional array ~
+
+Syntax of declaration of doubble dimentional array virtual entity.
+<datatype> <identifier>[][];
+Example ~
+int myarray[][];
+
+Syntax of a declaration of single dimentional array physical entity ~
+<datatype> <identifier>[][] = new <datatype>[numbers of array][size of each array];
+Example ~
+int myarray[] = new int[10][10];
+
+Initilization ~ 
+The number of array in and doubble dimentioanl array is equal to the number - 1 provided in the first square bracket while size of every array is equall to 
+the number provided in the second square bracket in this case also the index starts from zero. 
+
+
+
+
+
+
+
+
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
