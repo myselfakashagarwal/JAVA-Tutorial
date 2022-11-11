@@ -86,6 +86,32 @@ class myarray
     }
 }
 
+The array dynamic inilitization can also be done in this way also ~
+int arr[] = {33,44,55,66,77,88,99,420,69,94};
+
+Example of this approach ~
+
+import java.util.*;
+class myarray
+{
+    //Creating an array in thye class so that it can be accessed any part of the program 
+    int arr[] = { 33,44,55,66,77,88,99,420,69,94 };
+    public void display()
+    {
+         for(int i=0;i<10;i++)
+        {
+            System.out.println("Element of an array at index: "+i+" is "+arr[i]);
+        }
+    }
+    class Main
+    {
+        public void main(String args[])
+        {
+            myarray ob =new myarray();
+            ob.display();
+        }
+    }
+}
 
 
 
