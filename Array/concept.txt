@@ -250,7 +250,21 @@ class myarray
 The output is same as the above approach. 
 
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Dynamic array ~
+
+Arrays are perfect but they have one major drawback that is the length of array are fixed. That is if gets declared and allow=cated memory in the space 
+we have to deal with the same length thus it prevent flexibility to overcome this problem dynamic array are used as the word suggests the length of 
+dynamic is not fixed it can be changed and modified. 
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 In java array are treated as object thus we can use predefined class methods to made our task more easy lets get handy with them ~
+There are nealy a hundred methods which we can use to get our work done.
 
 Method ~
 source-array-variable.length;
