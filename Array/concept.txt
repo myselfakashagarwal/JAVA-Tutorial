@@ -305,6 +305,18 @@ class myarray
 }
 
 
+Exaplanation ~ 
+In steps we can define this ~
+We will add elements and keep track of it at the same time.
+If the no of elements will gets equall to the length of array we will modify array.
+In the modification of an array we will create an temporary array which is doubble of size of previous one and copy all the elements of previous in 
+the new array. 
+After the modification gets compleate we will add the new element. 
+
+Just like we discussd earlier array are treated as objects in java thus we can manipulate reference variable to change reference of new array.
+The current variable is used to check the count of elements, every time an element gets added the value of current gets increased,  if the current's value
+reaches equal to the length it means that we have reached to the end on our array thus before adding the extra element we will modify the array then 
+store our element in it. 
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
