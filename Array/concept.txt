@@ -249,4 +249,38 @@ class myarray
 
 The output is same as the above approach. 
 
+
+In java array are treated as object thus we can use predefined class methods to made our task more easy lets get handy with them ~
+
+Method ~
+source-array-variable.length;
+Usecase ~
+This method is used to know length of an array i.e number of elements present in it. This method will be used further explanations for demonstrating 
+other methods. For cases like finding longest sub array with no repeatition this method is useful.   
+Example ~
+
+import java.util.*;
+class myarray
+{
+    int myarr[] = {69,420,007,94,1945};
+    public void display()
+    {
+            System.out.println(myarr.length);
+    }
+    class Main
+    {
+        public void main(String args[])
+        {
+            myarray ob =new myarray();
+            ob.display();
+        }
+    }
+}
+
+The output of the following program is ~
+5
+
+
+
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
