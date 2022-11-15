@@ -1,0 +1,21 @@
+
+
+ ▄█▀▀▀█▄█   ███▀▀██▀▀███         ██           ▄▄█▀▀▀█▄█   ▀████▀ ▀███▀ 
+▄██    ▀█   █▀   ██   ▀█        ▄██▄        ▄██▀     ▀█     ██   ▄█▀   
+▀███▄            ██            ▄█▀██▄       ██▀       ▀     ██ ▄█▀     
+  ▀█████▄        ██           ▄█  ▀██       ██              █████▄     
+▄     ▀██        ██           ████████      ██▄             ██  ███    
+██     ██        ██          █▀      ██     ▀██▄     ▄▀     ██   ▀██▄  
+█▀█████▀       ▄████▄      ▄███▄   ▄████▄     ▀▀█████▀    ▄████▄   ███▄
+                                                                       
+                                                                       
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////  
+
+Intro ~
+
+Stack are non primitive data structure a simple example of stack is books lied on top on each other on the table. Stack is a last in first out data 
+structure it can be implemented using both array and linked. At first we will be focusing on the array-one than we wil move to the link list Implementation 
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
