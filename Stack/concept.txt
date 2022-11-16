@@ -89,4 +89,14 @@ class mystack
     }
 }
 
+Explanation ~
+
+The thing done here is like child's play what we are doing here is we are adding elements we are adding(pushing) the elements in the stack at the same 
+time we are updating the top this top represent the top element of the stack and also top+1 represent the no of elements in the array 
+The top element of element is initially initilized to -1 thus before pushing any element in the stack we have to increase its value.
+We will push element till the top value is less than the length of the stack if the top value reaches to the length -1 it means the stack is full if we 
+further add element to the array then there will be overflow similarly We will pop elements in the stack till the value of the top reaches less than 
+zero if we further pop the element from the stack then there will be under flow we just simply decrease the value of top in case of that. peek is just 
+represent element at the top aka last element 
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
