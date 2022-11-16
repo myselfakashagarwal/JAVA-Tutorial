@@ -1,34 +1,35 @@
 
-                                                                                                        
-▀████▀       ▀████▀   ▀███▄   ▀███▀   ▀████▀ ▀███▀          ▀████▀       ▀████▀    ▄█▀▀▀█▄█   ███▀▀██▀▀███
-  ██           ██       ███▄    █       ██   ▄█▀              ██           ██     ▄██    ▀█   █▀   ██   ▀█
-  ██           ██       █ ███   █       ██ ▄█▀                ██           ██     ▀███▄            ██     
-  ██           ██       █  ▀██▄ █       █████▄                ██           ██       ▀█████▄        ██     
-  ██     ▄     ██       █   ▀██▄█       ██  ███               ██     ▄     ██     ▄     ▀██        ██     
-  ██    ▄█     ██       █     ███       ██   ▀██▄             ██    ▄█     ██     ██     ██        ██     
-██████████   ▄████▄   ▄███▄    ██     ▄████▄   ███▄         ██████████   ▄████▄   █▀█████▀       ▄████▄   
-                                                                                                        
-                                                                                                                                                                            
+                                                                                                                                     
+▀████▀       ▀████▀   ▀███▄   ▀███▀   ▀████▀ ▀███▀    ▀███▀▀▀███    ▀███▀▀▀██▄               ▀████▀       ▀████▀    ▄█▀▀▀█▄█   ███▀▀██▀▀███
+  ██           ██       ███▄    █       ██   ▄█▀        ██    ▀█      ██    ▀██▄               ██           ██     ▄██    ▀█   █▀   ██   ▀█
+  ██           ██       █ ███   █       ██ ▄█▀          ██   █        ██     ▀██               ██           ██     ▀███▄            ██     
+  ██           ██       █  ▀██▄ █       █████▄          ██████        ██      ██               ██           ██       ▀█████▄        ██     
+  ██     ▄     ██       █   ▀██▄█       ██  ███         ██   █  ▄     ██     ▄██               ██     ▄     ██     ▄     ▀██        ██     
+  ██    ▄█     ██       █     ███       ██   ▀██▄       ██     ▄█     ██    ▄██▀               ██    ▄█     ██     ██     ██        ██     
+██████████   ▄████▄   ▄███▄    ██     ▄████▄   ███▄   ▄██████████   ▄████████▀               ██████████   ▄████▄   █▀█████▀       ▄████▄   
+                                                                                                                                     
+                                                                                        
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 Intro ~
 
-Link list in my opinion explores the true concepts of the oop. A link list is composed of nodes every node have two major parts data and reference part 
-A node is a non primitive data type i.e data type created by the user. Many nodes connect together with the help of reference part together making a link 
-list, these nodes are stored randomly in the memory thus losing the reference of the first node may result in losing the link list. It is a linear dynamic 
+linked list in my opinion explores the true concepts of the oop. A linked list is composed of nodes every node have two major parts data and reference part 
+A node is a non primitive data type i.e data type created by the user. Many nodes connect together with the help of reference part together making a linked 
+list, these nodes are stored randomly in the memory thus losing the reference of the first node may result in losing the list. It is a linear dynamic 
 data structure 
 
-Link list have the following advantages ~
+Linked list have the following advantages ~
 1. No boundatinns on size unlike array
-2. These are stored in the memory randomly 
+2. These are stored in the memory randomly       
 3. Its size can be increased during the runtime 
 
 list are of many types ~
-1. Singly link list 
-2. Doubly link list 
-3. circular link list 
-4. Doubly circular link list 
+1. Singly linked list 
+2. Doubly linked list 
+3. circular linked list 
+4. Doubly circular linked list 
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
