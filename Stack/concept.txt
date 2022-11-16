@@ -97,6 +97,6 @@ The top element of element is initially initilized to -1 thus before pushing any
 We will push element till the top value is less than the length of the stack if the top value reaches to the length -1 it means the stack is full if we 
 further add element to the array then there will be overflow similarly We will pop elements in the stack till the value of the top reaches less than 
 zero if we further pop the element from the stack then there will be under flow we just simply decrease the value of top in case of that. peek is just 
-represent element at the top aka last element 
+represent element at the top aka last element
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
