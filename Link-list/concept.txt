@@ -33,3 +33,20 @@ list are of many types ~
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Singly linked list ~
+
+Singly linked list is the most basic linked list's node have two parts data and pointer(note: pointers are not in java this is just a reference).
+The first node of the linked list is caled head 
+The reference of the last node always represent null
+Nodes can be inserted at any point 
+Deleation of the node can be done at any part 
+Traverse cannot be done at any part 
+Sorting is possible on the basics of data 
+
+Example of implementation of the link list from the scratch ~
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
