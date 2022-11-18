@@ -37,6 +37,10 @@ list are of many types ~
 Singly linked list ~
 
 Singly linked list is the most basic linked list's node have two parts data and pointer(note: pointers are not in java this is just a reference).
+Node is a non primitive datatype inplemented through class this class have two main datatype categories one regular to hold data like int char etc,
+The another is same as class itself thus we can store node inside class making a chain.
+
+
 The first node of the linked list is caled head 
 The reference of the last node always represent null
 Nodes can be inserted at any point 
@@ -46,8 +50,8 @@ Sorting is possible on the basics of data
 
 These are the main actions that can be performed on the singly linked list ~
 
-add front 
-add add back
+add front
+add back
 add specific
 delete front
 delete back
@@ -175,5 +179,17 @@ public class mylist
     }
 }
 
+
+Hope You have understood most of the code by yourself if not dont worry akash is here by your side 😉
+
+Creating a node - We have created a node using the class as in the above program bruh is the class name this bruh have two datatype one is string 
+and another is same as class itself. This another datatype is the key to the implementation as it can store the other node and that node can store another 
+thus Creating a chain now a question may arise in your mind that how do we initilize its member the thing we have done is we have used a constructor 
+this constructor will initilize its string to passed in the argument and next currently at null. 
+
+Every time I create a node I create a instance/physical-entity/object Nowww we have so may objects with data lying randomly in the memory than how do we 
+create a chain out it 🤔 simply using using datatype same as object, we will store node inside node and the chain goes on and on. 
+As we know in java we can change refernce and store it in a variable we will use temporary node to make two references pointing at the same object 
+thus we have secuerity of not losing our node.  
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
