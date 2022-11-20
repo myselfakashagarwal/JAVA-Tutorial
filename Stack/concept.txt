@@ -16,10 +16,12 @@ Intro ~
 
 Stack data structure is a simple example of stack is books lied on top on each other on the table. Stack is a last in first out data 
 structure it can be implemented using both array and linked. At first we will be focusing on the array-one than we wil move to the link list Implementation
-The stack have three main Function ~
+
+The stack have the following main Function ~
 push(); - add element to the stack
 pop();  - delete element from the stack 
 peek(); - get the top element of the stack 
+search(); - search the element in the stack
 overflow - this condition appears when we try to add element element to the stack even if the stack is full
 underflow - this condition appears when we try to delete the element from the stack even if the stack is empty 
 
@@ -69,6 +71,33 @@ class mystack
             System.out.print(my_stack_arr[i]+" ");
         }
     }
+    public void search()
+    {
+        int check=0;
+        System.out.println("input item you wanna search off");
+        int serach =in.nextInt();
+        if(top<0){
+            System.out.println("Stack is empty");
+        }
+        else
+        {
+            for(int i=0;i<=top;i++)
+            {
+                if(my_stack_arr[i]==search)
+                {
+                    check++;
+                }
+            }
+            if(check>=1)
+            {
+                System.out.println("The given element exists");
+            }
+            else
+            {
+                System.out.println("The given element does not exists");
+            }
+        }
+    }
     public class Main
     {
         public void main(String[] args)
@@ -82,8 +111,9 @@ class mystack
           System.out.println("input the data");
           int data =in.nextInt();
           ob.push(data);
-          
+          ob.pop();
           ob.peek();
+          ob.search();
           ob.display();
         }
     }
