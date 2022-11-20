@@ -159,7 +159,7 @@ Initilizing all elements of an array and arrays one by one is not an easy task t
 
 Example ~
 import java.util.*;
-class myarray
+class myddarray
 {
     Scanner obj =new Scanner(System.in);
     //Creating an array in thye class so that it can be accessed any part of the program 
@@ -190,7 +190,7 @@ class myarray
     {
         public void main(String args[])
         {
-            myarray ob =new myarray();
+            myddarray ob =new myddarray();
             ob.input();
             ob.display();
         }
