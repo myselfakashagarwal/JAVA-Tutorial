@@ -355,6 +355,28 @@ datatype with higher range
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  
+.                                                🥶 OBTAINING INPUT USING SCANNER CLASS  🥶
+
+
+There will be time when there a need of input from user guess what all this can be solved using Scanner class. 
+For every integer type it got a nextXXX() method 
+
+String next() is used for taking input in String aka sequence of characters 
+int nextInt() is used for taking input in integers aka byte short int long 
+int nextBoolean() is used to take input in either true or false 
+float nextFloat() , double nextDouble()  are used to take input in floating point datatypes
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 .                                            🥶 OPERATORS 🥶
 
