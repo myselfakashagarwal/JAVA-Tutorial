@@ -214,3 +214,19 @@ In the above program all data can be pass through arguments but to make things s
 specific method. 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Doubly linked list ~
+
+As you have gone through singly linked list you will be familioar that singly linked list canot be traversed backwards to solve this issue 
+we have added one more reference variable just like next this new reference variable will store the reference of the previous node thus making linked 
+doubble sided traverseful. 
+
+
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
