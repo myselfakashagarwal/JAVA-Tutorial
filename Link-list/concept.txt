@@ -424,23 +424,20 @@ class mydlist
           System.out.println("NULL");
       }
       
-      public void automate()
-      {
-          for(int i=0;i<10;i++)
-          {
-              add_last();
-          }
-      }
-      
- 
+
       class Main
       {
           public void main(String[] args)
           {
               mydlist ob=new mydlist();
-              ob.automate();
               ob.add_front();
+              ob.add_last();
+              ob.add_specific();
+              ob.delete_front();
+              ob.delete_last();
+              ob.delete_specific();
               ob.display_front();
+              ob.display_back();
           }
       }
       
