@@ -219,8 +219,38 @@ Doubly linked list ~
 
 As you have gone through singly linked list you will be familioar that singly linked list canot be traversed backwards to solve this issue 
 we have added one more reference variable just like next this new reference variable will store the reference of the previous node thus making linked 
-doubble sided traverseful. 
+doubble sided traverseful.
 
+Every node have two reference variable 
+back of head always represent null 
+next of last node always represent null 
+Deletion can be done at anypart 
+Sorting is done on the basics of data 
+
+
+Adde front: Fist create a new node , newnode.next=head , head.previous=newnode, now we have added node at front so we will update head head=newnode
+as we are adding at the front the previous of the new node after beacoming head will represent null.
+
+Add back: first create a new node, we will traverse till last node to do this we will indirectly traverse till last. After reaching last we will add 
+our newly maded node by lastnode.next=new node, now we have added our new node to last node, now we will do other work newly added node .next=null
+and newly made node.previous = last node. 
+
+Add specific: First create a new node, we will traverse till node before target-node, becasue that node.next represent our traget, after reaching index before 
+traget we will new node.next same as node before target, now we have two node pointing towards target, so we will make node traget-1.next = new node. 
+Now we have added the node in between so we will do other stuff making newnode.previous=target-node-1 and new node.next.previous=new node.  
+
+Delete front: we will move head to next and make previous of head to null, because previous of head represent null
+
+Delete back: we will traverse till second last node because second-last node .next =last node. So after reaching there will will point next of send-last 
+node to null thus removing all connections of the last node 
+
+Delete Specific: We will traverse till target-1 and becasue target-1.next =target, so after reaching there will msimply made target-1.next=target-1.next.next
+thus removing the reference of traget. At the same time we will update the previous target-1.next.previous=target-1
+
+Display: We will traverse through linked list indirectly at the same time we will print the list
+
+
+Example of implementation of the doubbly linked list from the scratch ~
 
 
 
