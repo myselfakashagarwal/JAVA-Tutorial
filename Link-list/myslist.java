@@ -135,11 +135,11 @@ public class myslist
         {
             myslist ob =new myslist();
             ob.add_front();
-            add_back();
-            add_specific();
-            delete_front();
-            delete_back();
-            delete_specific();
+            ob.add_back();
+            ob.add_specific();
+            ob.delete_front();
+            ob.delete_back();
+            ob.delete_specific();
             ob.display();
         }
     }
