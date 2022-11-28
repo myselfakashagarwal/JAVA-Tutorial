@@ -128,7 +128,7 @@ public class myslist
            }
         }
     } 
-    class main
+    class Main
     {
         Scanner in =new Scanner(System.in);
         public void main(String[] args)

@@ -444,8 +444,18 @@ class mydlist
 }
 
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
+Singly circular linked list ~
+
+We have come across singly and doubly linked list but they all have one thing in common that is all have an end and cannot be traversed again and again 
+to solve this problem what we have done is we have connected next of last node to the head thus making it circular and irritable.
+
+Next of last node represent head
+Every node have one reference variable 
+Insertion can be done at any part 
+deletion can be done at any part 
 
 
 
