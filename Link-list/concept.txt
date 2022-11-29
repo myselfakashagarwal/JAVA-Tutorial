@@ -457,6 +457,21 @@ Every node have one reference variable
 Insertion can be done at any part 
 deletion can be done at any part 
 
+Add front : 
+
+Add last : create a node, we will traverse till tail because tail represent last after reaching last we will point next of tail to new node and update tail
+at last we will join the new tail to the head 
+
+Add specific
+
+Delete front : We will point head to next head thus losing the reference of the first node but wait we will also update the tail.next 
+
+delete last After reaching node before tail we will simply point next second last node to the next of the lastnode/tail 
+
+Delete specific 
+
+display : Every time we add or delete the node we will update/calculate size of the list, so now we know the size of the list so we will traverse till the 
+size of the list and print the node's data at the same time. 
 
 
 
