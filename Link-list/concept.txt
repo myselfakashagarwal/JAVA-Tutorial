@@ -355,6 +355,7 @@ class mydlist
      
       public void add_last()
       {
+          bruh temporary=head;
           System.out.println("Input the name of the bruh");
           String name=in.nextLine();
           bruh newbruh =new bruh(name);
@@ -363,8 +364,7 @@ class mydlist
               head=newbruh;
           }
           else
-          {
-              bruh temporary=head;
+          {              
               while(temporary.next!=null)
               {
                   temporary=temporary.next;
@@ -407,22 +407,30 @@ class mydlist
           {
               System.out.println("This list is empty");
           }
+          else if(head.next==null)
+          {
+              head=null;
+          }
           else
           {
               head=head.next;
+              head.previous=null;
           }
-          head.previous=null;
       }
      
       public void delete_last()
       {
+          bruh temporary=head;
           if(head==null)
           {
             System.out.println("This list is empty");    
           }
+          else if(temporary.next==null)
+          {
+              delete_front();
+          }
           else
           {
-            bruh temporary=head;
             while(temporary.next.next!=null)
             {
                 temporary=temporary.next;
@@ -434,22 +442,27 @@ class mydlist
       public void delete_specific()
       {
           bruh temporary=head;
+          System.out.println("Input the index you wanna delete node at ");
+          int desired_index=in.nextInt();
+          int current_index=1;
           if(temporary==null)
           {
               System.out.println("The list is empty");
           }
+          else if(desired_index==1)
+          {
+              delete_front();
+          }
           else
           {
-              System.out.println("Input the index you wanna delete node at ");
-              int desired_index=in.nextInt();
-              int current_index=1;
-              while(current_index!=desired_index-1)
+              while(current_index<desired_index-1)
               {
                   temporary=temporary.next;
                   current_index++;
               }
-              temporary.next=temporary.next.next;
-              temporary.next.previous=temporary;
+              bruh temporary_next=temporary.next;
+              temporary.next=temporary_next.next;
+              temporary_next.previous=temporary;
           }
       }
       
@@ -473,21 +486,32 @@ class mydlist
 
       public void display_back()
       {
-          bruh temporary=head;
-          while(temporary.next!=null)
+          if(head==null)
           {
-              temporary=temporary.next;
+              System.out.println("List is empty");
           }
+          else if(head.next==null)
+          {
+              System.out.println(head.name+" .previous = NULL");
+          }
+          else
+          {
+            bruh temporary=head;
+            while(temporary.next!=null)
+            {
+                temporary=temporary.next;
+            }
           
-          while(temporary!=null)
-          {
-             System.out.print(temporary.name+" .previous = ");
-             temporary=temporary.previous;             
+            while(temporary!=null)
+            {
+               System.out.print(temporary.name+" .previous = ");
+               temporary=temporary.previous;             
+            }
+            System.out.println("NULL");              
           }
-          System.out.println("NULL");
       }
       
-
+ 
       class Main
       {
           public void main(String[] args)
