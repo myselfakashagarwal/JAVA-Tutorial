@@ -59,18 +59,21 @@ cannot travell till last directly, after reaching last we will simply replace nu
 
 add specific
 A node is created. Just like other we will traverse till our location -1 this -1 is because (location -1)node.next represent our target position so if we 
-wanna add our node at traget we will link the (location-1).next to newly maded node with attached with other nodes.   
+wanna add our node at traget we will link the (location-1).next to newly maded node with attached with other nodes. If the desired index is 1 it means a node 
+have to be added at front so in case user inputs 1 we will call add_front() function.  
 
 delete front
 Delete front is the easiest action just move the pointing head to next node old node reference will be deleated.
 
-delete back
+delete last
 To delete back we will traverse till node before last node because second last node.next = last node && last node.next =null so if we connect both together 
-there will be a loss of node before null booom our works is done. 
+there will be a loss of node before null booom our works, but in case where next is null it means there is only one node inn the linked list so to deleteh this
+first and last node we will call the delete front function. 
 
 delete specific
 To delete specifice we will traverse till our (location-1) because location -1 = traget && location.next.next = node after target so after reaching our 
-location -1 we will dereference it next to the next.next boom we will loss node at target.  
+location -1 we will dereference it next to the next.next boom we will loss node at target. if the desired index is one we have to delete the first node so 
+in case user inputs 1 we will call delete_front() function. 
 
 display
 Display is just traversing and printing at the same time 
