@@ -302,13 +302,18 @@ Add specific: First create a new node, we will traverse till node before target-
 traget we will new node.next same as node before target, now we have two node pointing towards target, so we will make node traget-1.next = new node. 
 Now we have added the node in between so we will do other stuff making newnode.previous=target-node-1 and new node.next.previous=new node.  
 
-Delete front: we will move head to next and make previous of head to null, because previous of head represent null
+Delete front: we will move head to next and make previous of head to null, because previous of head represent null. In case there is only one node 
+we will make that node null. 
 
-Delete back: we will traverse till second last node because second-last node .next =last node. So after reaching there will will point next of send-last 
+Delete last: we will traverse till second last node because second-last node .next =last node. So after reaching there will will point next of send-last. 
+In case there is only one node the last and first are the same thing so in that case we will call the delete_front() method.
 node to null thus removing all connections of the last node 
 
 Delete Specific: We will traverse till target-1 and becasue target-1.next =target, so after reaching there will msimply made target-1.next=target-1.next.next
-thus removing the reference of traget. At the same time we will update the previous target-1.next.previous=target-1
+thus removing the reference of traget. At the same time we will update the previous target-1.next.previous=target-1. In case desired index is 1 it means that
+first node is to be deleated so we will call delete_front() method. in case user wanna delete the last node we will first duplicate the last node becasue 
+in deleting the next part will result in loss of last node so the previous of the last node must be conserved, after saving the last node we will update 
+the previous. 
 
 Display: We will traverse through linked list indirectly at the same time we will print the list
 
