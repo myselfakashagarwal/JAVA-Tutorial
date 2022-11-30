@@ -154,9 +154,10 @@ public class myslist
              temporary = head;
              while(temporary!=null)
              {
-                 System.out.print(temporary.name+"  ");
+                 System.out.print(temporary.name+" .next = ");
                  temporary =temporary.next;
              }
+             System.out.print("NULL");
           }
       } 
     
@@ -167,11 +168,11 @@ public class myslist
           {
               myslist ob =new myslist();
               ob.add_front();
-              add_last();
-              add_specific();
-              delete_front();
-              delete_last();
-              delete_specific();
+              ob.add_last();
+              ob.add_specific();
+              ob.delete_front();
+              ob.delete_last();
+              ob.delete_specific();
               ob.display();
           }
       }
