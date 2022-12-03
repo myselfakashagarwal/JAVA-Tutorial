@@ -22,15 +22,8 @@ public class myslist
           System.out.println("Input the name of the bruh");
           String name = in.nextLine();
           bruh newbruh = new bruh(name);
-          if(head==null)
-          {
-              head = newbruh;
-          }
-          else
-          {
-              newbruh.next = head;
-              head = newbruh;
-          }
+          newbruh.next = head;
+          head = newbruh;
       }
       
       public void add_last()
@@ -52,26 +45,27 @@ public class myslist
                }
                
              temporary.next = newbruh;
-             newbruh.next=null;
           }
       }
       
       public void add_specific()
       {
-          System.out.println("Enter the position you wanna enter that");
-          int current_index = 1;
-          int desired_index = in.nextInt();    
           temporary = head;
-          if(desired_index==1)
+          int current_index = 1;
+          System.out.println("Enter the position you wanna enter that");
+          int desired_index = in.nextInt();
+          System.out.println("Input the name of the bruh");
+          String variable_used_so_that_enter_may_not_count_as_input_for_name = in.nextLine();
+          String name =in.nextLine();
+          bruh newbruh =new bruh(name); 
+           if(desired_index==1)
           {
-             add_front();
+                newbruh.next=head;
+                head=newbruh;
           }
           else
           {
-            System.out.println("Input the name of the bruh");
-            String name =in.nextLine();
-            bruh newbruh =new bruh(name); 
-           
+
               while(current_index<desired_index-1)
               {
                  temporary=temporary.next;
@@ -101,7 +95,6 @@ public class myslist
           {
               System.out.println("The list is empty");
           }
-          
           else if(head.next==null)
           {
               head=null;
@@ -115,7 +108,7 @@ public class myslist
                   temporary =temporary.next;
                 }
                
-              temporary.next=temporary.next.next;    
+              temporary.next=null;    
           }
       }
       
@@ -173,8 +166,7 @@ public class myslist
     
       class main
       {
-          Scanner in =new Scanner(System.in);
-          public void Main(String []args)
+          public void Main(String[] args)
           {
               myslist ob =new myslist();
               ob.add_front();
