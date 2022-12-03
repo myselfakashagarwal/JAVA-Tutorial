@@ -50,7 +50,7 @@ Sorting is possible on the basics of data
 These are the main actions that can be performed on the singly linked list ~
 
 add front 
-A node is created and its next is pointed to the current list. Now we have a new node with our old linked list chained to it so what we gonna go we will
+A node is created and its next is pointed to the head . Now we have a new node with our old linked list chained to it so what we gonna go we will
 make our head point towords new node. 
 
 add last
@@ -58,22 +58,20 @@ A node is created. After creating node we will traverse till last aka last node.
 cannot travell till last directly, after reaching last we will simply replace null with the new node aka lastnode.next =newly created node.
 
 add specific
-A node is created. Just like other we will traverse till our location -1 this -1 is because (location -1)node.next represent our target position so if we 
-wanna add our node at traget we will link the (location-1).next to newly maded node with attached with other nodes. If the desired index is 1 it means a node 
-have to be added at front so in case user inputs 1 we will call add_front() function.  
+A node is created and the index art which user wanna insert is asked, if the index is 1 it means the node is to be insert at front so newnode.next=head,
+head=newnode if the desired index is more than 1 it means we have to traverse till node before desired index,becasue a node before desired index points 
+to our target index, firt we will attach newnode to the list so newnode.next=temporary.next ,after it and point next of that node to our new node 
 
 delete front
 Delete front is the easiest action just move the pointing head to next node old node reference will be deleated.
 
 delete last
-To delete back we will traverse till node before last node because second last node.next = last node && last node.next =null so if we connect both together 
-there will be a loss of node before null booom our works, but in case where next is null it means there is only one node inn the linked list so to deleteh this
-first and last node we will call the delete front function. 
+Firt we will check if the empty if true we will display empty list message, secondly we will check if there is only one node in the list if true we will 
+delete that node, else we will traverse till second last and point its next to null thus losing the bond to last node.  
 
 delete specific
-To delete specifice we will traverse till our (location-1) because location -1 = traget && location.next.next = node after target so after reaching our 
-location -1 we will dereference it next to the next.next boom we will loss node at target. if the desired index is one we have to delete the first node so 
-in case user inputs 1 we will call delete_front() function. 
+Fist we will ask the desired index, if the desired index is 1 we will delete the first node, else we will traverse till desired-1 node, after reaching there we 
+will points it next reference to next'next thus losing the reference of the middle/desired node 
 
 display
 Display is just traversing and printing at the same time 
@@ -246,9 +244,9 @@ public class myslist
           }
       } 
     
-      class main
+      class Main
       {
-          public void Main(String[] args)
+          public void main(String[] args)
           {
               myslist ob =new myslist();
               ob.add_front();

@@ -164,9 +164,9 @@ public class myslist
           }
       } 
     
-      class main
+      class Main
       {
-          public void Main(String[] args)
+          public void main(String[] args)
           {
               myslist ob =new myslist();
               ob.add_front();
