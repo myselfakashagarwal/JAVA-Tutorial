@@ -1,0 +1,67 @@
+
+                                                                                                                                     
+▀████▀       ▀████▀   ▀███▄   ▀███▀   ▀████▀ ▀███▀    ▀███▀▀▀███    ▀███▀▀▀██▄               ▀████▀       ▀████▀    ▄█▀▀▀█▄█   ███▀▀██▀▀███
+  ██           ██       ███▄    █       ██   ▄█▀        ██    ▀█      ██    ▀██▄               ██           ██     ▄██    ▀█   █▀   ██   ▀█
+  ██           ██       █ ███   █       ██ ▄█▀          ██   █        ██     ▀██               ██           ██     ▀███▄            ██     
+  ██           ██       █  ▀██▄ █       █████▄          ██████        ██      ██               ██           ██       ▀█████▄        ██     
+  ██     ▄     ██       █   ▀██▄█       ██  ███         ██   █  ▄     ██     ▄██               ██     ▄     ██     ▄     ▀██        ██     
+  ██    ▄█     ██       █     ███       ██   ▀██▄       ██     ▄█     ██    ▄██▀               ██    ▄█     ██     ██     ██        ██     
+██████████   ▄████▄   ▄███▄    ██     ▄████▄   ███▄   ▄██████████   ▄████████▀               ██████████   ▄████▄   █▀█████▀       ▄████▄   
+                                                                                                                                     
+                                                                                        
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Linked list are one of the most used data structure and are used to implement other data structures linked list are explores the true concepts of oop
+There are four types of list ~
+Singly linked list 
+Doubly linked list 
+Single circular linked list 
+Doubly circular linked list 
+
+The thing which is common in all list are that all lists are composed of Node which is non primitive data type(object). This node have two parts i.e 
+data and reference. This data part stores the data and the reference part connect one node to another thus making a list. These node when created 
+gets laid randomly in the memory so these nodes are connect through reference aka a node storing the reference of another node thus making a chain.
+lets understand with a example ~
+
+class Node
+{
+ int data;
+ Node reference;
+ Node(int data)
+  {
+    this.data=data;
+    this.next=null;
+  }
+}
+
+This is a  implementatation of a node. This class have two attributes data and reference These attributes gets initilized using a parameterized constructor 
+This constructor is called at the time when the object(real entity) is created aka at the time of creation of object of class note values are passed in 
+the constructor which initilize the data members of the object. There can be multiple reference variables or multiple data members it depends on the user.
+Thus making a different types of linked list. 
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Singly linked list ~
+
+Structure ~
+The singly linked list is composed of one reference variable and one data member(in normal case).
+The list can be traversed only one side 
+The First node of list is called head 
+The next reference of the last node points to null 
+
+In the basic functionality of linked list there are following functions
+
+addFront(..)
+addBack(...)
+addSpecific(...)
+deleteFirst(...)
+deleteLast(...)
+deleteSpecific(...)
+display(...)
+
+Implementatation of Linked list from scratch
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
