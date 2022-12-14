@@ -36,47 +36,157 @@ automaticially craetes a String object.
 
 Implementation ~
 
-In informal it is very easy to implement a string in java program, it is used like as a datatype and it can be used any part wanted in the program.
+In regular case it is very easy to implement a string in java program, it is used like as a datatype and it can be used any part wanted in the program.
 just like a normal variabele it got a declaration and Implementation part. A String literal is created by putting characters inside doubble quotes.
 String mystring;                                                 //declaration
 mystring = " We are just the outcome of our surroundings ";      //inilitization
 
-String class in java provide variety of constructors that can be used to initialize members of an string object.
-
-
-
-String mystring =new String();
-This above constructor call accept no arguments thus it creates an instance of String class aka String with no characters in it.
-
-
-
-char character_array[] = {'A','k','a','s','h'};                //Array of character to hold character set
-String mystring =new String(character_array);                  
-This above constructor call accept the array of character to create a String it have a syntax of String(char character-array[]);
-
-
-
-char character_array[] = {'A','k','a','s','h'};                //Array of character to hold character set
-String mystring =new String(character_array,0,4);              //passing starting-index and no of character to make a string 
-This above constructor call accept the array of character to create a String with starting index and no of character it uses to create a String
-it have a syntax of String(char character-array[],int starting-index,int no-of-characters);
-
-
-
-We can also create a String which have a character sequence of another String 
-String(String string-object);
-
-Lets have a single exampele of this above constructor approach 
+String class in java provide variety of constructors that can be used to initialize members of an string object. The below program teaches all the constructor 
+present in java to create a String object.
 
 import java.util.*;
-class myclass
+import java.nio.charset.Charset;
+import java.io.UnsupportedEncodingException;
+class mystring
 {
-char character_array[]= {'A','k','a','s','h'};
-Srting mystring = new String(character_array);
-String mystring2 = new String(mystring);
-System.out.println(mystring2);
-}
+    //String();
+    //Create a String object using new keyword.
+    {
+        String myString =new String();
+        myString = "WE ARE A PART OF MATRIX";
+        System.out.println("The string created using String() constructor is ~ "+myString);
+    }
 
+    //String(byte[] byteArray);
+    //Create a String object using a byte array aka content of the string is the character representation of the contents of the byte array.
+    {
+        byte[] byteArry = {65,66,67,68,69};
+        String myString = new String(byteArry);
+        System.out.println("The string created using String(byte byteArry) constructor is ~ "+myString);
+    }
+
+    //String(byte[] byteArray, Charset charset);
+    //Create a String object using a byte array aka content of the string is the character representation of the contents of the byte array.
+    ////Character set can be unicode ASCII UTF-8 ETC
+    {
+        byte[] byteArry = {65,66,67,68,69};
+        String myString = new String(byteArry,Charset.forName("UTF-8"));
+        System.out.println("The string created using String(byte byteArry,Charset) constructor is ~ "+myString);
+    }
+
+    //String(byte[] byteArray, String charset);
+    //Create a String object using a byte array aka content of the string is the character representation of the contents of the byte array.
+    ////Character set can be unicode ASCII UTF-8 ETC
+    {
+        byte[] byteArray = {65,66,67,68,69};
+
+          try
+          {
+             String myString = new String(byteArray,"ASCII");
+             System.out.println("The string created using String(byte byteArry,String Charset) constructor is ~ "+myString);
+          }
+          catch (UnsupportedEncodingException e)
+          {
+             e.printStackTrace();
+          }
+
+    }
+
+    //String(byte[] byteArray,int offset,int length);
+    //Create a String object using byte arry aka content of the string is the character representation of the contents of the byte array starting from the desired index and size.
+    //offset is the characters you wanna miss in taking part of creation of String object
+    //length is simply no of characters in the string in this case no of character you want to create a String object starting after offset
+    {
+        byte[] byteArray = {65,66,67,68,69};
+        int offset = 2;
+        int length = 3;
+        String myString = new String(byteArray,offset,length);
+        System.out.println("The string created using String(byte byteArry,offset,length) constructor is ~ "+myString);
+    }
+
+    //String(byte[] byteArray, int offset, int length, Charset charset);
+    //Craete a String object using a byte array aka content of the string is the character representation of the contents of the byte array starting from the desired index and size. But the character set is user defined
+    //offset is the characters you wanna miss in taking part of creation of String object
+    //length is simply no of characters in the string in this case no of character you want to create a String object starting after offset
+    //Character set can be unicode ASCII UTF-8 ETC
+    {
+        byte[] byteArry = {65,66,67,68,69};
+        int offset = 2;
+        int length = 3;
+        String myString = new String(byteArry,offset,length,Charset.forName("ASCII"));
+        System.out.println("The string created using String(byte byteArry,offset,length,Charset) constructor is ~ "+myString);
+    }
+
+    //String(byte[] byteArray,int offset, int length, String charset);
+    //Create a String object using a byte array aka content of the string is the character representation of the contents of the byte array.
+    //offset is the characters you wanna miss in taking part of creation of String object
+    //length is simply no of characters in the string in this case no of character you want to create a String object starting after offset
+    //Character set can be unicode ASCII UTF-8 ETC
+    {
+        byte[] byteArray = {65,66,67,68,69};
+        int offset = 2;
+        int length = 3;
+          try
+          {
+             String myString = new String(byteArray,offset,length,"ASCII");
+             System.out.println("The string created using String(byte byteArry,offset,length,String Charset) constructor is ~ "+myString);
+          }
+          catch (UnsupportedEncodingException e)
+          {
+             e.printStackTrace();
+          }
+
+    }
+
+    //String(String String-literal);
+    //Create a String object using the String literal provided in the arguments of the constructor
+    {
+        String myString = new String("WE ARE A PART OF MATRIX");
+        System.out.println("The string created using String(String String-literal) constructor is ~ "+myString);
+    }
+
+    //String(char[] characterArray)
+    //Create a String object using the characterArray aka The String object is composed of the character present in the characterArray
+    {
+        char[] characterArray={'W','E',' ','A','R','E',' ','A',' ','P','A','R','T', ' ','M','A','T','R','I','X'};
+        String myString = new String(characterArray);
+        System.out.println("The string created using String(char characterArray) constructor is ~ "+myString);
+    }
+
+    //String(char[] value, int offset, int length)
+    //Create a String object using character arry aka content of the string is the character representation of the contents of the character array starting from the desired index and size.
+    //offset is the characters you wanna miss in taking part of creation of String object
+    //length is simply no of characters in the string in this case no of character you want to create a String object starting after offset
+    {
+        char[] characterArray={'W','E',' ','A','R','E',' ','A',' ','P','A','R','T', ' ','M','A','T','R','I','X'};
+        int offset = 14;
+        int length = 6;
+        String myString = new String(characterArray,offset,length);
+        System.out.println("The string created using String(char characterArray,int offset,int length) constructor is ~ "+myString);
+    }
+
+    //String(int[] codePoints,  int offset,  int length)
+    //Create a String object that contains the unicode points of the sub array
+    //offset is the characters you wanna miss in taking part of creation of String object
+    //length is simply no of characters in the string in this case no of character you want to create a String object starting after offset
+    {
+        int[] codePoints ={65,66,67,68,69};
+        int offset = 2;
+        int length = 3;
+        String myString = new String(codePoints,offset,length);
+        System.out.println("The string created using String(int codePoints,int offset,int length) constructor is ~ "+myString);
+    }
+
+    //String buffer and String builder are the predefined classes to create a String we will be discussing them in the later part
+    
+    class Main
+    {
+        public void main(String[] args)
+        {
+            mystring ob =new mystring();
+        }
+    }
+}
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
