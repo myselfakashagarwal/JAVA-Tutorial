@@ -463,8 +463,7 @@ Arithmetic Operators > Relational Operators > Bitwise Operators > Boolean Logica
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
          
-.                                                🥶 CONTROL STATEMENTS 🥶
-
+.                                                              🥶 CONTROL STATEMENTS 🥶
 
 Control statements are the building blocks of a program they are used in countless algorithms they are used to control flow of programs 
 Java have the following control statemnets 
@@ -697,7 +696,7 @@ There's also a jump statement called return it is used to return data from the m
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 .              
-.                                              🥶 CLASS 🥶
+.                                                                  🥶 CLASS 🥶
 
 We have explored some basic which are the building blocks of a java program lets now move to phase 2 of java here we will be exploring the concept that
 make java the real java. Before moving to classes, methods and  other topics lemme tell you about a method aka a function and class
@@ -718,34 +717,30 @@ float mydata2=420;
 char mydata3='f';          
 }
 
-In the above example we have created a class using a class key-word. The class have a variable called mydata, mydata2 and mydata3.
-We have defined its data type as we have discussed earlier it is a primitive data type , these data are the properties of the class named myclass. 
+In the above example we have created a class using a class keyword. The class have a variable called mydata, mydata2 and mydata3.
+We have defined its data as we have discussed earlier it is a primitive data type , these data are the properties of the class named myclass. 
 All the code and data reside within the class, the scope of these data starts with the opening curly braces and ends with the closing curly braces. 
 Any method defined within the class can access these data. The data defined within the class are called member variables or intance variables as they 
 are defined with the class they are accessiable to the instances created.  
 
 Instace can be defined as a clone of class it can have same properties as its parent it have have access of the code and defined data reside with the 
 class its made clone of. This also defiens the reueability of the code as there's no need to define the class and code again and again. But every 
-instance created the every instance will have its own data if it has been taken from the user. 
-
-It is important to remember that a class declaration only creates a template; it does not create an actual object.
-Thus, the preceding code does not cause any objects of type myclass to come into existence.
+instance created the every instance will have its own data if it has been taken from the user. It is important to remember that a class declaration 
+only creates a template; it does not create an actual object. Thus, the preceding code does not cause any objects of type myclass to come into existence.
 
 myclass myobject = new myclass(); 
 
-That above statement cretes an object name myobject this my object is an identifier thus creating a physical entity that myobect/instance of myclass 
+That above statement cretes an object with name myobject this myobject is an identifier thus creating a physical entity that myobect/instance of myclass 
 will have clone of mydata, mydata2, mydata3. The dot (.) operator links the name of the object with the name of an instance variable.  
 myclass.mydata;
 we can assign our own values to it 
 myclass.mydata=6996;
 In short we use . operator to acces member methods and member variables 
 
-The original myclass/template/virtual class is compleately seperate from its instance aka te behaviour of objects 
-does not affect the code or the data of the main class 
+The original/template/virtual class is compleately seperate from its instance aka te behaviour of objects does not affect the code or the data of the main class 
 
-declaring objects 
-
-As told earlier creating a class you are creating a new data type. Obtaining a object is a two step process first you must declare variable of class 
+declaring objects ~
+As told earlier, creating a class is creating a new data type. Obtaining a object is a two step process first you must declare variable of class 
 type Second, you must acquire an actual, physical copy of the object and assign it to that variable. This can be done using new operator that new 
 operator creates dynamically allocate space in the memory of object and return reference to it. That reference is stored in the variable 
 Thus in java all objects are dynamically allocated 
@@ -766,10 +761,9 @@ NEW KEWWORD ~
 As just explained new keyword allocated space in the memory dynamicially 
 
 class-var = new classname( );
-
 Here class is the datatype and var is the variable of datatype class. After the following new there's a constructor to initilize member variables of 
 the class. We need to implement non primitive data aka objects type using new operator Let’s once again review the distinction between a class and 
-an object. A class creates a new data type that can be used to create objects. That is, a class creates a logical framework that defines the relationship 
+an object. A class creates is a new data type that can be used to create objects. That is, a class creates a logical framework that defines the relationship 
 between its members. When you declare an object of a class, you are creating an instance of that class. Thus, a class is a logical construct.
 An object has physical reality. (That is, an object occupies space in memory.) It is important to keep this distinction clearly in mind.
 
@@ -779,7 +773,7 @@ An object has physical reality. (That is, an object occupies space in memory.) I
                                                🥶 FUNCTIONS AND METHODS 🥶
 
 
-methods and functions are nearly the same they both have set of instructions they both can have arguments by whhich they can accept input from the user 
+Methods and Functions are nearly the same they both have set of instructions they both can have arguments by whhich they can accept input from the user 
 they both may or may not return the value, but the difference comes when the calling them i.e invoking them a function is called independently while a 
 method is called using a reference this means a function is called without creating the instance of the class while a method is called by createing a 
 instance/object of the class.
@@ -828,57 +822,56 @@ except access specifier.
 Returning a value ~
 As I have told earlier methods and functions can return value of the datatype they are for example lets have a sample~
 
-import java.util.*;
-class myclass{
-public int ans(){
-  int x=23;
-  int y=3;
-  int multiply=x*y;
-  return multiply;
-}
-class main{
-public void main(){
-myclass ob=new myclass();
-ob.ans();
-  }
-}
+class myclass 
+{ 
+    public int multiply()
+    {
+        int x = 3;
+        int y = 23;
+        int ans = x*y;
+        return ans;
+    }
+
+    public static void main(String args[])
+    {
+       myclass ob =new myclass();
+       int myans = ob.multiply();
+       System.out.println(myans);
+    }
 }
 
-In above example the the function ans() is called with the reference of object it will return 69 because this function is of integer datatype in order to 
+In above example the the function multiply() is called with the reference of object it will return 69 because this function is of integer datatype in order to 
 avoid return of values we can also declare our function as void. One more thing function does not return non primitive data type
 
-Function can be invoked inside their own function this is case is called recursion or function of same datatuype can 
-be returned in its return part
-
-we can also compute and return at the same time for example we could have done in the above program is ~
-return x*y;
+we can also compute and return at the same time for example we could have done in the above program is ~ return x*y;
 
 Method with parameters ~
-
 As we have dioscussed earlier we can pass input to function and methods to perforn operations on them this can be done by passing data through arguments 
 this this also open doors to method overloading 
 
 for example ~
 
-import java.util.*;
-class myclass{
-public int ans(int x,int y){
-  int multiply=x*y;
-  return multiply;
-}
-class main{
-public void main(){
-myclass ob=new myclass();
-int x=23;
-int y=3;
-ob.ans(x,y);
-  }
-}
+class myclass
+{
+    public int ans(int x,int y)
+    {
+      int multiply=x*y;
+      return multiply;
+    }
+
+
+     public static void main(String args[])
+         {
+           myclass ob=new myclass();
+           int x=23;
+           int y=3;
+           int myans = ob.ans(x,y);
+           System.out.println(myans);
+         }
 }
 
 here we have passed the variables as arguments to perform data on it there no limit on no of arguments and type of arguments, but before letting input 
 inside  the function will insure and checks the data type of the arguments this is because java is a secure and robust language. 
-
 The sequencce of type of arguments and no of arguments opens door to method overloading aka Polymorphism - using a function more than one time 
 
 import java.util.*;
@@ -892,18 +885,17 @@ class myclass
      int multiply =x*y*z;
      return multiply;
  }
- class main
- {
-  public void main()
+
+  public static void main(String args[])
    {
    myclass ob=new myclass();
    int x=23;
    int y=3;
    int z=1;
-   ob.ans(x,y);
-   ob.ans(x,y,z);
+   System.out.println(ob.ans(x,y));
+   System.out.println(ob.ans(x,y,z));
    }
- }
+ 
 }
 
 In the above examplpe we have used the ans(..) method multiple times using different arguments 
@@ -924,18 +916,15 @@ class myclass
  {
      System.out.println(x);
  }
- class main
- {
-  public void main()
+
+  public static void main(String args[])
    {
     Scanner in=new Scanner(System.in);
     System.out.println("input value to initilize it to the class variable ");
     int myx=in.nextInt();
    myclass ob=new myclass(myx);
    ob.dispaly();
-  
    }
- }
 }
 
 in the above example
@@ -970,9 +959,8 @@ class myclass
      System.out.println(x1+""+x2);
      
  }
- class main
- {
-  public void main()
+
+  public static void main(String args[])
    {
     Scanner in=new Scanner(System.in);
     System.out.println("input value to initilize it to the class variable ");
@@ -984,7 +972,7 @@ class myclass
    ob2.dispaly1();
 
    }
- }
+ 
 }
 
 Garbage collection ~
@@ -1122,9 +1110,8 @@ public myclass check()
  myclass myobject =new myclass(420);
  return myobject;
 }
-class Main
-  {
-    public void main(String[] args)
+
+    public static void main(String[] args)
     {
     Scanner in=new Scanner(System.in);
     System.out.println("input first value ");
@@ -1134,7 +1121,7 @@ class Main
     myclass ob=new myclass(69);
     ob.check();
     } 
-  }
+  
 }
 
 In the above functionI have created myclass object called myobject inside check function this function is of myclass datatype ie this function will return 
@@ -1160,14 +1147,13 @@ public int myfunction(int x)
     }
     
  }
- class Main
-  {
-    public void main(String[] args)
+
+    public static void main(String[] args)
     {
      myclass ob=new myclass();
      ob.myfunction(0);
     } 
-  }
+  
 }
 
 In the above example myfunction(..) is returning itself in its body its is returning because both funcions are of same type aka int, this function could 
@@ -1185,11 +1171,12 @@ Methods declared as static have the following restrictions
 If you need to do computation in order to initialize your static variables, you can declare a static block that gets executed exactly once, when the class 
 is first loaded. 
 
+import java.util.*;
 class myclass
 {
 
-  static class_variable1=3;
-  static class_variable2;
+  static int class_variable1=3;
+  static int class_variable2;
 
   static
   {
@@ -1204,9 +1191,9 @@ class myclass
     System.out.println("The vaue of class_variable2 is = "+class_variable2);
   }
   
-  public static void main(Strings[] args)
+  public static void main(String[] args)
   {
-    mymethod(69)
+    mymethod(69);
   }
 }
 
@@ -1271,15 +1258,12 @@ public void myfunction_derived()
      System.out.println("this the function of super class");
      System.out.println("the variable within the derived class is = "+base_class_variable+" and "+derived_class_variable);        
 } 
-}
- class Main
-  {
-    public void main(String[] args)
+    public static void main(String[] args)
     {
      myclass_child ob_myclass_child =new myclass_child();
      ob_myclass_child.myfunction_derived();
     } 
-  }
+}
 
 In the above example there's a class - myclass which is the parent class this parent class have a function called myfunction_super and a class variabele 
 called base_class_variable which has a datatype of int and a value of 69 What we have done here is we have created a class myclass_child but with 
@@ -1323,13 +1307,8 @@ class mysubclassb extends myclassa
        System.out.println("The constructor of subclass of subclass have been invoked ");
        
    }
-}
-    
-class main
-{
-   public void main()
+      public static void main(String args[])
   {
-          Scanner in=new Scanner(System.in);
           mysubclassc ob=new mysubclassc();
   }
 }
@@ -1361,15 +1340,13 @@ public void myfunction_derived()
      System.out.println("this the function of super class");
      System.out.println("the variable within the derived class is = "+base_class_variable+" and "+derived_class_variable+" "+base_class_variable2);        
 } 
-}
- class Main
-  {
-    public void main(String[] args)
+
+    public static void main(String[] args)
     {
      myclass_child ob_myclass_child =new myclass_child();
      ob_myclass_child.myfunction_derived();
     } 
-  }
+}
 
 The above program will not be executed because the derived class' function is accessing the base_class_variabele2 which is not accessiable because it 
 is defined as private, as we discussed earlier private members are only accessiable within the class only, while the base_class_variable is accessiable 
@@ -1383,34 +1360,6 @@ Apart from storing constant final have also have 2 use cases in inherriatance
 1.If the main class is declared final than the subclass will not be inherrited.
 2.Similarly it also prevents overriding - which is when a super class have a method id same as subclass method id the method of super class gets 
 overrided by subclass method for example ~
-
-import java.util.*;
-class myclass
-{
-    public void display()
-    {
-        System.out.println("this is the method of the main class ");
-    }
-}
-public class mysubclass extends myclass
-{
-    public void dispaly()
-    {
-        System.out.println("this is the method of subclass");
-    }
-}
-    
-    class main
-    {
-        public void main()
-        {
-          Scanner in=new Scanner(System.in);
-          mysubclass ob=new mysubclass();
-          ob.display();
-        }
-    }
-
-
 
 Super ~
 
@@ -1429,50 +1378,6 @@ super(arguments)
 
 super in case of accessing methods 
 super.method();
-
-lets understand it with an example with public variables 
-
-import java.util.*;
-class myclass
-{
- int base_class_variable;
- int base_class_variable2;
-myclass(int a,int b)
-{
-    base_class_variable=a;
-    base_class_variable2=b;
-}
-}
-
-public class myclass_child extends myclass
-{
-int derived_class_variable;
-myclass_child()
-{
-     super(94,420);
-     derived_class_variable=420;
-}
-public void myfunction_derived()
-{
-     System.out.println("this the function of derived class");
-     System.out.println("the variable within the base class is = "+base_class_variable+" and the variable of the derived class is "+derived_class_variable);        
-} 
-}
-
- class Main
-  {
-    public void main(String[] args)
-    {
-     myclass_child ob_myclass_child =new myclass_child();
-     ob_myclass_child.myfunction_derived();
-    } 
-  }
-
-The output of the above program:
-this the function of derived class
-the variable within the base class is = 94 and the variable of the derived class is 420
-
-In the above code the super(); is accessing the member variables of the super class in other words it is invoking the constructor of the superclass. 
 
 Types of inherritance ~
 
