@@ -8,116 +8,73 @@
 ███  ██   █▀      ██      ▄██▄      █▀      ██  
  █████  ▄███▄   ▄████▄     ██     ▄███▄   ▄████▄
                                                 
-                                                
-Welcome to the world of java 
-Java was developed by james gosling at sun micro system but later sold it out to oracle 😂
-java is object oriented and roubust it is complex but easy to under stand as per as my view of point 😂
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Welcome to the world of Java 
+Java was developed by James Gosling at Sun Micro System but later sold it out to Oracle 😂
+Java is object oriented and roubust it is complex but easy to under stand as per as my view of point 😂
 
 before going deep into java lets take a small talk 
 
-Program is composed of code and data There are two paradigrams in programing ie porcess oriented and object oriented process oriented is like code 
-acting on data process oriented is decent when we have small program.When the program gets large the process oriented approach is hard , Thus 
-difficult to manage the program to overcome this pop problems oop was born object orient is like data acting on code.using oop we can have many 
-benefits like scalibility reuseability and easy to manage complexity 
+Program is composed of code and data There are two paradigrams in programing ie process oriented and object oriented, process oriented is like code 
+acting on data, process oriented is decent when we have small program. When the program gets large the process oriented approach is hard , Thus 
+difficult to manage the program to overcome this pop problems oop was born. Object orient is like data acting on code. using oop we can have many 
+benefits like scalibility reuseability and easy to manage complexity. 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
-🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-oop have 4 principles 
-
-1.Abstraction 
-2.Encapsulation 
-3.Inherritance 
-4.Polymorphism 
+OOP have 4 principles ~
 
 Abstraction 
-We manage complexity with the help of Abstraction, Abstractionis implemented with the help of hierachial classification
+We manage complexity with the help of Abstraction, Abstractionis implemented with the help of hierachial classification.
 
 Encapsulation
-Encapsulationis the mechanism which is used to bind code and data it manipulates .It provides secuerity One of the best example of Encapsulation is 
-class (all data and code resides within the class) 
+Encapsulationis the mechanism which is used to bind code and data it manipulates. It provides secuerity, one of the best example of Encapsulation is 
+class (all data and code resides within the class). 
 
 Inherritance
 Inherritancecan be defined as methedology according to which a object acquires the properties of other object Inherritance supports the concept of 
-hierachial classification
+hierachial classification.
 
 Polymorphism
-Polymorphism can be defined as using a item more than once aka reuseability of code A promient example of Polymorphism is interface 
-
-Enough Small talk lets talk about java 😂 ☕️ 
+Polymorphism can be defined as using a item more than once aka reuseability of code A promient example of Polymorphism is interface. 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+.                                                             🥶 COMPLIATION 🥶
 
-🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+Java compilation and Compilation unit ~
 
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-Must do in java 
-
-All java files are saved with extension of (.java) because in java source file is ofiicially a compilation unit In java class name must be same as file
-name this is because in java all code resides within the class  
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-How java code is compiled 
-
-javac=java compiler
-jdk=java development kit
-jvm=java virtual machine 
-jre=java runtime environment
-
-javac creates a file whose name is same as class but with extension of (.class) this file contains the byte code of the progarm this byte code is a 
+All java files are saved with extension of (.java) because in java source file is ofiicially a compilation unit. In java, class name must be same as file
+name this is because in java all code resides within the class. 
+(javac=java compiler, jdk=java development kit, jvm=java virtual machine, jre=java runtime environment)
+Javac creates a file whose name is same as class but with extension of (.class) this file contains the byte code of the progarm this byte code is a 
 intermediate representation of instruction that your jvm will execute When Java source code is compiled, each individual class is put into its own 
 output file named after the class and using the .class extension. 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+.                                                               🥶 TOKENS 🥶
+Tokens ~
 
-🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-Java's syntax is a composed of whitespace identifiers literals comments opreators seperators and keywords and emotions(🌚)
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Tokens can be defined as independent unit which cannot be further divided, tokens together compose a java syntax and with added logic program.
+Java's Tokens include whitespace, identifiers, literals, comments, opreators, seperators, keywords and emotions(🌚)
 
 whitespace = ' '
+Java is a free-form language. This means that you do not need to follow any special indentation rules. For instance ,the program could have been written
+all on one line or in any other strange way you felt like typing it, as long as there was at least one whitespace character between each token that was
+not already delineated by an operator or separator. Example of white space in Java ~ whitespace is a space, tab, or newline.
 
-Java is a free-form language. This means that you do not need to follow any special indentation rules.For instance,the  program could have been written
-all on one line or in any other strange way you felt like typing it,as long as there was at least one whitespace character between each token that was
-not already delineated by anoperator or separator.In Java, whitespace is a space, tab, or newline.
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-comments = comments are elements in java which are ignored by compiler 
-
-there are three types of comments 
+comments = comments are elements in java which are ignored by compiler, there are three types of comments ~ 
 // for single line 
 /* ...*/ for multiline 
 /**
   *
   */  for documentation 
 
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 keywords = keywords can be defined as special words in java that depecites a special meaning to compiler In addition to keywords java reserves the 
-following words true false and null 
-
-keywords are 
+following words true false and null. Example of keywords are ~
 
 ----------------------------------------------------------------------------------------------------------------------
 |                                                                                                                    |
@@ -127,10 +84,7 @@ keywords are
 |                                                                                                                    |
 ----------------------------------------------------------------------------------------------------------------------
 
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-Seperators = They are used to terminate a statement or to sperate a block of code 
-
+Seperators = They are used to terminate a statement or to sperate a block of code. 
 semicolon ; - is the most used seperator and is used to termainate a statement
 parentheses () - is used in multiple cases including defining a precedence of an expression control statements and loops
 curly braces {} - are used to define local scope and define block of code they are also used to inilitize an arrray 
@@ -138,19 +92,12 @@ barckets [] -these are used to define arrya types and array size
 comma , - commas are used in many cases including using as seperators in for loops and in declaring multiple variables of same datatype 
 period . - Used to separate package names from subpackages and classes. Also used to separate a variable or method from a reference variable. 
 
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 identifiers = indentifiers can be defined as name given to memory location these are thought by user examples of identifiers are myvariable, myconsttant,
 myarray or any thing user wishes to name but they must not begin with a number because it may confuse compiler either it is variable or value and it 
 must also must not have /  and - inbetween character.
 
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-Literals= literals are const values stored in variables example 69 , 420 , 94 ,007 , 'a' ,"mystringx" and many more 😂
-
-Let's have a deep dive into them 💡 Before going to start about literals have have a small talk about number system 
-
-There are mainly  kinds of number system 
+Literals= literals are const values stored in variables example 69 , 420 , 94 ,007 , 'a' ,"mystring" and many more Let's have a deep dive into them 💡 
+Before going to start about literals have have a small talk about number system  There are mainly four kinds of number system.
 
 ---------------------------------------------------------------------------
 |                                                                         |
@@ -164,7 +111,6 @@ There are mainly  kinds of number system
 ---------------------------------------------------------------------------
 
 In the above table the base show how many type of character a number system is composed of, and the Composition tells about types of character it have 
-
 Let's move back to literals 
 
 Integer literals 
@@ -190,29 +136,18 @@ ASCII characters can be directly entered inside the quotes, such as ‘a’, ‘
 String literals
 String literals in Java are specified like they are in most other languages—by enclosing a sequence of characters between a pair of double quotes.
 
-There's a big daddy of constant 😂 - final
+Real chad ~ final
 
-The final keyword is used to make variable hold a constant value i.e the value of the variabele never changes no matter 
-what operation is done on it. Variables declared as final do not occupy memory on a per-instance basis.
-
+The final keyword is used to make variable hold a constant value i.e the value of the variabele never changes no matter what operation is done on it. 
+Variables declared as final do not occupy memory on a per-instance basis. Even if a class is declared as final it cannnot be inherrited further. 
 syntax ~
 final <datatype> <identifier> = <literal>
-
 example ~
-final int MY_DATA = 69;
-
-It is a convention to use capital letter identifiers in case of final.
+final int MY_DATA = 69;    //It is a convention to use capital letter identifiers in case of final.
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
-🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-.                                              🥶 DATA TYPES 🥶
+.                                                              🥶 DATA TYPES 🥶
 
 Java’s safety and robustness comes from this fact. Let’s see what this means. First, every variable has a type, every expression has a type, and every 
 type is strictly defined. Second, all assignments, whether explicit or via parameter passing in method calls, are checked for type compatibility.
@@ -227,13 +162,9 @@ predefined datatypes are further defined into four groups which are ~
 3.c-character
 4.d-boolean 
 
-lets' have a deep dive into them 🫠
 
 1.a Integers 
-
-They are used to store numbers aka numbers except decimal/fraction type values In java they all are signed
-Integers are divided into four groups namely ~
-
+They are used to store numbers aka numbers except decimal/fraction type values In java they all are signed Integers are divided into four groups namely ~
 -------------------------------------------------------------------------------------
 |  Name   Width(in bits)   range                                                    |
 |                                                                                   |
@@ -245,9 +176,7 @@ Integers are divided into four groups namely ~
 -------------------------------------------------------------------------------------
 
 1.b Floating point 
-
 They are also known as real numbers. Sometimes evaluating expression we need point precise values To counter this problem Float and Double are born 
-
 -------------------------------------------------------------------------------------
 |  Name   Width(in bits)     range                                                  |
 |                                                                                   |
@@ -257,11 +186,8 @@ They are also known as real numbers. Sometimes evaluating expression we need poi
 -------------------------------------------------------------------------------------
 
 1.c Characters 
-
 Java uses unicode to represent Characters unicode defines character set of all international languages 
-The standard set of Characters known as ASCII has 0 to 127 character 
-Extended characterset of ISO-Latin-1 ranges from 0 to 255
-
+The standard set of Characters known as ASCII has 0 to 127 character. Extended characterset of ISO-Latin-1 ranges from 0 to 255
 -------------------------------------------------------------------------------------
 |  Name   Width(in bits)     range                                                  |
 |                                                                                   |
@@ -270,10 +196,8 @@ Extended characterset of ISO-Latin-1 ranges from 0 to 255
 -------------------------------------------------------------------------------------
 
 1.d Boolean 
-
-Boolean is for logical values it can only have two possible outcomes either true or false. The number of bytes in a boolean is a measure of its 
-logical value. Its size is not defined in java it depends on compiler
-
+Boolean is for logical values it can only have two possible outcomes either true or false. The number of bytes in a boolean is a measure of its logical value. 
+Its size is not defined in java it depends on compiler
 -------------------------------------------------------------------------------------
 |  Name   Width(in bits)     range                                                  |
 |                                                                                   |
@@ -282,30 +206,21 @@ logical value. Its size is not defined in java it depends on compiler
 -------------------------------------------------------------------------------------
 
 Non Primitive data type are datatypes which are defined by the user 
-
 String and arrays - we will cover this after some essential topics are covered 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+      
+.                                                                🥶 variables 🥶
 
 
-🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+A variable is the basic storage unit in java program it have a type(datatype) identifier and an optional initilization All variables have a scope and 
+their lifeline (identifier is the name of the variable) 
 
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-.                                                🥶 variables 🥶
-
-
-A variable is the basic storage unit in java program it have a type(datatype) identifier and an optional initilization
-All variables have a scope and their lifeline (identifier is the name of the variable) 
-
-let's take an example by declaring a variable 
+Declaration and initilization ~
 int myvariable;  //declaring a variable 
 myvariable=69;   //initilization of my variable 
-
 here, int is the datatype and myvariable is an identifier and 69 is an integer literal or the value initilized to myvariable
 The value of 69 is assigned by an operator we will discuss about operators after that 😉
-
 we can declare multiple variables of same datatype at same time 
 for example 
 int a,b,c,d,e;
@@ -314,29 +229,30 @@ we can also declare and initilize a variable at the same time this in terms of j
 example of Dynamic inilitization ~
 int myvariable=69;
 
-Let's talk about life and scope of variables 
+Scope of variables ~ 
 All variables defined within the class can be access by all the functions within the class these are also called as member variables 
 A variable defined within the scope(block of code inside curly braces) cannot be accessiable outside the scope because variables defined within the 
 scope are destroyed the their scope is left 
 
-Type casting and type conversion 
+Type conversion ~
 When we transfer value of one datatype to another datatype there is either the loss of data or there's no lost of data if the transfer of value or 
 copying of value is in same datatype that's does not have a problem 
 
-In type conversion value of datatype is automaticially to another datatype by compiler But in type conversion value of conversion of one datatype 
-must be smaller than other datatype for example
-int a=10;
-float b;
-b=a;
+Type conversion are further divided into implicit type conversion and explicit type conversion 
 
-Type casting aka narrowing conversion 
-Type casting can be defined as storing a value of datatype with more range to a datatype with less range or (incompatiable)
+Implicit type comversion ~
+In this conversion the destination is of lower datatyoe and the initial is higher data type or there is case if incompatiability. In that case we use 
+caseting operators to get desired result.
+Example ~
+int x = 69;
+char = (char)x;
 
-to peform type casting must follow this 👇🏼
-(target-datatype) current-datatype
-float x;
-int y;
-y=(int)x;
+Explicit type conversion ~
+In this case the destination is of higher datatype and the initial is of lower datatype. If this case if the literal are different casting operators are 
+used otherwise it will automaticially be promoted.
+Example ~
+char c = 'A';
+int x =(int)c; 
 
 Automatic type conversion ~ aka widening conversion
 Java supports automatic type conversion, it happens only if ~
@@ -347,47 +263,33 @@ Automatic type promotion
 Java supports automatic type promotion in expression aka in an expression with multiple datatypes the result will automaticiallyn will be converted to
 datatype with higher range 
 
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-
-
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   
 .                                                🥶 OBTAINING INPUT USING SCANNER CLASS  🥶
 
-
 There will be time when there a need of input from user guess what all this can be solved using Scanner class. 
-For every integer type it got a nextXXX() method 
+For every integer type it got a nextXXX() method. In this case we will fist create a scanner class object and then call the input taking method of that 
+class using the created object.
+Example ~
+Scanner object = new Scanner(System.in);  //creating an object 
+<datatype> <variable> = object.nextXXX(); // this XXX represent specific method for specific datatype
 
-String next() is used for taking input in String aka sequence of characters 
-int nextInt() is used for taking input in integers aka byte short int long 
-int nextBoolean() is used to take input in either true or false 
-float nextFloat() , double nextDouble()  are used to take input in floating point datatypes
-
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-
+String ~ next() is used for taking input in String aka sequence of characters 
+int ~ nextInt() is used for taking input in integers aka byte short int long 
+int ~ nextBoolean() is used to take input in either true or false 
+float ~ nextFloat() , double nextDouble()  are used to take input in floating point datatypes
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
-.                                            🥶 OPERATORS 🥶
+.                                                              🥶 OPERATORS 🥶
 
 Well well well ... you have survived till now ,😂 now lets give you more java concepts
 
-operators are used to perform task on perands aka performs operations 
+operators are used to perform task on operands aka performing operation.
 
 1. Arithmetic operator ~
 Arithmetic operators are the most common used operator in java they are used in mathematical expression just like algebra. They are used to perform 
 task on 2 operands but can be chained to perform complex tasks 
-
 -----------------------------------------------------------------------
 |                                                                     |
 |     Operator                      Result                            |
@@ -404,18 +306,14 @@ task on 2 operands but can be chained to perform complex tasks
 |       %=                     Modulus assignment                     | 
 |       ––                        Decrement                           |
 -----------------------------------------------------------------------
-
-
 Increment and decrement operator ~
 Increament/decrement operator are used in multiple cases like loops. They are quite helpful in irritations kinda stuff
-
 -------------------------------------------------------------
 |                                                           |
 |  decrement(--)  decrease value of operand by 1 at a time  |
 |  Increment(++)  increase value of operand by 1 at a time  |
 |                                                           |
 -------------------------------------------------------------
-
 arithmatic compound operator ~
 += is an arithmatic compound operator this is used to assign value to itself with addition to any more operator 
 for example 
@@ -426,18 +324,11 @@ a=a+69;
 second approach 
 a+=1;
 as you can see in the first approach there is so,e extra line of code while second approach is more efficient and understandable 
-
-likewise first approach we can have many others compound assignment operator 
-aka~
--=
-*=
-/=
-%=
+likewise first approach we can have many others compound assignment operator aka~ -=, *=, /=, %=
 
 
 2. bitwise operator ~
 these operator perform functions on bits there are multiple bitwise operator ~
-
 ----------------------------------------------------
 |   operator     |    name                         | 
 |----------------|---------------------------------|
@@ -456,10 +347,6 @@ these operator perform functions on bits there are multiple bitwise operator ~
 |    <<=         | shift left assignment           | 
 |                |                                 | 
 ----------------------------------------------------
-
-
-lets talk buisness 😂
-
 ~ bitwise uranary NOT 
 is also called complement operator it is an uranary operator it reverts the bits in of the varibale on which operation is being performend 
 
@@ -510,9 +397,9 @@ int a ;
 a<<=2;
 same approach is followed in compound bitwise assignment operator aka |=,&=,^=,<<=,>>=
 
+
 3. Relational operators 
 Relational operators is used to find relation between two operands 
-
 -----------------------------------------------------------------------------------------------
 |            |                                                                                |
 |  operator  |                          result                                                |
@@ -528,15 +415,16 @@ Relational operators is used to find relation between two operands
 
 4.Short circut logical operator 
 java provides special boolean logical operator which is not found in many other languages These are also known as short-circut logiacl operators 
-
 As you can see from the preceding table, the OR operator results in true when A is true, no matter what B is. Similarly, the AND operator 
 results in false when A is false, no matter what B is. If you use the || and && forms, rather than the | and & forms of these operators, 
 Java will not bother to evaluate the right-hand operand when the outcome of the expression can be determined by the left operand alone.
 This is very useful when the right-hand operand depends on the value of the left one in order to function properly.
 
+
 5. Boolean logical operator
 The boolean logical operators do work only on boolean operands these are just logical operators working on boolean operands boolean logiacal 
 operator have all bitwise opeartor and bitwise assignment operator and most used &&  and || this && and || can be used to chain multiple conditions 
+
 
 6. The ? operator
 The ? is a ternary operator this can be used in multiple cases like it can replace if-then-else
@@ -570,17 +458,10 @@ lowest
 
 in addition to precedence seperators do also simplify the meaning of the expression in most of the cases the associativity is left to right i.e 
 the the precedence of an expression is same at the both side the left side will be operational first 
-
 Arithmetic Operators > Relational Operators > Bitwise Operators > Boolean Logical Operators
 
 
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
          
 .                                                🥶 CONTROL STATEMENTS 🥶
 
@@ -602,7 +483,7 @@ Loops are further divided into three types namely
 2.B while loops
 2.C Do while loops 
 
-1.A if statement can be defined as a simple taks  i.e if the condition given satisfied the task will be performed 
+1.An if statement can be defined as a simple taks  i.e if the condition given satisfied the task will be performed 
 
 syntax of if statement ~
 
@@ -643,7 +524,7 @@ else{
   task;
 }
 
-1.D switch case - here comes the real bully 😂 switch case is similar to if then else but compleately different in terms of syntax "I know you saw it 
+1.D switch case - here comes the real bully 😂 switch case is similar to if-else but compleately different in terms of syntax "I know you saw it 
 comming 😂" switch case take operand and then checkes the multiple condition on it if the condition satisfies it will execute the task but if the all 
 conditions fails to satisfy it will also have a defult case note the case parameters will not take a variable or boolean expression as an argument 
 
@@ -680,13 +561,12 @@ initilization, for checking the condition and control it to to manage no of irri
 
 for loop has the folowing syntax ~
 
-for(initilization;condition;function on control variable)
+for(initilization;condition;operation on control variable)
 {
   set of statements;
 }
 
-lets take a realk world example 
-
+lets take a real world example 
 code ~
 
 int i;
@@ -702,7 +582,6 @@ incremented by 1 at a time if the value of the control variable is incremented b
 
 2.B while loop- while loops is the most basic loop in java it mainly depends on the condition it will execute the task or 
 set of statements till the condition satisfies 
-
 its syntax ~
 
 while(condition)
@@ -755,18 +634,15 @@ while(j>10);
 
 as the output the hello world will be printed one time even after the condition is false 
 
-🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚
+🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚🥶🌚
 
 
 break and continue are the jump statements i.e they are used to skip one step of irritation or the set of irritation
 
 break ~
-
-For example leta have a senario in the mind that we are in a loop and our task has been compleated before all the irritations then the other irritations 
+For example let's have a senario in the mind that we are in a loop and our task has been compleated before all the irritations then the other irritations 
 executed after our work are useless.
-lets take an example 
-
-our aim in this task is to print hello world ten times
+lets take an example our aim in this task is to print hello world ten times
 
 for(int i=0;i<69;i++)
 {
@@ -774,7 +650,7 @@ for(int i=0;i<69;i++)
 }
 
 in the above example the hello world will be printed 69 times but as we have discussed earlier we wanted to print hello world ten time to counter this 
-situation we will add break afterbour work gets compleated 
+situation we will add break after our work gets compleated. 
 
 for(int i=0;i<69;i++){
   System.out.println("hello world);
@@ -787,7 +663,6 @@ what we have done is we have added the break statement after the tenth irritatio
 loop and the other irritatins will not be executed 
 
 continue ~
-
 continue is used to skip a irritation this is useful in cases when we want a specific irritation not to be execute
 
 For example lets take a senario in which we want to print all numbers except 5 
@@ -818,12 +693,6 @@ what we have done here is we have prrinted all number as the loop irritates but 
  10 
 
 There's also a jump statement called return it is used to return data from the method we will be learning this control statement in the later part
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -903,12 +772,6 @@ the class. We need to implement non primitive data aka objects type using new op
 an object. A class creates a new data type that can be used to create objects. That is, a class creates a logical framework that defines the relationship 
 between its members. When you declare an object of a class, you are creating an instance of that class. Thus, a class is a logical construct.
 An object has physical reality. (That is, an object occupies space in memory.) It is important to keep this distinction clearly in mind.
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1354,12 +1217,6 @@ no copy of a static variable is made. Instead, all instances of the class share 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
-🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 .                                               🥶 INHERRITANCE🥶
 
 Inherritance is one of the main concepts of the oops it opens doors to Implementation of  hierachial classification To pass sojme traits to the classes 
@@ -1633,13 +1490,6 @@ Java supports the following types of inherritance
 5. IN Hybrid inherritance Although it is not supported in java it can be defined as have more than one type of inherriatance
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/
 
 
 
