@@ -211,6 +211,18 @@ class myclass
   System.out.println(" ''WE ARE A PART OF MATRIX''.chatAt(" +index+ ") = " + returnedCharacter );
  }
 
+ //codePointAt(int index)
+ //Returns ~ integer
+ //Usecase ~ Returns character's unicodepoint at provided index
+ {
+  String mystring = "WE ARE A PART OF MATRIX";
+  int index = 4;
+  int returnedInteger = mystring.codePointAt(index);
+  System.out.println(" ''WE ARE A PART OF MATRIX''.codePointAt(" +index+ ") = " + returnedInteger );
+ }
+ 
+  
+
 }
 class Main
 {
