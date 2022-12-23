@@ -235,11 +235,11 @@ class myclass
   System.out.println(" ''WE ARE A PART OF MATRIX''.codePointBefore(" +index+ ") = " + returnedInteger );
  }
 
-//compareTo(String anotherString)
-//Returns - integer value of two Strings that are compared lexicographicially
-//Usecase -  This method is highly useful in case you want to compare two strings on the basics of alphabetical order
-//Less than zero means the string being compared to is smaller more than zero means string being compared to is bigger
-////in this method is case sensitive aka If two Strings have same content but different case the String with uppercase will be considered as samaller
+ //compareTo(String anotherString)
+ //Returns - integer value of two Strings that are compared lexicographicially
+ //Usecase -  This method is highly useful in case you want to compare two strings on the basics of alphabetical order
+ //Less than zero means the string being compared to is smaller more than zero means string being compared to is bigger
+ ////in this method is case sensitive aka If two Strings have same content but different case the String with uppercase will be considered as samaller
 {
  String mystring1 = "abcd";
  String mystring2 = "bbcd";
@@ -253,15 +253,23 @@ class myclass
  }
 }
 
-
+//concat(String anotherString)
+//Returns ~ String
+//Usecase ~ This method is used to join two Strings together one after another
+{
+ String mystring1 = "WE ARE A ";
+ String mystring2 = "PART OF MATRIX";
+ String returnedString = mystring1.concat(mystring2);
+ System.out.println(" ''WE ARE A ''.concat(''PART OF MATRIX'') = "+returnedString);
+}
 
 }
 class Main
 {
-          public static void main(String[] args)
-        {
-            myclass ob =new myclass();
-        }
+ public static void main(String[] args)
+ {
+  myclass ob =new myclass();
+ }
 }
 
 
