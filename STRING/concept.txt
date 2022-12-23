@@ -24,7 +24,7 @@ Both of these classes are the part of java.lang package they cannnot be modified
 subclass. However a variabele holding the reference of an string object can be changed anytime. For each string literal in your program java 
 automaticially craetes a String object.
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 Implementation ~
@@ -34,11 +34,11 @@ just like a normal variabele it got a declaration and Implementation part. A Str
 String mystring;                                                 //declaration
 mystring = " We are just the outcome of our surroundings ";      //inilitization
 
-String class in java provide variety of constructors that can be used to initialize members of an string object. The below program teaches all the constructor 
-present in java to create a String object.
+String class in java provide variety of constructors that can be used to initialize members of an string object. The below program teaches all the 
+constructor present in java to create a String object.
 
-Note ~ In the below program I have used local scope for all the constructors similarly I have called all the instructors in the main class in case of running 
-this program first javac creates .class files of both the class and .class is used to obtain the task 
+Note ~ In the below program I have used local scope for all the constructors similarly I have called all the instructors in the main class in case 
+of running this program first javac creates .class files of both the class and .class is used to obtain the task 
 commands for thse are ~
 command 1 ~ javac ./myclass.java && java ./Main 
 commmad 2 - java -cp  Main
@@ -92,7 +92,8 @@ class myclass
     }
 
     //String(byte[] byteArray,int offset,int length);
-    //Create a String object using byte arry aka content of the string is the character representation of the contents of the byte array starting from the desired index and size.
+    //Create a String object using byte arry aka content of the string is the character representation of the contents of the byte array starting
+    //from the desired index and size.
     //offset is the characters you wanna miss in taking part of creation of String object
     //length is simply no of characters in the string in this case no of character you want to create a String object starting after offset
     {
@@ -104,7 +105,9 @@ class myclass
     }
 
     //String(byte[] byteArray, int offset, int length, Charset charset);
-    //Craete a String object using a byte array aka content of the string is the character representation of the contents of the byte array starting from the desired index and size. But the character set is user defined
+    //Craete a String object using a byte array aka content of the string is the character representation of the contents of the byte array starting
+    //from the desired index and size.
+    //But the character set is user defined
     //offset is the characters you wanna miss in taking part of creation of String object
     //length is simply no of characters in the string in this case no of character you want to create a String object starting after offset
     //Character set can be unicode ASCII UTF-8 ETC
@@ -153,7 +156,8 @@ class myclass
     }
 
     //String(char[] value, int offset, int length)
-    //Create a String object using character arry aka content of the string is the character representation of the contents of the character array starting from the desired index and size.
+    //Create a String object using character arry aka content of the string is the character representation of the contents of the character array 
+    //starting from the desired index and size.
     //offset is the characters you wanna miss in taking part of creation of String object
     //length is simply no of characters in the string in this case no of character you want to create a String object starting after offset
     {
@@ -235,6 +239,7 @@ class myclass
 //Returns - integer value of two Strings that are compared lexicographicially
 //Usecase -  This method is highly useful in case you want to compare two strings on the basics of alphabetical order
 //Less than zero means the string being compared to is smaller more than zero means string being compared to is bigger
+////in this method is case sensitive aka If two Strings have same content but different case the String with uppercase will be considered as samaller
 {
  String mystring1 = "abcd";
  String mystring2 = "bbcd";
@@ -247,6 +252,8 @@ class myclass
   System.out.println(" ''abcdb''.compareTo(''bbcd'') = -1");
  }
 }
+
+
 
 }
 class Main
