@@ -220,8 +220,16 @@ class myclass
   int returnedInteger = mystring.codePointAt(index);
   System.out.println(" ''WE ARE A PART OF MATRIX''.codePointAt(" +index+ ") = " + returnedInteger );
  }
- 
-  
+
+ //codePointBefore(int index)
+ //Returns ~ integer
+ //Usecase ~ Returns character's unicodepoint present before provided index
+ {
+  String mystring = "WE ARE A PART OF MATRIX";
+  int index = 4;
+  int returnedInteger = mystring.codePointBefore(index);
+  System.out.println(" ''WE ARE A PART OF MATRIX''.codePointBefore(" +index+ ") = " + returnedInteger );
+ }
 
 }
 class Main
