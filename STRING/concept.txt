@@ -231,7 +231,22 @@ class myclass
   System.out.println(" ''WE ARE A PART OF MATRIX''.codePointBefore(" +index+ ") = " + returnedInteger );
  }
 
-
+//compareTo(String anotherString)
+//Returns - integer value of two Strings that are compared lexicographicially
+//Usecase -  This method is highly useful in case you want to compare two strings on the basics of alphabetical order
+//Less than zero means the string being compared to is smaller more than zero means string being compared to is bigger
+{
+ String mystring1 = "abcd";
+ String mystring2 = "bbcd";
+ if(mystring1.compareTo(mystring2) > 0 )
+ {
+  System.out.println( "''abcdb''.compareTo(''bbcd'') = 1");
+ }
+ else
+ {
+  System.out.println(" ''abcdb''.compareTo(''bbcd'') = -1");
+ }
+}
 
 }
 class Main
