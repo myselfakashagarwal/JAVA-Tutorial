@@ -263,6 +263,15 @@ class myclass
  System.out.println(" ''WE ARE A ''.concat(''PART OF MATRIX'') = "+returnedString);
 }
 
+//contains(characterSequencce)
+// Returns ~ Boolean
+//Usecase ~ This method will return true if the character sequence if found in the String
+{
+ String mystring = "WE ARE A PART OF MATRIX";
+ boolean returnedBoolean = mystring.contains("XMATRI");
+ System.out.println(" ''WE ARE A PART OF MATRIX''.contains(''XMATRI'') = "+returnedBoolean);
+}
+
 }
 class Main
 {
