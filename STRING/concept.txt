@@ -281,6 +281,16 @@ class myclass
  System.out.println(" ''WE ARE A PART OF MATRIX''.contentEquals(''WE ARE A PART OF MATRIX'') = "+returnedBoolean);
 }
 
+//contentEquals(StringBuffer StringBufferString)
+//Returns ~ Boolean
+//Usecase ~ This method returns true if the character sequence matches the stringBuffer String
+{
+ String mystring = "WE ARE A PART OF MATRIX";
+ StringBuffer myStringBufferString = new StringBuffer("WE ARE A PART OF MATRIX");
+ boolean returnedBoolean = mystring.contentEquals(myStringBufferString);
+ System.out.println(" ''WE ARE A PART OF MATRIX''.contentEquals(''WE ARE A PART OF MATRIX'') = "+returnedBoolean);
+}
+
 }
 class Main
 {
