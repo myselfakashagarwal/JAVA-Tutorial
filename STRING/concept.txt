@@ -291,6 +291,15 @@ class myclass
  System.out.println(" ''WE ARE A PART OF MATRIX''.contentEquals(''WE ARE A PART OF MATRIX'') = "+returnedBoolean);
 }
 
+//copyValueOf(char[] characterArray)
+//Returns ~ static String
+//Usecase ~ This method is used to create String object(staticially) using the character array
+{
+ char[] characterArray = {'M','A','T','R','I','X'};
+ String returnedString = String.copyValueOf(characterArray);
+ System.out.println(" String.copyValueOf({'M','A','T','R','I','X'}) = "+returnedString);
+}
+
 }
 class Main
 {
