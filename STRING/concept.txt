@@ -358,6 +358,7 @@ class myclass
   byte characterInByte = byteArray[i];
   System.out.print(characterInByte+",");
  }
+System.out.println(" "); 
 }
 
 //getBytes(Charset charset)
@@ -372,6 +373,29 @@ class myclass
  {
   byte characterInByte = byteArray[i];
   System.out.print(characterInByte+",");
+ }
+System.out.println(" ");  
+}
+
+//getBytes(String charset)
+//Returns ~ byte[]
+//Usecase ~ This method returns array version of the given String but in byte version of the provided characterSet
+{
+ try
+ {
+  byte[] byteArray;
+  String mystring = "WE ARE A PART OF MATRIX ☕️";
+  byteArray = mystring.getBytes("UTF-8");
+  System.out.print(" ''WE ARE A PART IF MATRIX''"+".getbytes(String characterSet) = ");
+  for(int i=0;i<byteArray.length;i++)
+  {
+   byte characterInByte = byteArray[i];
+   System.out.print(characterInByte+",");
+  }
+ }
+ catch (UnsupportedEncodingException e)
+ {
+    e.printStackTrace();
  }
 }
 
