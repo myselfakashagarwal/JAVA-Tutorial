@@ -205,41 +205,41 @@ import java.io.UnsupportedEncodingException;
 class myclass
 {
 
- //Method ~ charAt(int index)
- //Returns ~ char 
- //Usecase ~ Retrns character at provided index
- {
-  String mystring = "WE ARE A PART OF MATRIX";
-  int index = 4;
-  char returnedCharacter = mystring.charAt(index);
-  System.out.println(" ''WE ARE A PART OF MATRIX''.chatAt(" +index+ ") = " + returnedCharacter );
- }
+//Method ~ charAt(int index)
+//Returns ~ char 
+//Usecase ~ Retrns character at provided index
+{
+ String mystring = "WE ARE A PART OF MATRIX";
+ int index = 4;
+ char returnedCharacter = mystring.charAt(index);
+ System.out.println(" ''WE ARE A PART OF MATRIX''.chatAt(" +index+ ") = " + returnedCharacter );
+}
 
- //codePointAt(int index)
- //Returns ~ integer
- //Usecase ~ Returns character's unicodepoint at provided index
- {
-  String mystring = "WE ARE A PART OF MATRIX";
-  int index = 4;
-  int returnedInteger = mystring.codePointAt(index);
-  System.out.println(" ''WE ARE A PART OF MATRIX''.codePointAt(" +index+ ") = " + returnedInteger );
- }
+//codePointAt(int index)
+//Returns ~ integer
+//Usecase ~ Returns character's unicodepoint at provided index
+{
+ String mystring = "WE ARE A PART OF MATRIX";
+ int index = 4;
+ int returnedInteger = mystring.codePointAt(index);
+ System.out.println(" ''WE ARE A PART OF MATRIX''.codePointAt(" +index+ ") = " + returnedInteger );
+}
 
- //codePointBefore(int index)
- //Returns ~ integer
- //Usecase ~ Returns character's unicodepoint present before provided index
- {
-  String mystring = "WE ARE A PART OF MATRIX";
-  int index = 4;
-  int returnedInteger = mystring.codePointBefore(index);
-  System.out.println(" ''WE ARE A PART OF MATRIX''.codePointBefore(" +index+ ") = " + returnedInteger );
- }
+//codePointBefore(int index)
+//Returns ~ integer
+//Usecase ~ Returns character's unicodepoint present before provided index
+{
+ String mystring = "WE ARE A PART OF MATRIX";
+ int index = 4;
+ int returnedInteger = mystring.codePointBefore(index);
+ System.out.println(" ''WE ARE A PART OF MATRIX''.codePointBefore(" +index+ ") = " + returnedInteger );
+}
 
- //compareTo(String anotherString)
- //Returns - integer value of two Strings that are compared lexicographicially
- //Usecase -  This method is highly useful in case you want to compare two strings on the basics of alphabetical order
- //Less than zero means the string being compared to is smaller more than zero means string being compared to is bigger
- ////in this method is case sensitive aka If two Strings have same content but different case the String with uppercase will be considered as samaller
+//compareTo(String anotherString)
+//Returns - integer value of two Strings that are compared lexicographicially
+//Usecase -  This method is highly useful in case you want to compare two strings on the basics of alphabetical order
+//Less than zero means the string being compared to is smaller more than zero means string being compared to is bigger
+////in this method is case sensitive aka If two Strings have same content but different case the String with uppercase will be considered as samaller
 {
  String mystring1 = "abcd";
  String mystring2 = "bbcd";
@@ -350,9 +350,24 @@ class myclass
 //Usecase ~ This method returns the array version of the Strig but in the byte form using the platform default character set
 {
  byte[] byteArray;
- String mystring = "WE ARE A PART OF MATRIX";
+ String mystring = "WE ARE A PART OF MATRIX ☕️";
  byteArray = mystring.getBytes();
  System.out.print(" ''WE ARE A PART IF MATRIX''"+".getbytes() = ");
+ for(int i=0;i<byteArray.length;i++)
+ {
+  byte characterInByte = byteArray[i];
+  System.out.print(characterInByte+",");
+ }
+}
+
+//getBytes(Charset charset)
+//Returns ~ byte[]
+//Usecase ~ This method returns array version of the given String but in byte version of the provided characterSet
+{
+ byte[] byteArray;
+ String mystring = "WE ARE A PART OF MATRIX ☕️";
+ byteArray = mystring.getBytes(Charset.forName("UTF-8"));
+ System.out.print(" ''WE ARE A PART IF MATRIX''"+".getbytes(charset characterSet) = ");
  for(int i=0;i<byteArray.length;i++)
  {
   byte characterInByte = byteArray[i];
