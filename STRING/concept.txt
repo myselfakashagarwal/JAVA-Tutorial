@@ -300,6 +300,17 @@ class myclass
  System.out.println(" String.copyValueOf({'M','A','T','R','I','X'}) = "+returnedString);
 }
 
+//copyValueOf(char[] data, int offset, int count)
+//Returns static String
+//usecase ~ Reurns static String from the array specified 
+ {
+ char[] characterArray = {'M','A','T','R','I','X'};
+ int offset = 2;
+ int count = 2;
+ String returnedString = String.copyValueOf(characterArray,offset,count);
+ System.out.println(" String.copyValueOf({'M','A','T','R','I','X'},2,2) = "+returnedString);
+}
+
 }
 class Main
 {
