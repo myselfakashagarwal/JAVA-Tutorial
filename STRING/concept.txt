@@ -329,8 +329,22 @@ class myclass
  String mystring1 = new String("WE ARE A PART OF MATRIX");
  String mystring2 = new String("WE ARE A PART OF MATRIX");
  StringBuffer mystring3 = new StringBuffer("WE ARE A PART OF MATRIX");
- System.out.println("Same String class object will return true white other not " );
+  boolean returnedBoolean = mystring1.equals(mystring2);
+ System.out.println("Same String class object will return true while other not " );
 }
+
+//equalsIgnoreCase(String object)
+//Returns ~ Boolean
+//Usecase ~ This method is used to cherck whetehr a String object is equall to other String object or not ignoring the case sensitivity.
+{
+ String mystring = "WE ARE A PART OF MATRIX";
+ String mystring1 = new String("WE ARE A PART OF MATRIX");
+ String mystring2 = new String("we are a part of matrix");
+ StringBuffer mystring3 = new StringBuffer("WE ARE A PART OF MATRIX");
+ boolean returnedBoolean = mystring1.equalsIgnoreCase(mystring2);
+ System.out.println("Same String class object will return true ignoring its case sensitiveness while other not " );
+}
+
 
 }
 class Main
