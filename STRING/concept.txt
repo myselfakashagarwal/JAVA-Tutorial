@@ -311,6 +311,16 @@ class myclass
  System.out.println(" String.copyValueOf({'M','A','T','R','I','X'},2,2) = "+returnedString);
 }
 
+//endsWith(String suffix)
+//Returns ~ Boolean
+//Usecase ~ Returns true if the String ends with given character sequence
+{
+ String mystring = "WE ARE A PART OF MATRIX";
+ String characterSequence = "MATRIX";
+ Boolean returnedBoolean = mystring.endsWith(characterSequence);
+ System.out.println(" ''WE ARE A PART OF MATRIX''.endsWith(''MATRIX'') = "+returnedBoolean);
+}
+
 }
 class Main
 {
