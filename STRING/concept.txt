@@ -321,6 +321,17 @@ class myclass
  System.out.println(" ''WE ARE A PART OF MATRIX''.endsWith(''MATRIX'') = "+returnedBoolean);
 }
 
+//equals(String object)
+//Returns ~ Boolean
+//Usecase ~ This method is used to cherck whetehr a String object is equall to other String object or not.
+{
+ String mystring = "WE ARE A PART OF MATRIX";
+ String mystring1 = new String("WE ARE A PART OF MATRIX");
+ String mystring2 = new String("WE ARE A PART OF MATRIX");
+ StringBuffer mystring3 = new StringBuffer("WE ARE A PART OF MATRIX");
+ System.out.println("Same String class object will return true white other not " );
+}
+
 }
 class Main
 {
