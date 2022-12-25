@@ -345,6 +345,20 @@ class myclass
  System.out.println("Same String class object will return true ignoring its case sensitiveness while other not " );
 }
 
+//getBytes()
+//Returns ~ byte[]
+//Usecase ~ This method returns the array version of the Strig but in the byte form using the platform default character set
+{
+ byte[] byteArray;
+ String mystring = "WE ARE A PART OF MATRIX";
+ byteArray = mystring.getBytes();
+ System.out.print(" ''WE ARE A PART IF MATRIX''"+".getbytes() = ");
+ for(int i=0;i<byteArray.length;i++)
+ {
+  byte characterInByte = byteArray[i];
+  System.out.print(characterInByte+",");
+ }
+}
 
 }
 class Main
