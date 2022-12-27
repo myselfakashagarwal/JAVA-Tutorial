@@ -427,6 +427,16 @@ System.out.println(" ");
  System.out.println(" ''WE ARE A PART OF MATRIX''.hashCode() = "+returnedHashCode);
 }
 
+//indexOf(int ch)
+//Returns ~ int
+//Usecase ~ This method returns the first  index of character found in the string
+{
+ String mystring = "WE ARE A PART OF MATRIX";
+ char searchedCharacter = 'A';
+ int returnedIndex = mystring.indexOf(searchedCharacter);
+ System.out.println(" ''WE ARE A PART IF MATRIX''.indexOf(A) = "+returnedIndex);
+}
+
 }
 class Main
 {
