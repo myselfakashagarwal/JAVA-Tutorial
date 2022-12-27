@@ -458,6 +458,17 @@ System.out.println(" ");
  System.out.println(" ''WE ARE A PART IF MATRIX''.indexOf(''MATRIX'') = "+returnedIndex);
 }
 
+//indexOf(String characterSequencce,int startingIndex)
+//Returns ~ int
+//Usecase ~ This method returns the first  index of characterSequencce found in the string searched from the given index
+{
+ String mystring = "WE ARE A PART OF MATRIX";
+ String characterSequence = "MATRIX";
+ int startingIndex = 0 ;
+ int returnedIndex = mystring.indexOf(characterSequence,startingIndex);
+ System.out.println(" ''WE ARE A PART IF MATRIX''.indexOf(''MATRIX'',0) = "+returnedIndex);
+}
+
 }
 class Main
 {
