@@ -414,6 +414,17 @@ System.out.println(" ");
  {
   System.out.print(destination[i]);
  }
+System.out.println(" ");
+}
+
+//hashCode()
+//Return ~ hashCode version of the String
+//Usecase ~ This method is useful in many cases like for checking the Strings etc.
+{
+ String mystring = "WE ARE A PART OF MATRIX";
+ int returnedHashCode;
+ returnedHashCode = mystring.hashCode();
+ System.out.println(" ''WE ARE A PART OF MATRIX''.hashCode() = "+returnedHashCode);
 }
 
 }
