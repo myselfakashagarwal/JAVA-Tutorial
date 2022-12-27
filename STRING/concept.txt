@@ -397,6 +397,23 @@ System.out.println(" ");
  {
     e.printStackTrace();
  }
+System.out.println(" ");
+}
+
+//getChars(int startingIndex,int endingIndex,char[] destination,int start)
+//returns char[]
+//Usecae ~ This method is used in getting character array version of the string provided but from the indexes specified
+{
+ String mystring = "WE ARE A PART IF MATRIX";
+ int startingIndex = 0;
+ int endingIndex = 2;
+ char[] destination = new char[endingIndex-startingIndex];
+ mystring.getChars(startingIndex,endingIndex,destination,0);
+ System.out.print(" ''WE ARE A PART IF MATRIX''.getChars(0,2,destination,0) = ");
+ for(int i=0;i<destination.length;i++)
+ {
+  System.out.print(destination[i]);
+ }
 }
 
 }
