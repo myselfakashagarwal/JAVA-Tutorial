@@ -478,6 +478,16 @@ System.out.println(" ");
  System.out.println(" "MATRIX".itern(anotherStringVariable) = "+returnedString); 
 }
 
+//isEmpty()
+//Returns ~ boolean
+//Usecase ~ This methods is used to check whether a String is empty or not
+{
+ String mystring = "WE ARE A PART OF MATRIX";
+ boolean returnedBoolean;
+ returnedBoolean = mystring.isEmpty();
+ System.out.println(" ''WE ARE A PART OF MATRIX''.isEmpty() = "+returnedBoolean);
+} 
+
 }
 class Main
 {
