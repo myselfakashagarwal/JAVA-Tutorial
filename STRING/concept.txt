@@ -469,6 +469,15 @@ System.out.println(" ");
  System.out.println(" ''WE ARE A PART IF MATRIX''.indexOf(''MATRIX'',0) = "+returnedIndex);
 }
 
+//intern()
+//Returns ~ String
+//Usecase ~ This method returns the string from the pool 
+{
+ String mystring = "MATRIX";
+ String returnedString = mystring.intern();
+ System.out.println(" "MATRIX".itern(anotherStringVariable) = "+returnedString); 
+}
+
 }
 class Main
 {
