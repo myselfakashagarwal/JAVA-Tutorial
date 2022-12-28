@@ -519,6 +519,17 @@ System.out.println(" ");
  System.out.println(" ''WE ARE A PART OF MATRIX''.lastIndexOf(''MATRIX'') = "+returnedIndex);
 }
 
+//lastIndexOf(String characterSequence,int searchedAfter)
+//Retrns ~ int 
+//Usecase ~ This method returns the last index of the character sequence provided in the String searching after a given string
+{
+ String mystring = "WE ARE A PART OF MATRIX WE ";
+ String characterSequence = "WE";
+ int searchedAfter =  3;
+ int returnedIndex = mystring.lastIndexOf(characterSequence,searchedAfter);
+ System.out.println(" ''WE ARE A PART OF MATRIX WE''.lastIndexOf(''MATRIX'',3) = "+returnedIndex);
+}
+
 }
 class Main
 {
