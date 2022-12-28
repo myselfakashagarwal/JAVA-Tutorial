@@ -498,6 +498,17 @@ System.out.println(" ");
  System.out.println(" ''WE ARE A PART OF MATRIX''.lastIndexOf('A') = "+returnedIndex);
 }
 
+//lastIndexOf(char character,int fromIndex)
+//Retrns ~ int 
+//Usecase ~ This method returns the last index of the character provided in the String searching from backwards
+{
+ String mystring = "WE ARE A PART OF MATRIX";
+ char searchedCharacter = 'A';
+ int fromIndex = 4;
+ int returnedIndex = mystring.lastIndexOf(searchedCharacter,fromIndex);
+ System.out.println(" ''WE ARE A PART OF MATRIX''.lastIndexOf('A',4) = "+returnedIndex);
+}
+
 }
 class Main
 {
