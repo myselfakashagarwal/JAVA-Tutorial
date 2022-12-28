@@ -488,6 +488,16 @@ System.out.println(" ");
  System.out.println(" ''WE ARE A PART OF MATRIX''.isEmpty() = "+returnedBoolean);
 } 
 
+//lastIndexOf(char character)
+//Retrns ~ int 
+//Usecase ~ This method returns the last index of the character provided in the String
+{
+ String mystring = "WE ARE A PART OF MATRIX";
+ char searchedCharacter = 'A';
+ int returnedIndex = mystring.lastIndexOf(searchedCharacter);
+ System.out.println(" ''WE ARE A PART OF MATRIX''.lastIndexOf('A') = "+returnedIndex);
+}
+
 }
 class Main
 {
