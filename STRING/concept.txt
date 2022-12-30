@@ -560,6 +560,16 @@ System.out.println(" ");
  System.out.println(" ''       WE ARE NPCS         ''.trim() = "+mystring.trim()); 
 }
 
+//valueOf(boolean b)
+//Returns ~ String version of the boolean
+//Usecase ~ This method is used to convert boolean into string object
+{
+ boolean myBoolean = true;
+ String booleanString;
+ booleanString = String.valueOf(myBoolean);
+ System.out.println("String object of boolean true = "+booleanString);
+}
+
 }
 class Main
 {
