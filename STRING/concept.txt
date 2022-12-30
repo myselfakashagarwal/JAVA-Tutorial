@@ -540,6 +540,17 @@ System.out.println(" ");
  System.out.println(" ''WE ARE A PART OF MATRIX''.length() = "+length);
 }
 
+//matches(String anotherString)
+//Returns ~ Boolean
+//Usecase ~ This method is used to check whether the content of strings are equall or not 
+{
+ String mystring = "MATRIX";
+ String anotherString = "MATRIX";
+ StringBuffer StringBufferString = new StringBuffer("MATRIX");
+ boolean returnedBoolean;
+ returnedBoolean = mystring.matches(anotherString);
+ System.out.println(" ''MATRIX''.matches(''MATRIX'') = "+returnedBoolean);
+}
 
 }
 class Main
