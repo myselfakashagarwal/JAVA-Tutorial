@@ -552,6 +552,14 @@ System.out.println(" ");
  System.out.println(" ''MATRIX''.matches(''MATRIX'') = "+returnedBoolean);
 }
 
+//trim()
+//Returns String
+//Usecase ~ This method returns the string by removing all the whitespace which appear front and back 
+{
+ String mystring = "       WE ARE NPCS         ";
+ System.out.println(" ''       WE ARE NPCS         ''.trim() = "+mystring.trim()); 
+}
+
 }
 class Main
 {
