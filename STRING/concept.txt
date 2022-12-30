@@ -600,6 +600,16 @@ System.out.println(" ");
  System.out.println("String.valueOf(696969L) = "+longString);
 }
 
+//valueOf(double d)
+//Returns ~ String version of the double
+//Usecase ~ This method is used to convert double into string object
+{
+ double myDouble = 69.69696969;
+ String doubleString;
+ doubleString = String.valueOf(myDouble);
+ System.out.println("String.valueOf(69.69696969) = "+doubleString);
+}
+
 }
 class Main
 {
