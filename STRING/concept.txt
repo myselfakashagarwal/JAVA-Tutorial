@@ -530,6 +530,17 @@ System.out.println(" ");
  System.out.println(" ''WE ARE A PART OF MATRIX WE''.lastIndexOf(''MATRIX'',3) = "+returnedIndex);
 }
 
+//length()
+//Returns ~ int
+//Usecase ~ This method is the most useful method out of all this method is used to get the number of characters 
+{
+ String mystring = "WE ARE A PART OF MATRIX";
+ int length;
+ length = mystring.length();
+ System.out.println(" ''WE ARE A PART OF MATRIX''.length() = "+length);
+}
+
+
 }
 class Main
 {
