@@ -572,7 +572,7 @@ System.out.println(" ");
 
 //valueOf(float f)
 //Returns ~ String version of the float
-//Usecase ~ This method is used to convert boolean into string object
+//Usecase ~ This method is used to convert float into string object
 {
  float myFloat = 69.69f;
  String floatString;
@@ -582,12 +582,22 @@ System.out.println(" ");
 
 //valueOf(int i)
 //Returns ~ String version of the int
-//Usecase ~ This method is used to convert boolean into string object
+//Usecase ~ This method is used to convert int into string object
 {
  int myInt = 69;
  String intString;
  intString = String.valueOf(myInt);
  System.out.println("String.valueOf(69) = "+intString);
+}
+
+//valueOf(long l)
+//Returns ~ String version of the long
+//Usecase ~ This method is used to convert long into string object
+{
+ long myLong = 696969L;
+ String longString;
+ longString = String.valueOf(myLong);
+ System.out.println("String.valueOf(696969L) = "+longString);
 }
 
 }
