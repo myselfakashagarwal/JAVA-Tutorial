@@ -567,17 +567,27 @@ System.out.println(" ");
  boolean myBoolean = true;
  String booleanString;
  booleanString = String.valueOf(myBoolean);
- System.out.println("String object of boolean true = "+booleanString);
+ System.out.println("String.valueOf(true) = "+booleanString);
 }
 
 //valueOf(float f)
-//Returns ~ String version of the boolean
+//Returns ~ String version of the float
 //Usecase ~ This method is used to convert boolean into string object
 {
  float myFloat = 69.69f;
  String floatString;
  floatString = String.valueOf(myFloat);
- System.out.println("String.valueOf(69.69) = "+floatString);
+ System.out.println("String.valueOf(69.69f) = "+floatString);
+}
+
+//valueOf(int i)
+//Returns ~ String version of the int
+//Usecase ~ This method is used to convert boolean into string object
+{
+ int myInt = 69;
+ String intString;
+ intString = String.valueOf(myInt);
+ System.out.println("String.valueOf(69) = "+intString);
 }
 
 }
