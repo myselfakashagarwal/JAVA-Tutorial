@@ -742,6 +742,15 @@ System.out.println(" ");
  System.out.println(" ''WE ARE A PART OF MATRIX''.subSequence(17,23) = "+myCharSequence);
 }
 
+//substring(int index)
+//Returns ~ String
+//Usecase ~ This method returns the string from the source startingf from the given index
+{
+ String mystring = "WE ARE A PART OF MATRIX";
+ String mySubString = mystring.substring(17);
+ System.out.println(" ''WE ARE A PART OF MATRIX''.substring(17) = "+mySubString);
+}
+
 }
 class Main
 {
