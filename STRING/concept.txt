@@ -760,6 +760,15 @@ System.out.println(" ");
  System.out.println(" ''WE ARE A PART OF MATRIX''.substring(17,19) = "+mySubString);
 }
 
+//replace(char oldChar, char newChar)
+//Returns ~ String
+//Usecase ~ This method is used to replace characters with the characters provided
+{
+ String mystring = "WE@ARE@A@PART@OF@MATRIX";
+ String replaced = mystring.replace('@',' ');
+ System.out.println(" ''WE@ARE@A@PART@OF@MATRIX''.replace('@',' ') = "+replaced);
+}
+
 }
 class Main
 {
