@@ -697,6 +697,21 @@ System.out.println(" ");
  System.out.println(" ");
 }
 
+//split(String regx)
+//returns ~ String[]
+//Usecase ~ This method is used split and store strings in String array it will split the main String when it finds the String provided
+{
+ String mystring = "WE ARE A PART OF MATRIX";
+ String splitWhenFound = " ";
+ String stringArray[];
+ stringArray = mystring.split(splitWhenFound);
+ System.out.print(" ''WE ARE A PART OF NMATRIX''.split('' '') = ");
+ for(int i=0;i<stringArray.length;i++)
+ {
+  System.out.print(i+"@"+stringArray[i]+", ");           
+ }
+System.out.println(" ");
+}
 
 }
 class Main
