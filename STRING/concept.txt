@@ -329,8 +329,21 @@ class myclass
  String prefix = "WE";
  boolean returnedBoolean;
  returnedBoolean  = mystring.startsWith(prefix);
- System.out.println(" ''WE ARA A PART OF MATRIX''.startsWith(''we'') = "+returnedBoolean);
+ System.out.println(" ''WE ARA A PART OF MATRIX''.startsWith(''WE'') = "+returnedBoolean);
 }
+
+//startsWith(String prefix,int toffset)
+//Returns ~ Boolean
+//Usecase ~ This method is used to check whether a provided string starts with prefix provoided searched from the given index
+{
+ String mystring = "WE ARE A PART OF MATRIX";
+ String prefix = "ARE";
+ int toffset = 3;
+ boolean returnedBoolean;
+ returnedBoolean  = mystring.startsWith(prefix,toffset);
+ System.out.println(" ''WE ARA A PART OF MATRIX''.startsWith(''ARE'',3) = "+returnedBoolean);
+}
+
 
 //equals(String object)
 //Returns ~ Boolean
