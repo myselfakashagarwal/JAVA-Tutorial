@@ -713,6 +713,24 @@ System.out.println(" ");
 System.out.println(" ");
 }
 
+//split(String regex, int limit)
+//Returns ~ String[]
+//Usecase ~ This method is used split and store strings in String array it will split the main String when it finds the String provided.
+//It also includes split till a limit
+{
+  String mystring = "WE ARE A PART OF MATRIX";
+ String splitWhenFound = " ";
+ String stringArray[];
+ int limit =3;
+ stringArray = mystring.split(splitWhenFound,3);
+ System.out.print(" ''WE ARE A PART OF NMATRIX''.split('' '',3) = ");
+ for(int i=0;i<stringArray.length;i++)
+ {
+  System.out.print(i+"@"+stringArray[i]+", ");
+ }
+System.out.println(" ");
+}
+
 }
 class Main
 {
