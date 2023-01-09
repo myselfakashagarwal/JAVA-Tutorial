@@ -649,6 +649,15 @@ System.out.println(" ");
  System.out.println(" ''matrix''.toUpperCase() = "+ucString);
 }
 
+//toLowerCase()
+//Returns ~ String
+//Usecase ~ This method demotes all alphabets to the lower case
+{
+ String mystring = "MATRIX";
+ String lcString = mystring.toLowerCase();
+ System.out.println(" ''MATRIX''.toLowerCase() = "+lcString);
+}
+
 }
 class Main
 {
