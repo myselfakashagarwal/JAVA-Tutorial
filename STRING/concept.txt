@@ -731,6 +731,17 @@ System.out.println(" ");
 System.out.println(" ");
 }
 
+//subSequence(int beginIndex, int endIndex)
+//Returns ~ charSequence
+//Usecase ~ This method is used to extract the character sequence anywhere in the string starting and ending indixes defined by user
+{
+ String mystring = "WE ARE A PART OF MATRIX";
+ int startingIndex = 17;
+ int endingIndex = 23;
+ CharSequence myCharSequence = mystring.subSequence(startingIndex,endingIndex);
+ System.out.println(" ''WE ARE A PART OF MATRIX''.subSequence(17,23) = "+myCharSequence);
+}
+
 }
 class Main
 {
