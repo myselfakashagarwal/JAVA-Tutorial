@@ -620,6 +620,15 @@ System.out.println(" ");
  System.out.println(" String.valueOf('A') = "+characterString);
 }
 
+//valueOf(char[] characterArray)
+//Returns ~ String representation of the character array
+{
+ char[] characterArray = {'M','A','T','R','I','X'};
+ String characterArrayString;
+ characterArrayString = String.valueOf(characterArray);
+ System.out.println(" String.valueOf({'M','A','T','R','I','X'}) = "+characterArrayString);
+}
+
 }
 class Main
 {
