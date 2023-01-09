@@ -769,6 +769,17 @@ System.out.println(" ");
  System.out.println(" ''WE@ARE@A@PART@OF@MATRIX''.replace('@',' ') = "+replaced);
 }
 
+//replaceAll(String replace,String replacewith)
+//Returns ~ String
+//Usecase ~ This method is used to replace string with given string
+{
+ String mystring = "I AM A PART OF MATRIX";
+ String replace = "I AM";
+ String replacewith = "WE";
+ String replacedString = mystring.replace(replace,replacewith);
+ System.out.println(" ''I AM A PART OF MATRIX''.replaceAll(''I AM'',WE) = "+replacedString);
+}
+
 }
 class Main
 {
