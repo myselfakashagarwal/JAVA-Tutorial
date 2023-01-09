@@ -658,6 +658,22 @@ System.out.println(" ");
  System.out.println(" ''MATRIX''.toLowerCase() = "+lcString);
 }
 
+//toCharArray()
+//Returns ~ char[]
+//Usecase ~ This method is used to convert a String to character array
+{
+ String mystring  = "MATRIX";
+ char[] characterArray;
+ System.out.print(" ''MATRIX''.toCharArray() = ");
+ characterArray = mystring.toCharArray();
+ for(int i=0;i<characterArray.length;i++)
+ {
+ System.out.print(characterArray[i]); 
+ }
+ System.out.println(" ");
+}
+
+
 }
 class Main
 {
