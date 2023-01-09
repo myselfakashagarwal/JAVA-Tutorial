@@ -776,8 +776,19 @@ System.out.println(" ");
  String mystring = "I AM A PART OF MATRIX";
  String replace = "I AM";
  String replacewith = "WE";
- String replacedString = mystring.replace(replace,replacewith);
+ String replacedString = mystring.replaceAll(replace,replacewith);
  System.out.println(" ''I AM A PART OF MATRIX''.replaceAll(''I AM'',WE) = "+replacedString);
+}
+
+//replaceFirst(String regex, String replacement)
+//Returns ~ String
+//Usecase ~ This method replace first found substring with the provided replacement
+{
+ String mystring = "MATRIX MATRIX";
+ String replace = "MATRIX";
+ String replacewith = "WE ARE A PART OF";
+ String replacedString  = mystring.replaceFirst(replace,replacewith);
+ System.out.println(" ''MATRIX MATRIX''.replaceFirst(''MATRIX'',''WE ARE A PART OF'') = "+replacedString);
 }
 
 }
