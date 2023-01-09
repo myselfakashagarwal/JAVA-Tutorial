@@ -475,7 +475,7 @@ System.out.println(" ");
 {
  String mystring = "MATRIX";
  String returnedString = mystring.intern();
- System.out.println(" "MATRIX".itern(anotherStringVariable) = "+returnedString); 
+ System.out.println(" ''MATRIX''.itern(anotherStringVariable) = "+returnedString); 
 }
 
 //isEmpty()
@@ -608,6 +608,16 @@ System.out.println(" ");
  String doubleString;
  doubleString = String.valueOf(myDouble);
  System.out.println("String.valueOf(69.69696969) = "+doubleString);
+}
+
+//valueOf(char ch)
+//Returns ~ String version of the char 
+//Usecase ~ This method is used to extract the value of char
+{
+ char myChar = 'F';
+ String characterString;
+ characterString = String.valueOf(myChar);
+ System.out.println(" String.valueOf('A') = "+characterString);
 }
 
 }
